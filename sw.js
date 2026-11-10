@@ -1,7 +1,7 @@
 // Thinker's Log offline helper. Keeps the app opening when the phone is offline.
 // Network first, so a new plan or today's news shows as soon as the phone is online;
 // the last saved copy is used when it isn't.
-const CACHE = 'thinkers-log-v1';
+const CACHE = 'thinkers-log-v2';
 const SHELL = ['./', 'index.html', 'plan.json', 'news.json', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k))))); self.clients.claim(); });

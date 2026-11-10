@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Thinker's Log</title>
 <meta name="description" content="A 52-week reading plan for first-principles thinking, with daily news to study through the book you're reading.">
-<meta name="theme-color" content="#1F6F5C">
+<meta name="theme-color" content="#A3222B">
 <meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -19,19 +19,19 @@
 <style>
 /* Layout: phone app — header, one scrolling screen at a time, fixed bottom tab bar (Today · History · Plan) */
 :root{
-  --bg:#F2F3EE; --surface:#FFFFFF; --ink:#1C2526; --muted:#5E6A68; --line:#D9DDD5;
-  --read:#1F6F5C; --read-soft:#DCEBE5; --write:#B4730A; --write-soft:#F6E8CF; --on-accent:#FFFFFF; --miss:#B4473A;
+  --bg:#F6F1F0; --surface:#FFFFFF; --ink:#24191A; --muted:#6E5F60; --line:#E6DAD8;
+  --read:#A3222B; --read-soft:#F7E1DF; --write:#34467F; --write-soft:#E3E7F4; --on-accent:#FFFFFF; --miss:#A8660A;
   --display:"Newsreader",Georgia,serif; --body:"Figtree",system-ui,-apple-system,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
   --tabh:64px;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#121817; --surface:#1A2221; --ink:#E7ECE8; --muted:#97A39F; --line:#2B3533;
-  --read:#5FC2A2; --read-soft:#1D3A32; --write:#E8A93A; --write-soft:#3A2D14; --on-accent:#0F1C18; --miss:#E07A6C}}
+  --bg:#171213; --surface:#211A1B; --ink:#F1E8E7; --muted:#AE9C9B; --line:#3A2E2F;
+  --read:#F0767A; --read-soft:#40201F; --write:#A8B6EC; --write-soft:#262C45; --on-accent:#2A0D0F; --miss:#E8A93A}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html,body{margin:0;background:var(--bg);color:var(--ink)}
 body{font:16px/1.5 var(--body);-webkit-tap-highlight-color:transparent;
-  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 24px) max(16px,env(safe-area-inset-left,0px))}
+  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 88px) max(16px,env(safe-area-inset-left,0px))}
 .wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:20px;padding-top:16px}
 header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
 h1{font:600 1.9rem/1.05 var(--display);margin:0;letter-spacing:-.01em}
@@ -112,6 +112,27 @@ nav.tabs .in{display:flex;max-width:560px;width:100%}
 nav.tabs button{flex:1;border:0;border-radius:0;background:none;height:var(--tabh);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:.75rem;color:var(--muted)}
 nav.tabs button svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 nav.tabs button[aria-current="page"]{color:var(--read)}
+.fab{position:fixed;z-index:25;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 16px);
+  display:flex;align-items:center;gap:8px;border-radius:999px;padding:12px 18px;min-height:48px;background:var(--read);color:var(--on-accent);border:0;box-shadow:0 6px 18px rgba(60,10,14,.28);font-size:.95rem}
+.fab svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.askbtn{align-self:flex-start;min-height:32px;padding:3px 12px;font-size:.8rem;color:var(--read);border-color:var(--read);background:transparent;margin-top:4px}
+dialog#ask{border:0;padding:0;margin:auto auto 0;width:100%;max-width:560px;max-height:88vh;border-radius:20px 20px 0 0;background:var(--surface);color:var(--ink)}
+dialog#ask::backdrop{background:rgba(20,8,9,.5)}
+.sheet{display:flex;flex-direction:column;gap:14px;padding:18px max(16px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));overflow:auto;max-height:88vh}
+.sheet .top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.sheet h2{margin:0;font:600 1.3rem var(--display)}
+.ctx{background:var(--read-soft);border-radius:12px;padding:10px 12px;font-size:.88rem;display:flex;flex-direction:column;gap:6px}
+.ctx b{font-weight:600}
+.ctx label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+.ctx input{accent-color:var(--read);margin-top:3px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips button{min-height:34px;padding:5px 12px;font-weight:500;font-size:.85rem;border-radius:999px;background:var(--bg)}
+.chips button[aria-pressed="true"]{background:var(--write-soft);border-color:var(--write);color:var(--write)}
+#askText{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px;min-height:96px;resize:vertical;width:100%}
+#askText:focus-visible{outline:2px solid var(--read);outline-offset:1px}
+.sheet .go{display:flex;gap:10px}
+.sheet .go .primary{flex:1;min-height:48px}
+.hint{font-size:.78rem;color:var(--muted);margin:0}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 14px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:.88rem;z-index:30}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
@@ -180,6 +201,33 @@ nav.tabs button[aria-current="page"]{color:var(--read)}
   </main>
 </div>
 
+<button class="fab" id="askFab" aria-haspopup="dialog"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.4 2.3c-.6.3-.9.8-.9 1.4v.3M12 16.5h.01"/></svg>Ask</button>
+
+<dialog id="ask" aria-labelledby="askTitle">
+  <form class="sheet" id="askForm" method="dialog">
+    <div class="top"><h2 id="askTitle">Ask about this</h2><button type="button" id="askClose" aria-label="Close">✕</button></div>
+    <div class="ctx" id="askCtx">
+      <label><input type="checkbox" id="ctxRead" checked><span><b>Reading:</b> <span id="ctxReadT"></span></span></label>
+      <label><input type="checkbox" id="ctxNews" checked><span><b>News:</b> <span id="ctxNewsT"></span></span></label>
+    </div>
+    <div>
+      <p class="label" style="margin-bottom:8px">Choose a way in, or write your own</p>
+      <div class="chips" id="chips">
+        <button type="button" data-q="Give me three genuinely different perspectives on this, from people who would disagree with each other.">3 perspectives</button>
+        <button type="button" data-q="Steelman the view I'm least likely to hold here. What is its strongest case?">Steelman the other side</button>
+        <button type="button" data-q="How does the idea in today's reading explain this? Where does it fail to explain it?">Link to today's reading</button>
+        <button type="button" data-q="Break this down from first principles. What are the bedrock facts, and what is assumption?">First principles</button>
+        <button type="button" data-q="What happens next? Give me a dated prediction with a probability, and what would change your mind.">Predict what's next</button>
+        <button type="button" data-q="What does this mean for India, and for a manufacturing and engineering business?">What it means for India</button>
+      </div>
+    </div>
+    <label for="askText" class="label">Your question</label>
+    <textarea id="askText" placeholder="e.g. Is the oil price fall good or bad for India's inflation fight?"></textarea>
+    <div class="go"><button type="button" id="askCopy">Copy</button><button type="submit" class="primary" id="askGo">Ask Claude</button></div>
+    <p class="hint">Opens a new Claude chat with your question and today's reading and news already filled in. Use Copy to paste it into any other AI assistant.</p>
+  </form>
+</dialog>
+
 <nav class="tabs" aria-label="Sections"><div class="in">
   <button data-v="today" aria-current="page"><svg viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg>Today</button>
   <button data-v="history"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>History</button>
@@ -233,6 +281,7 @@ function renderNews(){
     if(it.url&&/^https:\/\//.test(it.url)){const ln=document.createElement("a");ln.href=it.url;ln.target="_blank";ln.rel="noopener";ln.textContent=it.title+" ↗";h.appendChild(ln)}else h.textContent=it.title;
     const w=document.createElement("p");w.textContent=it.why||"";a.append(src,h,w);
     if(it.question){const q=document.createElement("p");q.className="q";q.textContent=it.question;a.appendChild(q)}
+    const ab=document.createElement("button");ab.className="askbtn";ab.textContent="Ask about this story";ab.onclick=()=>openAsk(it);a.appendChild(ab);
     box.appendChild(a)});
 }
 function renderProgress(){
@@ -303,6 +352,43 @@ let sx=null,sy=null;
   el.addEventListener("touchstart",e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
   el.addEventListener("touchend",e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;sx=null;
     if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5){if(dx<0&&sel<PLAN.length-1)sel++;else if(dx>0&&sel>0)sel--;else return;renderDay()}},{passive:true})});
+
+/* ---------- ask ---------- */
+let askStory=null;
+function openAsk(story){
+  askStory=story||null;const p=PLAN[sel],n=NEWS[key(dateOf(sel))];
+  $("ctxReadT").textContent=`${p.book}, ${p.read}`;
+  const has=n&&n.items&&n.items.length;
+  $("ctxNews").checked=!!has;$("ctxNews").disabled=!has;
+  $("ctxNewsT").textContent=askStory?askStory.title:has?`all ${n.items.length} of the day's stories`:"none saved for this day";
+  $("askTitle").textContent=askStory?"Ask about this story":"Ask about today";
+  document.querySelectorAll("#chips button").forEach(b=>b.setAttribute("aria-pressed","false"));
+  $("askText").value="";
+  if(typeof $("ask").showModal==="function")$("ask").showModal();else $("ask").setAttribute("open","");
+}
+function buildPrompt(){
+  const p=PLAN[sel],n=NEWS[key(dateOf(sel))],q=$("askText").value.trim();
+  const parts=["I'm following a 52-week reading plan to think in first principles and form my own perspective on the world."];
+  if($("ctxRead").checked)parts.push(`Today's reading: ${p.book}, ${p.read}. What to look for: ${p.look}.`);
+  if($("ctxNews").checked&&n&&n.items){
+    const items=askStory?[askStory]:n.items;
+    parts.push((askStory?"The news story:":"Today's news:")+"\n"+items.map((it,i)=>`${i+1}. ${it.title} (${it.source}). ${it.why} ${it.url||""}`).join("\n"));
+  }
+  parts.push("My question: "+(q||"Give me three genuinely different perspectives on this, including the strongest opposing view."));
+  parts.push("Please give distinct perspectives, including the strongest case against the obvious view; say where the evidence is solid and where it is contested; connect it to the idea in my reading where that genuinely fits. Check current facts where you can. Keep it concise.");
+  return parts.join("\n\n");
+}
+$("askFab").onclick=()=>openAsk(null);
+$("askClose").onclick=()=>$("ask").close();
+$("ask").addEventListener("click",e=>{if(e.target===$("ask"))$("ask").close()});
+document.querySelectorAll("#chips button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#chips button").forEach(x=>x.setAttribute("aria-pressed",x===b?"true":"false"));$("askText").value=b.dataset.q;$("askText").focus()});
+$("askForm").addEventListener("submit",e=>{e.preventDefault();
+  const url="https://claude.ai/new?q="+encodeURIComponent(buildPrompt());
+  window.open(url,"_blank","noopener")||(location.href=url);$("ask").close()});
+$("askCopy").onclick=async()=>{const t=buildPrompt();
+  try{await navigator.clipboard.writeText(t);toast("Copied. Paste it into any AI chat")}
+  catch(_){$("askText").value=t;$("askText").select();toast("Selected. Copy it from the box")}};
 
 /* ---------- install ---------- */
 let deferredPrompt=null;
