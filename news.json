@@ -1,12 +1,78 @@
 {
-  "2026-11-09": {
-    "date": "2026-11-09",
-    "lens": "The Great Mental Models, Vol. 1 (Parrish): use second-order thinking. For each story, ask 'and then what?' to see the consequences that follow the obvious first effect.",
-    "items": [
-      {"domain": "Geopolitics", "source": "Al Jazeera", "title": "US land blockade on Iran begins as Trump plays down new strikes", "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq", "why": "Washington says its blockade of Iran's land supply routes is now in force, while Trump calls fresh strikes highly unlikely if talks on the nuclear programme and reopening Hormuz move forward; Tehran threatens heavy retaliation if attacked. For India, how this ends decides oil import costs, the rupee and the safety of Gulf shipping lanes and diaspora remittances.", "question": "Using second-order thinking: if the land blockade squeezes Iran harder, what is the likely second move by Tehran around Hormuz, and how would that reach India's fuel prices and trade?"},
-      {"domain": "Economy", "source": "Business Standard", "title": "India's inflation climbs as forex reserves slip ahead of key data", "url": "https://www.business-standard.com/economy/news/weekly-policy-watch-india-retail-inflation-forex-reserves-deposit-growth-126110900126_1.html", "why": "Retail inflation hit a 2026 high of 5.54% in September, driven by food, and October's figure lands on 12 November; reserves have fallen for two weeks to about $717 billion as the RBI sells dollars to support the rupee. This sets up a squeeze between defending the currency and keeping rates supportive of growth.", "question": "Applying the 'map is not the territory' model: what does a single headline CPI number hide about how inflation is felt differently by urban and rural households?"},
-      {"domain": "Technology", "source": "Al Jazeera", "title": "Nvidia board probes Jensen Huang over alleged China spy link", "url": "https://aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair", "why": "Independent directors are investigating the CEO after he admitted a relationship with a woman accused of working for Chinese intelligence, whose employer became a multibillion-dollar Nvidia buyer; Congress wants testimony on 18 November. It shows how the world's most important AI supplier is now a national-security object, which can tighten chip export rules that affect AI builders everywhere, including India.", "question": "Using inversion: what would have to be true for this episode to end up strengthening Nvidia's position rather than weakening it?"},
-      {"domain": "Markets", "source": "Business Standard", "title": "IT drags Indian markets while pharma hits a record", "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html", "why": "Sensex and Nifty traded slightly lower on Monday as HCLTech and Infosys led an IT decline, while the pharma index touched a record high and softer crude eased inflation worries. The split shows investors repricing India's services exporters in an AI era while rewarding sectors seen as defensive.", "question": "Through the circle-of-competence lens: which part of the AI threat to Indian IT services do investors truly understand, and where are they pricing fear rather than knowledge?"}
-    ]
-  }
+ "2026-11-09": {
+  "date": "2026-11-09",
+  "lens": "The Great Mental Models, Vol. 1 (Parrish): use second-order thinking. For each story, ask 'and then what?' to see the consequences that follow the obvious first effect.",
+  "items": [
+   {
+    "domain": "Geopolitics",
+    "source": "Al Jazeera",
+    "title": "US land blockade on Iran begins as Trump plays down new strikes",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq",
+    "why": "Washington says its blockade of Iran's land supply routes is now in force, while Trump calls fresh strikes highly unlikely if talks on the nuclear programme and reopening Hormuz move forward; Tehran threatens heavy retaliation if attacked. For India, how this ends decides oil import costs, the rupee and the safety of Gulf shipping lanes and diaspora remittances.",
+    "question": "Using second-order thinking: if the land blockade squeezes Iran harder, what is the likely second move by Tehran around Hormuz, and how would that reach India's fuel prices and trade?"
+   },
+   {
+    "domain": "Economy",
+    "source": "Business Standard",
+    "title": "India's inflation climbs as forex reserves slip ahead of key data",
+    "url": "https://www.business-standard.com/economy/news/weekly-policy-watch-india-retail-inflation-forex-reserves-deposit-growth-126110900126_1.html",
+    "why": "Retail inflation hit a 2026 high of 5.54% in September, driven by food, and October's figure lands on 12 November; reserves have fallen for two weeks to about $717 billion as the RBI sells dollars to support the rupee. This sets up a squeeze between defending the currency and keeping rates supportive of growth.",
+    "question": "Applying the 'map is not the territory' model: what does a single headline CPI number hide about how inflation is felt differently by urban and rural households?"
+   },
+   {
+    "domain": "Technology",
+    "source": "Al Jazeera",
+    "title": "Nvidia board probes Jensen Huang over alleged China spy link",
+    "url": "https://aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+    "why": "Independent directors are investigating the CEO after he admitted a relationship with a woman accused of working for Chinese intelligence, whose employer became a multibillion-dollar Nvidia buyer; Congress wants testimony on 18 November. It shows how the world's most important AI supplier is now a national-security object, which can tighten chip export rules that affect AI builders everywhere, including India.",
+    "question": "Using inversion: what would have to be true for this episode to end up strengthening Nvidia's position rather than weakening it?"
+   },
+   {
+    "domain": "Markets",
+    "source": "Business Standard",
+    "title": "IT drags Indian markets while pharma hits a record",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-update-126110900058_1.html",
+    "why": "Sensex and Nifty traded slightly lower on Monday as HCLTech and Infosys led an IT decline, while the pharma index touched a record high and softer crude eased inflation worries. The split shows investors repricing India's services exporters in an AI era while rewarding sectors seen as defensive.",
+    "question": "Through the circle-of-competence lens: which part of the AI threat to Indian IT services do investors truly understand, and where are they pricing fear rather than knowledge?"
+   }
+  ]
+ },
+ "2026-11-10": {
+  "date": "2026-11-10",
+  "lens": "The Great Mental Models (Parrish): apply second-order thinking, asking 'and then what?' beyond the first, obvious effect of each story.",
+  "items": [
+   {
+    "domain": "Energy",
+    "question": "Using second-order thinking: if traders are pricing in peace before any deal exists, what happens to India's inflation outlook and RBI policy if the talks stall and prices snap back?",
+    "source": "Euronews",
+    "title": "Oil drops about 20% in November on US-Iran peace hopes",
+    "url": "https://www.euronews.com/2026/11/10/oil-prices-continue-to-fall-on-hopes-of-us-iran-peace-deal-talks",
+    "why": "Brent slid to around $91 a barrel after Trump called a resumption of strikes on Iran unlikely and spoke of positive momentum in talks, taking its fall this month to roughly a fifth. For India, which imports most of its crude, cheaper oil eases pressure on inflation, the rupee and the case for further RBI rate hikes."
+   },
+   {
+    "domain": "Geopolitics",
+    "question": "Applying 'the map is not the territory': how far do the public positions of Washington and Tehran reflect what each side can actually accept, and what signals would show the real terrain?",
+    "source": "Al Jazeera",
+    "title": "US-Iran talks via Qatar hinge on sanctions and Hormuz",
+    "url": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations",
+    "why": "Qatar's prime minister met Trump to carry forward an Iranian proposal that would trade US sanctions relief and a smaller military presence for a reopened Strait of Hormuz, while Washington still calls Tehran's terms unrealistic and keeps a naval blockade in place. The outcome shapes Gulf shipping, energy security and the safety of millions of Indians working in the region."
+   },
+   {
+    "domain": "Technology",
+    "question": "Using Hanlon's razor and probabilistic thinking: what evidence would separate ordinary misjudgment from a genuine security breach here, and how should markets and regulators weigh each possibility?",
+    "source": "Yahoo Finance",
+    "title": "Nvidia board opens probe into CEO's tie to alleged Chinese asset",
+    "url": "https://finance.yahoo.com/technology/live/nvidia-scandal-live-updates-nvidia-stock--board-investigates-ceo-jensen-huang-affair-alleged-chinese-spy-163130372.html",
+    "why": "Nvidia's independent directors launched an investigation after Jensen Huang admitted a personal relationship with an executive of Singapore's Megaspeed, a firm accused of helping divert AI chips to China, and the stock fell about 5%. The episode could weaken the company's voice in Washington on export controls just as AI stocks are already in retreat."
+   },
+   {
+    "domain": "Markets",
+    "question": "Through the lens of first-principles thinking: strip the rally down to its basic drivers (oil, rates, foreign flows, earnings); which of these is durable and which could reverse within weeks?",
+    "source": "ANI",
+    "title": "Indian markets shut for Balipratipada after rally; crude relief",
+    "url": "https://aninews.in/news/business/indian-stock-markets-closed-for-diwali-balipratipada-asian-markets-rally-crude-oil-falls20261110092328/",
+    "why": "NSE and BSE were closed on Tuesday for the festival after the Nifty held above 25,000 on Monday, while Asian markets rallied sharply and Brent kept falling. Indian equities have been rebounding as lower oil and a cooling global AI trade shift investor attention back towards India."
+   }
+  ]
+ }
 }
