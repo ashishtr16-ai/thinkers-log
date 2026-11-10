@@ -1,0 +1,2918 @@
+{
+"start": "2026-11-09",
+"note": "Each day: [book, quarter, read, look for, news focus, write/transfer]. Sundays carry the spiritual thread.",
+"days": [
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Thought Experiment",
+"Reasoning through 'what if' when testing is impossible",
+"One news story: which mental model explains it best?",
+"Work and engineering"
+],
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Second-Order Thinking",
+"And then what? The consequences of the consequences",
+"One news story: which mental model explains it best?",
+"India and society"
+],
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Probabilistic Thinking",
+"Think in likelihoods, not certainties; fat tails",
+"One news story: which mental model explains it best?",
+"Leadership and teams"
+],
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Supporting idea: Causation vs Correlation",
+"Two things moving together does not mean one causes the other",
+"One news story: which mental model explains it best?",
+"Technology and AI"
+],
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Inversion",
+"Solve backwards: what would guarantee failure?",
+"One news story: which mental model explains it best?",
+"Economy and markets"
+],
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Occam's Razor",
+"The simpler explanation is usually the better one",
+"One news story: which mental model explains it best?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 1: Arjuna's despair",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Great Mental Models, Vol. 1",
+"Q1",
+"Hanlon's Razor; review all models",
+"Don't assume malice where error explains it. Pick your 3 most useful models",
+"One news story: which mental model explains it best?",
+"Work and engineering"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Introduction: The System Lens",
+"Structure drives behaviour, whoever runs the system",
+"A recurring problem in the news: what structure keeps producing it?",
+"India and society"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 1 The Basics: elements, interconnections, purpose; stocks and flows",
+"A stock changes only through its flows",
+"A recurring problem in the news: what structure keeps producing it?",
+"Leadership and teams"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 1, rest: feedback loops",
+"Balancing loops stabilise; reinforcing loops amplify",
+"A recurring problem in the news: what structure keeps producing it?",
+"Technology and AI"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 2 Systems Zoo: one-stock systems",
+"Competing loops pulling one stock (the thermostat)",
+"A recurring problem in the news: what structure keeps producing it?",
+"Economy and markets"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 2: two-stock systems, population and capital",
+"Loop dominance shifts; growth can turn to decline",
+"A recurring problem in the news: what structure keeps producing it?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 2: Sankhya yoga: the steady mind",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 2: systems with delays",
+"Delays plus impatience produce oscillation",
+"A recurring problem in the news: what structure keeps producing it?",
+"Work and engineering"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 2: renewable and nonrenewable resources",
+"Which limit binds first",
+"A recurring problem in the news: what structure keeps producing it?",
+"India and society"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 3 Why Systems Work So Well: resilience",
+"Efficiency often trades away resilience",
+"A recurring problem in the news: what structure keeps producing it?",
+"Leadership and teams"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 3: self-organisation and hierarchy",
+"How complex systems build themselves",
+"A recurring problem in the news: what structure keeps producing it?",
+"Technology and AI"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 4 Why Systems Surprise Us, first half",
+"Events vs behaviour vs structure; nonlinearity",
+"A recurring problem in the news: what structure keeps producing it?",
+"Economy and markets"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 4, second half",
+"Bounded rationality; wrong boundaries; layers of limits",
+"A recurring problem in the news: what structure keeps producing it?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 3: Karma yoga: selfless action",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 5 System Traps: policy resistance, tragedy of the commons",
+"Why fixes get resisted; shared resources overused",
+"A recurring problem in the news: what structure keeps producing it?",
+"Work and engineering"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 5: drift to low performance, escalation",
+"Standards slide; arms races",
+"A recurring problem in the news: what structure keeps producing it?",
+"India and society"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 5: success to the successful, shifting the burden",
+"Winners keep winning; dependence on quick fixes",
+"A recurring problem in the news: what structure keeps producing it?",
+"Leadership and teams"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 5: rule beating, seeking the wrong goal",
+"Gaming metrics; optimising the wrong target",
+"A recurring problem in the news: what structure keeps producing it?",
+"Technology and AI"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 6 Leverage Points, points 12 to 7",
+"Parameters, buffers, structure, delays, feedback",
+"A recurring problem in the news: what structure keeps producing it?",
+"Economy and markets"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 6, points 6 to 1",
+"Information, rules, goals, paradigms: the real leverage",
+"A recurring problem in the news: what structure keeps producing it?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 4: Knowledge and action",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Thinking in Systems",
+"Q1",
+"Ch. 7 Living in a World of Systems",
+"How to live and lead with a systems mind",
+"A recurring problem in the news: what structure keeps producing it?",
+"Work and engineering"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Introduction; Ch. 1 The Characters of the Story",
+"System 1 (fast) and System 2 (slow)",
+"A confident claim in the news: which bias might be at work?",
+"India and society"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 2 Attention and Effort; Ch. 3 The Lazy Controller",
+"System 2 tires easily and avoids effort",
+"A confident claim in the news: which bias might be at work?",
+"Leadership and teams"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 4 The Associative Machine",
+"Priming and associations shape thought without notice",
+"A confident claim in the news: which bias might be at work?",
+"Technology and AI"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 5 Cognitive Ease",
+"Familiar feels true; repetition is not evidence",
+"A confident claim in the news: which bias might be at work?",
+"Economy and markets"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 6 Norms, Surprises, and Causes",
+"The mind invents causes instantly",
+"A confident claim in the news: which bias might be at work?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 5: Renunciation of action",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 7 A Machine for Jumping to Conclusions",
+"WYSIATI: what you see is all there is",
+"A confident claim in the news: which bias might be at work?",
+"Work and engineering"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 8 How Judgments Happen; Ch. 9 Answering an Easier Question",
+"Substitution: a hard question swapped for an easy one",
+"A confident claim in the news: which bias might be at work?",
+"India and society"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 10 The Law of Small Numbers",
+"Small samples mislead",
+"A confident claim in the news: which bias might be at work?",
+"Leadership and teams"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 11 Anchors",
+"The first number sticks",
+"A confident claim in the news: which bias might be at work?",
+"Technology and AI"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 12 The Science of Availability; Ch. 13 Availability, Emotion, and Risk",
+"Vivid beats frequent",
+"A confident claim in the news: which bias might be at work?",
+"Economy and markets"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 14 Tom W's Specialty",
+"Base rates vs stereotypes",
+"A confident claim in the news: which bias might be at work?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 6: Dhyana yoga: meditation",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 15 Linda: Less Is More",
+"A more detailed story feels more likely, but isn't",
+"A confident claim in the news: which bias might be at work?",
+"Work and engineering"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 16 Causes Trump Statistics",
+"We learn from stories, not statistics",
+"A confident claim in the news: which bias might be at work?",
+"India and society"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 17 Regression to the Mean",
+"Why praise and punishment seem to work",
+"A confident claim in the news: which bias might be at work?",
+"Leadership and teams"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 18 Taming Intuitive Predictions",
+"How to correct an intuitive forecast",
+"A confident claim in the news: which bias might be at work?",
+"Technology and AI"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 19 The Illusion of Understanding; Ch. 20 The Illusion of Validity",
+"Hindsight; confidence is not accuracy",
+"A confident claim in the news: which bias might be at work?",
+"Economy and markets"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 21 Intuitions vs. Formulas; Ch. 22 Expert Intuition",
+"When checklists beat experts, and when intuition can be trusted",
+"A confident claim in the news: which bias might be at work?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 7: Knowledge and wisdom",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Thinking, Fast and Slow (Parts I–III)",
+"Q1",
+"Ch. 23 The Outside View; Ch. 24 The Engine of Capitalism",
+"Reference classes, planning fallacy, pre-mortems",
+"A confident claim in the news: which bias might be at work?",
+"Work and engineering"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 1 An Animal of No Significance, first half",
+"Humans were once one species among many",
+"History or culture story: which shared fiction is at stake?",
+"India and society"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 1 An Animal of No Significance, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Leadership and teams"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 2 The Tree of Knowledge, first half",
+"Shared fictions let strangers cooperate at scale",
+"History or culture story: which shared fiction is at stake?",
+"Technology and AI"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 2 The Tree of Knowledge, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Economy and markets"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 3 A Day in the Life of Adam and Eve",
+"Forager life, and what our minds evolved for",
+"History or culture story: which shared fiction is at stake?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 8: The imperishable",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 4 The Flood",
+"Humans as an ecological force from the start",
+"History or culture story: which shared fiction is at stake?",
+"Work and engineering"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 5 History's Biggest Fraud, first half",
+"Did agriculture make life better or worse?",
+"History or culture story: which shared fiction is at stake?",
+"India and society"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 5 History's Biggest Fraud, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Leadership and teams"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 6 Building Pyramids",
+"Imagined orders hold societies together",
+"History or culture story: which shared fiction is at stake?",
+"Technology and AI"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 7 Memory Overload",
+"Writing and bureaucracy",
+"History or culture story: which shared fiction is at stake?",
+"Economy and markets"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 8 There Is No Justice in History",
+"Hierarchies and how they justify themselves",
+"History or culture story: which shared fiction is at stake?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 9: The royal secret",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 9 The Arrow of History",
+"Why cultures move toward unity",
+"History or culture story: which shared fiction is at stake?",
+"Work and engineering"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 10 The Scent of Money, first half",
+"Money as the most universal system of trust",
+"History or culture story: which shared fiction is at stake?",
+"India and society"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 10 The Scent of Money, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Leadership and teams"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 11 Imperial Visions, first half",
+"Empires as engines of cultural mixing",
+"History or culture story: which shared fiction is at stake?",
+"Technology and AI"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 11 Imperial Visions, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Economy and markets"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 12 The Law of Religion, first half",
+"Religion as a source of social order",
+"History or culture story: which shared fiction is at stake?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 10: Divine manifestations",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 12 The Law of Religion, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Work and engineering"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 13 The Secret of Success",
+"Why history is chaotic, not inevitable",
+"History or culture story: which shared fiction is at stake?",
+"India and society"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 14 The Discovery of Ignorance, first half",
+"Admitting ignorance launched the scientific revolution",
+"History or culture story: which shared fiction is at stake?",
+"Leadership and teams"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 14 The Discovery of Ignorance, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Technology and AI"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 15 The Marriage of Science and Empire, first half",
+"Knowledge, power and money reinforcing each other",
+"History or culture story: which shared fiction is at stake?",
+"Economy and markets"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 15 The Marriage of Science and Empire, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 11: The cosmic form",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 16 The Capitalist Creed, first half",
+"Credit, trust in the future, and growth",
+"History or culture story: which shared fiction is at stake?",
+"Work and engineering"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 16 The Capitalist Creed, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"India and society"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 17 The Wheels of Industry, first half",
+"Energy conversion transformed everything",
+"History or culture story: which shared fiction is at stake?",
+"Leadership and teams"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 17 The Wheels of Industry, second half",
+"Where Harari overreaches: what would a critic say?",
+"History or culture story: which shared fiction is at stake?",
+"Technology and AI"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 18 A Permanent Revolution",
+"Family and community replaced by state and market",
+"History or culture story: which shared fiction is at stake?",
+"Economy and markets"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 19 And They Lived Happily Ever After",
+"Has progress made us happier?",
+"History or culture story: which shared fiction is at stake?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 12: Bhakti yoga: devotion",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Sapiens (read critically)",
+"Q1",
+"Ch. 20 The End of Homo Sapiens; Afterword",
+"Where biotech and AI may take the species",
+"History or culture story: which shared fiction is at stake?",
+"Work and engineering"
+],
+[
+"How the World Really Works",
+"Q2",
+"Introduction",
+"Why most people don't know how their world actually runs",
+"Energy, materials or climate news",
+"India and society"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 1 Understanding Energy, first third",
+"Energy as the universal currency",
+"Energy, materials or climate news",
+"Leadership and teams"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 1, middle",
+"Fossil fuels' share of modern life; energy density",
+"Energy, materials or climate news",
+"Technology and AI"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 1, final third",
+"Why energy transitions take decades",
+"Energy, materials or climate news",
+"Economy and markets"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 2 Understanding Food Production, first half",
+"Food as converted fossil energy",
+"Energy, materials or climate news",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 13: The field and its knower",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 2, second half",
+"The energy cost behind bread, tomatoes, chicken",
+"Energy, materials or climate news",
+"Work and engineering"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 3 Understanding Our Material World: ammonia",
+"Synthetic fertiliser feeds about half of humanity",
+"Energy, materials or climate news",
+"India and society"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 3: plastics",
+"Why plastics are indispensable and hard to replace",
+"Energy, materials or climate news",
+"Leadership and teams"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 3: steel",
+"Steel as the backbone of modern infrastructure",
+"Energy, materials or climate news",
+"Technology and AI"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 3: concrete",
+"Concrete's scale; why cement is hard to decarbonise",
+"Energy, materials or climate news",
+"Economy and markets"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 4 Understanding Globalization, first half",
+"Engines and shipping made globalisation possible",
+"Energy, materials or climate news",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 14: The three gunas",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 4, second half",
+"Microchips, communications, and limits of globalisation",
+"Energy, materials or climate news",
+"Work and engineering"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 5 Understanding Risks, first half",
+"Comparing risks on a common scale",
+"Energy, materials or climate news",
+"India and society"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 5, second half",
+"Natural vs technological risks",
+"Energy, materials or climate news",
+"Leadership and teams"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 6 Understanding the Environment, first half",
+"Oxygen, water, food: biospheric limits",
+"Energy, materials or climate news",
+"Technology and AI"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 6, second half",
+"Climate: separating physics from politics",
+"Energy, materials or climate news",
+"Economy and markets"
+],
+[
+"How the World Really Works",
+"Q2",
+"Ch. 7 Understanding the Future",
+"Against both doom and techno-optimism",
+"Energy, materials or climate news",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 15: The supreme self",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"How the World Really Works",
+"Q2",
+"Appendix; review",
+"Write: the 5 numbers about energy everyone should know",
+"Energy, materials or climate news",
+"Work and engineering"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Prologue; Ch. 1 Life, the Universe and Everything",
+"What economics is, and why it isn't one science",
+"One economy story: how would two schools read it differently?",
+"India and society"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 2 From Pin to PIN",
+"Capitalism then and now",
+"One economy story: how would two schools read it differently?",
+"Leadership and teams"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 3 How Have We Got Here?, first half",
+"A brief history of capitalism to 1945",
+"One economy story: how would two schools read it differently?",
+"Technology and AI"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 3, second half",
+"The golden age, neoliberalism, and after",
+"One economy story: how would two schools read it differently?",
+"Economy and markets"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 4 Let a Hundred Flowers Bloom: classical and neoclassical schools",
+"How each school sees the economy",
+"One economy story: how would two schools read it differently?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 16: Divine and demonic qualities",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 4: Marxist, developmentalist, Austrian schools",
+"What each gets right and wrong",
+"One economy story: how would two schools read it differently?",
+"Work and engineering"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 4: Keynesian, institutionalist, behavioural schools",
+"Combine schools rather than pick one",
+"One economy story: how would two schools read it differently?",
+"India and society"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 5 Dramatis Personae",
+"Individuals, firms, governments, unions: the actors",
+"One economy story: how would two schools read it differently?",
+"Leadership and teams"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 6 How Many Do You Want It to Be?",
+"GDP, income and what it misses",
+"One economy story: how would two schools read it differently?",
+"Technology and AI"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 7 How Does Your Garden Grow?",
+"Production, manufacturing, and why it still matters",
+"One economy story: how would two schools read it differently?",
+"Economy and markets"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 8 Trouble at the Bank, first half",
+"How banking and finance work",
+"One economy story: how would two schools read it differently?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 17: The three kinds of faith",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 8, second half",
+"Why finance became fragile; the 2008 crisis",
+"One economy story: how would two schools read it differently?",
+"Work and engineering"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 9 Boris's Goat Should Drop Dead",
+"Inequality and poverty",
+"One economy story: how would two schools read it differently?",
+"India and society"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 10 I've Known a Lot of People Who Didn't Have Jobs",
+"Work and unemployment",
+"One economy story: how would two schools read it differently?",
+"Leadership and teams"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 11 Leviathan or the Philosopher King?",
+"The role of the state",
+"One economy story: how would two schools read it differently?",
+"Technology and AI"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Ch. 12 'All the Things That Are on the Earth'",
+"Trade, capital flows, the international economy",
+"One economy story: how would two schools read it differently?",
+"Economy and markets"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Epilogue",
+"How to use economics as a citizen",
+"One economy story: how would two schools read it differently?",
+"Inner life"
+],
+[
+"Bhagavad Gita",
+"Sunday",
+"Ch. 18: Liberation through renunciation",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Economics: The User's Guide",
+"Q2",
+"Review",
+"Write your own view: which school best explains India today?",
+"One economy story: how would two schools read it differently?",
+"Work and engineering"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Preface",
+"The question the book sets out to answer",
+"Governance or institutions news in India",
+"India and society"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 1 So Close and Yet So Different",
+"Same geography, different institutions, different lives",
+"Governance or institutions news in India",
+"Leadership and teams"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 2 Theories That Don't Work",
+"Why geography, culture and ignorance fail as explanations",
+"Governance or institutions news in India",
+"Technology and AI"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 3 The Making of Prosperity and Poverty",
+"Inclusive vs extractive institutions",
+"Governance or institutions news in India",
+"Economy and markets"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 4 Small Differences and Critical Junctures",
+"Critical junctures amplify small differences",
+"Governance or institutions news in India",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 1: Karma in its effect on character",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 5 Growth Under Extractive Institutions",
+"Extractive growth can be real but doesn't last",
+"Governance or institutions news in India",
+"Work and engineering"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 6 Drifting Apart",
+"Institutional drift over centuries",
+"Governance or institutions news in India",
+"India and society"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 7 The Turning Point, first half",
+"How pluralism emerged in England",
+"Governance or institutions news in India",
+"Leadership and teams"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 7 The Turning Point, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"Technology and AI"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 8 Not on Our Turf, first half",
+"Elites block technology that threatens them",
+"Governance or institutions news in India",
+"Economy and markets"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 8 Not on Our Turf, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 2: Each is great in his own place",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 9 Reversing Development, first half",
+"Colonialism's long shadow",
+"Governance or institutions news in India",
+"Work and engineering"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 9 Reversing Development, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"India and society"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 10 The Diffusion of Prosperity, first half",
+"How inclusive institutions spread",
+"Governance or institutions news in India",
+"Leadership and teams"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 10 The Diffusion of Prosperity, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"Technology and AI"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 11 The Virtuous Circle, first half",
+"Inclusive institutions reinforce themselves",
+"Governance or institutions news in India",
+"Economy and markets"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 11 The Virtuous Circle, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 3: The secret of work",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 12 The Vicious Circle, first half",
+"The iron law of oligarchy",
+"Governance or institutions news in India",
+"Work and engineering"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 12 The Vicious Circle, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"India and society"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 13 Why Nations Fail Today, first half",
+"Modern failures follow old patterns",
+"Governance or institutions news in India",
+"Leadership and teams"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 13 Why Nations Fail Today, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"Technology and AI"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 14 Breaking the Mold",
+"How Botswana and others broke the pattern",
+"Governance or institutions news in India",
+"Economy and markets"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 15 Understanding Prosperity and Poverty, first half",
+"What actually works: empowerment over aid",
+"Governance or institutions news in India",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 4: What is duty?",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Why Nations Fail",
+"Q2",
+"Ch. 15 Understanding Prosperity and Poverty, second half",
+"Apply it: an Indian institution that fits this pattern",
+"Governance or institutions news in India",
+"Work and engineering"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Introduction",
+"Geography constrains what leaders can do",
+"World news: which geographic constraint is at work?",
+"India and society"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Russia, first half",
+"Flat plains to defend",
+"World news: which geographic constraint is at work?",
+"Leadership and teams"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Russia, second half",
+"The search for warm-water ports; Ukraine",
+"World news: which geographic constraint is at work?",
+"Technology and AI"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"China, first half",
+"Holding a vast country together",
+"World news: which geographic constraint is at work?",
+"Economy and markets"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"China, second half",
+"Sea lanes, Taiwan, Tibet",
+"World news: which geographic constraint is at work?",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 5: We help ourselves, not the world",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"USA, first half",
+"Two oceans and great rivers",
+"World news: which geographic constraint is at work?",
+"Work and engineering"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"USA, second half",
+"Why America became a superpower",
+"World news: which geographic constraint is at work?",
+"India and society"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Western Europe",
+"Rivers and plains: war, then union",
+"World news: which geographic constraint is at work?",
+"Leadership and teams"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Africa, first half",
+"Rivers that don't connect",
+"World news: which geographic constraint is at work?",
+"Technology and AI"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Africa, second half",
+"Borders drawn by outsiders",
+"World news: which geographic constraint is at work?",
+"Economy and markets"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Middle East, first half",
+"Lines on a map vs peoples",
+"World news: which geographic constraint is at work?",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 6: Non-attachment is complete self-abnegation",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Middle East, second half",
+"Oil, religion and power",
+"World news: which geographic constraint is at work?",
+"Work and engineering"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"India and Pakistan, first half",
+"Partition and the Himalayas",
+"World news: which geographic constraint is at work?",
+"India and society"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"India and Pakistan, second half",
+"The Indus, Kashmir, and China",
+"World news: which geographic constraint is at work?",
+"Leadership and teams"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Korea and Japan",
+"Small nations among giants",
+"World news: which geographic constraint is at work?",
+"Technology and AI"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Latin America",
+"Why geography made development harder",
+"World news: which geographic constraint is at work?",
+"Economy and markets"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"The Arctic",
+"Melting ice, new routes, new rivalries",
+"World news: which geographic constraint is at work?",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 7: Freedom",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Prisoners of Geography",
+"Q2",
+"Conclusion",
+"Write: India's geography and its strategy",
+"World news: which geographic constraint is at work?",
+"Work and engineering"
+],
+[
+"Factfulness",
+"Q3",
+"Introduction, first half",
+"Why experts score worse than chance on world facts",
+"An India statistic: check it on Our World in Data",
+"India and society"
+],
+[
+"Factfulness",
+"Q3",
+"Introduction, second half",
+"The cost of an outdated worldview",
+"An India statistic: check it on Our World in Data",
+"Leadership and teams"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 1 The Gap Instinct, first half",
+"There is no rich/poor divide; most live in the middle",
+"An India statistic: check it on Our World in Data",
+"Technology and AI"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 1, second half",
+"The four income levels",
+"An India statistic: check it on Our World in Data",
+"Economy and markets"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 2 The Negativity Instinct, first half",
+"Bad and getting better at once",
+"An India statistic: check it on Our World in Data",
+"Inner life"
+],
+[
+"Karma Yoga (Vivekananda)",
+"Sunday",
+"Ch. 8: The ideal of Karma-Yoga",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 2, second half",
+"Why bad news travels",
+"An India statistic: check it on Our World in Data",
+"Work and engineering"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 3 The Straight Line Instinct, first half",
+"Population growth slows as families get richer",
+"An India statistic: check it on Our World in Data",
+"India and society"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 3, second half",
+"Curves are rarely straight lines",
+"An India statistic: check it on Our World in Data",
+"Leadership and teams"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 4 The Fear Instinct",
+"Fear distorts risk",
+"An India statistic: check it on Our World in Data",
+"Technology and AI"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 5 The Size Instinct",
+"Compare and divide: per person",
+"An India statistic: check it on Our World in Data",
+"Economy and markets"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 6 The Generalization Instinct",
+"Categories mislead",
+"An India statistic: check it on Our World in Data",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Introduction",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 7 The Destiny Instinct",
+"Cultures change",
+"An India statistic: check it on Our World in Data",
+"Work and engineering"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 8 The Single Perspective Instinct",
+"One-idea solutions fail",
+"An India statistic: check it on Our World in Data",
+"India and society"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 9 The Blame Instinct",
+"Look for systems, not villains",
+"An India statistic: check it on Our World in Data",
+"Leadership and teams"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 10 The Urgency Instinct",
+"Urgency is the enemy of good decisions",
+"An India statistic: check it on Our World in Data",
+"Technology and AI"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 11 Factfulness in Practice, first half",
+"Applying it in education and business",
+"An India statistic: check it on Our World in Data",
+"Economy and markets"
+],
+[
+"Factfulness",
+"Q3",
+"Ch. 11, second half; Outro",
+"The ten rules of thumb",
+"An India statistic: check it on Our World in Data",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Isha Upanishad",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Factfulness",
+"Q3",
+"Review",
+"Write: where is India getting better, and where not?",
+"An India statistic: check it on Our World in Data",
+"Work and engineering"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 1 of 18), opening section: where India stands",
+"The authors' core diagnosis",
+"Indian economy and policy news",
+"India and society"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 2 of 18), opening section: where India stands",
+"What 'breaking the mould' means",
+"Indian economy and policy news",
+"Leadership and teams"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 3 of 18), opening section: where India stands",
+"Manufacturing vs services: their argument",
+"Indian economy and policy news",
+"Technology and AI"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 4 of 18), opening section: where India stands",
+"Human capital as the priority",
+"Indian economy and policy news",
+"Economy and markets"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 5 of 18), opening section: where India stands",
+"Where they may be wrong",
+"Indian economy and policy news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Katha Upanishad, part 1 of 3",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 6 of 18), opening section: where India stands",
+"Compare with your own industry's experience",
+"Indian economy and policy news",
+"Work and engineering"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 7 of 18), middle section: the path India could take",
+"The authors' core diagnosis",
+"Indian economy and policy news",
+"India and society"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 8 of 18), middle section: the path India could take",
+"What 'breaking the mould' means",
+"Indian economy and policy news",
+"Leadership and teams"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 9 of 18), middle section: the path India could take",
+"Manufacturing vs services: their argument",
+"Indian economy and policy news",
+"Technology and AI"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 10 of 18), middle section: the path India could take",
+"Human capital as the priority",
+"Indian economy and policy news",
+"Economy and markets"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 11 of 18), middle section: the path India could take",
+"Where they may be wrong",
+"Indian economy and policy news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Katha Upanishad, part 2 of 3",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 12 of 18), middle section: the path India could take",
+"Compare with your own industry's experience",
+"Indian economy and policy news",
+"Work and engineering"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 13 of 18), closing section: institutions and enablers",
+"The authors' core diagnosis",
+"Indian economy and policy news",
+"India and society"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 14 of 18), closing section: institutions and enablers",
+"What 'breaking the mould' means",
+"Indian economy and policy news",
+"Leadership and teams"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 15 of 18), closing section: institutions and enablers",
+"Manufacturing vs services: their argument",
+"Indian economy and policy news",
+"Technology and AI"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 16 of 18), closing section: institutions and enablers",
+"Human capital as the priority",
+"Indian economy and policy news",
+"Economy and markets"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 17 of 18), closing section: institutions and enablers",
+"Where they may be wrong",
+"Indian economy and policy news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Katha Upanishad, part 3 of 3",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Breaking the Mould",
+"Q3",
+"Next ~1/18 of the book (day 18 of 18), closing section: institutions and enablers",
+"Compare with your own industry's experience",
+"Indian economy and policy news",
+"Work and engineering"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 1 of 24; ~ch. 1–2)",
+"Theme: the invention of the chip and its Cold War origins",
+"Semiconductor, AI-hardware or trade-control news",
+"India and society"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 2 of 24; ~ch. 3–4)",
+"Theme: the invention of the chip and its Cold War origins",
+"Semiconductor, AI-hardware or trade-control news",
+"Leadership and teams"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 3 of 24; ~ch. 5–6)",
+"Theme: the invention of the chip and its Cold War origins",
+"Semiconductor, AI-hardware or trade-control news",
+"Technology and AI"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 4 of 24; ~ch. 7–9)",
+"Theme: building the global supply chain",
+"Semiconductor, AI-hardware or trade-control news",
+"Economy and markets"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 5 of 24; ~ch. 10–11)",
+"Theme: building the global supply chain",
+"Semiconductor, AI-hardware or trade-control news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Kena Upanishad",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 6 of 24; ~ch. 12–13)",
+"Theme: building the global supply chain",
+"Semiconductor, AI-hardware or trade-control news",
+"Work and engineering"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 7 of 24; ~ch. 14–15)",
+"Theme: Japan's challenge to US leadership",
+"Semiconductor, AI-hardware or trade-control news",
+"India and society"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 8 of 24; ~ch. 16–18)",
+"Theme: Japan's challenge to US leadership",
+"Semiconductor, AI-hardware or trade-control news",
+"Leadership and teams"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 9 of 24; ~ch. 19–20)",
+"Theme: Japan's challenge to US leadership",
+"Semiconductor, AI-hardware or trade-control news",
+"Technology and AI"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 10 of 24; ~ch. 21–22)",
+"Theme: America's comeback",
+"Semiconductor, AI-hardware or trade-control news",
+"Economy and markets"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 11 of 24; ~ch. 23–24)",
+"Theme: America's comeback",
+"Semiconductor, AI-hardware or trade-control news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Prashna Upanishad, part 1 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 12 of 24; ~ch. 25–27)",
+"Theme: America's comeback",
+"Semiconductor, AI-hardware or trade-control news",
+"Work and engineering"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 13 of 24; ~ch. 28–29)",
+"Theme: the chip as a globalised industry",
+"Semiconductor, AI-hardware or trade-control news",
+"India and society"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 14 of 24; ~ch. 30–31)",
+"Theme: the chip as a globalised industry",
+"Semiconductor, AI-hardware or trade-control news",
+"Leadership and teams"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 15 of 24; ~ch. 32–33)",
+"Theme: the chip as a globalised industry",
+"Semiconductor, AI-hardware or trade-control news",
+"Technology and AI"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 16 of 24; ~ch. 34–36)",
+"Theme: offshoring and the rise of TSMC",
+"Semiconductor, AI-hardware or trade-control news",
+"Economy and markets"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 17 of 24; ~ch. 37–38)",
+"Theme: offshoring and the rise of TSMC",
+"Semiconductor, AI-hardware or trade-control news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Prashna Upanishad, part 2 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 18 of 24; ~ch. 39–40)",
+"Theme: offshoring and the rise of TSMC",
+"Semiconductor, AI-hardware or trade-control news",
+"Work and engineering"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 19 of 24; ~ch. 41–42)",
+"Theme: China's push for chip independence",
+"Semiconductor, AI-hardware or trade-control news",
+"India and society"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 20 of 24; ~ch. 43–45)",
+"Theme: China's push for chip independence",
+"Semiconductor, AI-hardware or trade-control news",
+"Leadership and teams"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 21 of 24; ~ch. 46–47)",
+"Theme: China's push for chip independence",
+"Semiconductor, AI-hardware or trade-control news",
+"Technology and AI"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 22 of 24; ~ch. 48–49)",
+"Theme: export controls and the chip choke",
+"Semiconductor, AI-hardware or trade-control news",
+"Economy and markets"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 23 of 24; ~ch. 50–51)",
+"Theme: export controls and the chip choke",
+"Semiconductor, AI-hardware or trade-control news",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Mundaka Upanishad, part 1 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Chip War",
+"Q3",
+"Next ~2–3 chapters (day 24 of 24; ~ch. 52–54)",
+"Theme: export controls and the chip choke",
+"Semiconductor, AI-hardware or trade-control news",
+"Work and engineering"
+],
+[
+"The Coming Wave",
+"Q3",
+"Prologue; Ch. 1 Containment Is Not Possible",
+"The central dilemma of the book",
+"AI news: capability, policy or misuse",
+"India and society"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 2 Endless Proliferation",
+"Technologies spread once invented",
+"AI news: capability, policy or misuse",
+"Leadership and teams"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 3 The Containment Problem",
+"Why history has rarely contained a technology",
+"AI news: capability, policy or misuse",
+"Technology and AI"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 4 The Technology of Intelligence, first half",
+"How AI capabilities grew",
+"AI news: capability, policy or misuse",
+"Economy and markets"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 4, second half",
+"What AI may soon do",
+"AI news: capability, policy or misuse",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Mundaka Upanishad, part 2 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 5 The Technology of Life",
+"Synthetic biology",
+"AI news: capability, policy or misuse",
+"Work and engineering"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 6 The Wider Wave",
+"Robotics, quantum, energy",
+"AI news: capability, policy or misuse",
+"India and society"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 7 Four Features of the Coming Wave",
+"Asymmetry, hyper-evolution, omni-use, autonomy",
+"AI news: capability, policy or misuse",
+"Leadership and teams"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 8 Unstoppable Incentives",
+"Why nobody can stop",
+"AI news: capability, policy or misuse",
+"Technology and AI"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 9 The Grand Bargain",
+"The state's promise of security",
+"AI news: capability, policy or misuse",
+"Economy and markets"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 10 Fragility Amplifiers",
+"How the wave strains states",
+"AI news: capability, policy or misuse",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Mandukya Upanishad",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 11 The Future of Nations",
+"Concentration vs fragmentation of power",
+"AI news: capability, policy or misuse",
+"Work and engineering"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 12 The Dilemma",
+"Catastrophe or dystopia?",
+"AI news: capability, policy or misuse",
+"India and society"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 13 Containment Must Be Possible",
+"The case for trying",
+"AI news: capability, policy or misuse",
+"Leadership and teams"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 14 Ten Steps Toward Containment, first half",
+"Safety, audits, choke points",
+"AI news: capability, policy or misuse",
+"Technology and AI"
+],
+[
+"The Coming Wave",
+"Q3",
+"Ch. 14, second half",
+"Business, government, alliances, culture, movements",
+"AI news: capability, policy or misuse",
+"Economy and markets"
+],
+[
+"The Coming Wave",
+"Q3",
+"Life After the Anthropocene",
+"Suleyman's closing view",
+"AI news: capability, policy or misuse",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Taittiriya Upanishad, part 1 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Coming Wave",
+"Q3",
+"Review",
+"Write: a realistic view of AI in my industry in 10 years",
+"AI news: capability, policy or misuse",
+"Work and engineering"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Plato, part 1 of 4",
+"The Socratic method",
+"Ethics or values debate in the news: which philosopher fits?",
+"India and society"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Plato, part 2 of 4",
+"The Republic: justice",
+"Ethics or values debate in the news: which philosopher fits?",
+"Leadership and teams"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Plato, part 3 of 4",
+"The philosopher-king",
+"Ethics or values debate in the news: which philosopher fits?",
+"Technology and AI"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Plato, part 4 of 4",
+"Where Plato's ideal state fails",
+"Ethics or values debate in the news: which philosopher fits?",
+"Economy and markets"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Aristotle, part 1 of 4",
+"Logic and science",
+"Ethics or values debate in the news: which philosopher fits?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Taittiriya Upanishad, part 2 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Aristotle, part 2 of 4",
+"Ethics: the golden mean",
+"Ethics or values debate in the news: which philosopher fits?",
+"Work and engineering"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Aristotle, part 3 of 4",
+"Politics",
+"Ethics or values debate in the news: which philosopher fits?",
+"India and society"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Aristotle, part 4 of 4",
+"Aristotle vs Plato",
+"Ethics or values debate in the news: which philosopher fits?",
+"Leadership and teams"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Francis Bacon, part 1 of 2",
+"Knowledge is power",
+"Ethics or values debate in the news: which philosopher fits?",
+"Technology and AI"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Francis Bacon, part 2 of 2",
+"Idols of the mind: biases, 400 years early",
+"Ethics or values debate in the news: which philosopher fits?",
+"Economy and markets"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Spinoza, part 1 of 3",
+"God as nature",
+"Ethics or values debate in the news: which philosopher fits?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Aitareya Upanishad",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Spinoza, part 2 of 3",
+"Freedom through understanding",
+"Ethics or values debate in the news: which philosopher fits?",
+"Work and engineering"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Spinoza, part 3 of 3",
+"Spinoza and Vedanta compared",
+"Ethics or values debate in the news: which philosopher fits?",
+"India and society"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Voltaire, part 1 of 2",
+"Reason against dogma",
+"Ethics or values debate in the news: which philosopher fits?",
+"Leadership and teams"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Voltaire, part 2 of 2",
+"Tolerance",
+"Ethics or values debate in the news: which philosopher fits?",
+"Technology and AI"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Kant, part 1 of 3",
+"What can we know?",
+"Ethics or values debate in the news: which philosopher fits?",
+"Economy and markets"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Kant, part 2 of 3",
+"The categorical imperative",
+"Ethics or values debate in the news: which philosopher fits?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Chandogya Upanishad, part 1 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Kant, part 3 of 3",
+"Duty and the Gita compared",
+"Ethics or values debate in the news: which philosopher fits?",
+"Work and engineering"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Schopenhauer, part 1 of 2",
+"The world as will",
+"Ethics or values debate in the news: which philosopher fits?",
+"India and society"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Schopenhauer, part 2 of 2",
+"Suffering and Eastern influences",
+"Ethics or values debate in the news: which philosopher fits?",
+"Leadership and teams"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Nietzsche, part 1 of 2",
+"The will to power",
+"Ethics or values debate in the news: which philosopher fits?",
+"Technology and AI"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"Nietzsche, part 2 of 2",
+"Strength, values and their dangers",
+"Ethics or values debate in the news: which philosopher fits?",
+"Economy and markets"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"William James and John Dewey, part 1 of 2",
+"Pragmatism: truth as what works",
+"Ethics or values debate in the news: which philosopher fits?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Chandogya Upanishad, part 2 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Story of Philosophy (selected)",
+"Q4",
+"William James and John Dewey, part 2 of 2",
+"Education and democracy",
+"Ethics or values debate in the news: which philosopher fits?",
+"Work and engineering"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 1 (Part 1: voice and heterodoxy)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"India and society"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 2 (Part 1: voice and heterodoxy)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Leadership and teams"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 3 (Part 1: voice and heterodoxy)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Technology and AI"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 4 (Part 1: voice and heterodoxy)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Economy and markets"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 5 (Part 2: culture and communication)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Chandogya Upanishad, part 3 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 6 (Part 2: culture and communication)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Work and engineering"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 7 (Part 2: culture and communication)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"India and society"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 8 (Part 2: culture and communication)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Leadership and teams"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 9 (Part 3: politics and protest)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Technology and AI"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 10 (Part 3: politics and protest)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Economy and markets"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 11 (Part 3: politics and protest)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Chandogya Upanishad, part 4 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 12 (Part 3: politics and protest)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Work and engineering"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 13 (Part 4: reason and identity)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"India and society"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 14 (Part 4: reason and identity)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Leadership and teams"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 15 (Part 4: reason and identity)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Technology and AI"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Essay 16 (Part 4: reason and identity)",
+"The argument, and who would disagree most intelligently?",
+"Indian culture or identity debate",
+"Economy and markets"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Counterpoint: an essay or talk by Sanjeev Sanyal or another writer with a different view",
+"Where do they and Sen agree, and where not?",
+"Indian culture or identity debate",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Brihadaranyaka Upanishad, part 1 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"The Argumentative Indian",
+"Q4",
+"Review",
+"Write: what is India's intellectual tradition, in my own view?",
+"Indian culture or identity debate",
+"Work and engineering"
+],
+[
+"Meditations",
+"Q4",
+"Book 1",
+"Gratitude: what he learned from each person",
+"None needed: compare one Stoic idea with the Gita",
+"India and society"
+],
+[
+"Meditations",
+"Q4",
+"Book 2",
+"Begin the day expecting difficult people",
+"None needed: compare one Stoic idea with the Gita",
+"Leadership and teams"
+],
+[
+"Meditations",
+"Q4",
+"Book 3",
+"Life is short; act well now",
+"None needed: compare one Stoic idea with the Gita",
+"Technology and AI"
+],
+[
+"Meditations",
+"Q4",
+"Book 4",
+"Retreat into yourself",
+"None needed: compare one Stoic idea with the Gita",
+"Economy and markets"
+],
+[
+"Meditations",
+"Q4",
+"Book 5",
+"Do your duty at dawn",
+"None needed: compare one Stoic idea with the Gita",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Brihadaranyaka Upanishad, part 2 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Meditations",
+"Q4",
+"Book 6",
+"Accept what nature brings",
+"None needed: compare one Stoic idea with the Gita",
+"Work and engineering"
+],
+[
+"Meditations",
+"Q4",
+"Book 7",
+"Opinion is the source of disturbance",
+"None needed: compare one Stoic idea with the Gita",
+"India and society"
+],
+[
+"Meditations",
+"Q4",
+"Book 8",
+"Live by your nature",
+"None needed: compare one Stoic idea with the Gita",
+"Leadership and teams"
+],
+[
+"Meditations",
+"Q4",
+"Book 9",
+"Injustice harms the doer",
+"None needed: compare one Stoic idea with the Gita",
+"Technology and AI"
+],
+[
+"Meditations",
+"Q4",
+"Book 10",
+"Accept change",
+"None needed: compare one Stoic idea with the Gita",
+"Economy and markets"
+],
+[
+"Meditations",
+"Q4",
+"Book 11",
+"Your mind is free",
+"None needed: compare one Stoic idea with the Gita",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Brihadaranyaka Upanishad, part 3 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Meditations",
+"Q4",
+"Book 12",
+"Death and what matters",
+"None needed: compare one Stoic idea with the Gita",
+"Work and engineering"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Introduction: Overwhelming Obstacles",
+"What strategy really is",
+"Business news: good or bad strategy?",
+"India and society"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 1 Good Strategy Is Unexpected",
+"Most 'strategies' are just goals",
+"Business news: good or bad strategy?",
+"Leadership and teams"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 2 Discovering Power, first half",
+"Strength applied to weakness",
+"Business news: good or bad strategy?",
+"Technology and AI"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 2, second half",
+"Find leverage in your own context",
+"Business news: good or bad strategy?",
+"Economy and markets"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 3 Bad Strategy, first half",
+"Fluff and failure to face the challenge",
+"Business news: good or bad strategy?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Brihadaranyaka Upanishad, part 4 of 4",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 3, second half",
+"Goals mistaken for strategy",
+"Business news: good or bad strategy?",
+"Work and engineering"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 4 Why So Much Bad Strategy?",
+"Leaders avoid hard choices",
+"Business news: good or bad strategy?",
+"India and society"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 5 The Kernel of Good Strategy, first half",
+"Diagnosis",
+"Business news: good or bad strategy?",
+"Leadership and teams"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 5, second half",
+"Guiding policy and coherent action",
+"Business news: good or bad strategy?",
+"Technology and AI"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 6 Using Leverage",
+"Anticipation and pivot points",
+"Business news: good or bad strategy?",
+"Economy and markets"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 7 Proximate Objectives",
+"Objectives the team can actually hit",
+"Business news: good or bad strategy?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Shvetashvatara Upanishad, part 1 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 8 Chain-Link Systems",
+"The weakest link sets the limit",
+"Business news: good or bad strategy?",
+"Work and engineering"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 9 Using Design",
+"Parts that fit together",
+"Business news: good or bad strategy?",
+"India and society"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 10 Focus",
+"Concentrating effort",
+"Business news: good or bad strategy?",
+"Leadership and teams"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 11 Growth",
+"Growth is a result, not a strategy",
+"Business news: good or bad strategy?",
+"Technology and AI"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 12 Using Advantage",
+"Deepening and widening advantage",
+"Business news: good or bad strategy?",
+"Economy and markets"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 13 Using Dynamics, first half",
+"Waves of change",
+"Business news: good or bad strategy?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Shvetashvatara Upanishad, part 2 of 2",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 13, second half",
+"Spotting shifts early: EVs, hydrogen, AI",
+"Business news: good or bad strategy?",
+"Work and engineering"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 14 Inertia and Entropy, first half",
+"Organisational inertia",
+"Business news: good or bad strategy?",
+"India and society"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 14, second half",
+"Entropy: decay unless managed",
+"Business news: good or bad strategy?",
+"Leadership and teams"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 15 Putting It Together",
+"A full case example",
+"Business news: good or bad strategy?",
+"Technology and AI"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 16 The Science of Strategy",
+"Strategy as a hypothesis",
+"Business news: good or bad strategy?",
+"Economy and markets"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 17 Using Your Head",
+"Thinking about thinking",
+"Business news: good or bad strategy?",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Shorter Upanishads",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week?"
+],
+[
+"Good Strategy Bad Strategy",
+"Q4",
+"Ch. 18 Keeping Your Head",
+"Independent judgement",
+"Business news: good or bad strategy?",
+"Work and engineering"
+],
+[
+"Catch-up and review",
+"Q4",
+"Buffer day: catch up on anything missed, or reread your principles notebook",
+"Which idea from this year do you now use most?",
+"Any story: explain it with three books from this year",
+"India and society"
+],
+[
+"Catch-up and review",
+"Q4",
+"Buffer day: catch up on anything missed, or reread your principles notebook",
+"Which idea from this year do you now use most?",
+"Any story: explain it with three books from this year",
+"Leadership and teams"
+],
+[
+"Catch-up and review",
+"Q4",
+"Buffer day: catch up on anything missed, or reread your principles notebook",
+"Which idea from this year do you now use most?",
+"Any story: explain it with three books from this year",
+"Technology and AI"
+],
+[
+"Catch-up and review",
+"Q4",
+"Buffer day: catch up on anything missed, or reread your principles notebook",
+"Which idea from this year do you now use most?",
+"Any story: explain it with three books from this year",
+"Economy and markets"
+],
+[
+"Catch-up and review",
+"Q4",
+"Buffer day: catch up on anything missed, or reread your principles notebook",
+"Which idea from this year do you now use most?",
+"Any story: explain it with three books from this year",
+"Inner life"
+],
+[
+"The Upanishads (Easwaran)",
+"Sunday",
+"Year review: reread your principles notebook",
+"Link this chapter's principle to one idea from this week's reading",
+"No news today. After reading: 10-min ask-me-anything drill, then 15-min weekly synthesis",
+"Weekly synthesis: what pattern linked this week? Plus the monthly check, and draft a LinkedIn perspective piece"
+]
+]
+}

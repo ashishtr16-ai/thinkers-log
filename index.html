@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Thinker's Log</title>
+<meta name="description" content="A 52-week reading plan for first-principles thinking, with daily news to study through the book you're reading.">
+<meta name="theme-color" content="#1F6F5C">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Thinker's Log">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: phone app — header, one scrolling screen at a time, fixed bottom tab bar (Today · History · Plan) */
+:root{
+  --bg:#F2F3EE; --surface:#FFFFFF; --ink:#1C2526; --muted:#5E6A68; --line:#D9DDD5;
+  --read:#1F6F5C; --read-soft:#DCEBE5; --write:#B4730A; --write-soft:#F6E8CF; --on-accent:#FFFFFF; --miss:#B4473A;
+  --display:"Newsreader",Georgia,serif; --body:"Figtree",system-ui,-apple-system,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --tabh:64px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#121817; --surface:#1A2221; --ink:#E7ECE8; --muted:#97A39F; --line:#2B3533;
+  --read:#5FC2A2; --read-soft:#1D3A32; --write:#E8A93A; --write-soft:#3A2D14; --on-accent:#0F1C18; --miss:#E07A6C}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+body{font:16px/1.5 var(--body);-webkit-tap-highlight-color:transparent;
+  padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 24px) max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:20px;padding-top:16px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+h1{font:600 1.9rem/1.05 var(--display);margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:.86rem;margin-top:4px}
+.streak{text-align:right;flex-shrink:0}
+.streak b{font:500 1.7rem/1 var(--mono);color:var(--read);display:block;font-variant-numeric:tabular-nums}
+.streak span{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--read);width:0;transition:width .3s}
+.barlab{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
+.label{font-size:.72rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600;margin:0}
+h2.title{font:600 1.5rem/1.15 var(--display);margin:0}
+button{font:600 .9rem var(--body);border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 12px;cursor:pointer;min-height:40px}
+button:focus-visible,a:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--read);outline-offset:2px}
+button:disabled{opacity:.35;cursor:default}
+.primary{background:var(--read);color:var(--on-accent);border-color:var(--read)}
+/* install banner */
+.install{background:var(--read);color:var(--on-accent);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.install b{font:600 1.05rem var(--display)}
+.install p{margin:0;font-size:.9rem;opacity:.92}
+.install .acts{display:flex;gap:8px;justify-content:flex-end}
+.install .acts button{background:transparent;color:var(--on-accent);border-color:color-mix(in srgb,var(--on-accent) 45%,transparent)}
+.install .acts .go{background:var(--on-accent);color:var(--read);border-color:var(--on-accent)}
+/* today */
+.nav{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.nav .d{font-weight:600;text-align:center;flex:1;display:flex;flex-direction:column;align-items:center;gap:4px}
+.nav .d small{display:block;font-weight:400;color:var(--muted);font-size:.8rem}
+.todaybtn{min-height:30px;padding:2px 12px;font-size:.8rem;color:var(--read);border-color:var(--read)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;touch-action:pan-y}
+.card .head{padding:16px 16px 14px;background:var(--read-soft)}
+.card .book{font:600 1.35rem/1.2 var(--display);margin:4px 0 0;text-wrap:balance}
+dl{margin:0}
+.row{padding:13px 16px;border-top:1px solid var(--line);display:grid;grid-template-columns:92px 1fr;gap:10px}
+.row dt{font-size:.74rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;padding-top:3px}
+.row dd{margin:0;min-width:0}
+.row.read dd{font-weight:600;font-size:1.05rem}
+.row.write dt{color:var(--write)}
+.done{display:flex;gap:10px;padding:14px 16px;border-top:1px solid var(--line)}
+.done button{flex:1}
+.done .yes.on{background:var(--surface);color:var(--read)}
+.news{display:flex;flex-direction:column;gap:12px;touch-action:pan-y}
+.lens{background:var(--write-soft);border-radius:12px;padding:12px 14px;font-size:.92rem}
+.lens b{color:var(--write)}
+.story{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.story .src{font-size:.78rem;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.story .tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--read);font-weight:600}
+.story h3{margin:0;font:600 1.1rem/1.3 var(--display)}
+.story h3 a{color:inherit;text-decoration:none}
+.story p{margin:0;overflow-wrap:anywhere}
+.story .q{font-size:.92rem;color:var(--muted);border-left:3px solid var(--write);padding-left:10px}
+.empty{color:var(--muted);font-size:.95rem;background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0}
+/* lists */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:4px 16px}
+.li{display:grid;grid-template-columns:48px 1fr auto;gap:12px;padding:12px 0;border-top:1px solid var(--line);align-items:center;cursor:pointer;min-width:0}
+.li:first-child{border-top:0}
+.li .dn{font:500 .76rem var(--mono);color:var(--muted);line-height:1.25}
+.li .dn b{display:block;font-size:1rem;color:var(--ink)}
+.li .t{min-width:0;font-size:.93rem}
+.li .t small{display:block;color:var(--muted);font-size:.8rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pill{font-size:.72rem;font-weight:600;border-radius:999px;padding:3px 9px;white-space:nowrap}
+.pill.ok{background:var(--read-soft);color:var(--read)}
+.pill.miss{background:color-mix(in srgb,var(--miss) 16%,transparent);color:var(--miss)}
+.pill.news{background:var(--write-soft);color:var(--write)}
+.bk{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:13px 0;border-top:1px solid var(--line);cursor:pointer}
+.bk:first-child{border-top:0}
+.bk .n{font:600 1.02rem/1.3 var(--display)}
+.bk .dt{font-size:.8rem;color:var(--muted);grid-column:1}
+.bk .pr{grid-row:1/3;grid-column:2;align-self:center;font:500 .8rem var(--mono);color:var(--muted);text-align:right}
+.bk.cur .n{color:var(--read)}
+.bk.cur .pr{color:var(--read)}
+.qhead{margin:14px 0 6px}
+.about{font-size:.86rem;color:var(--muted);display:flex;flex-direction:column;gap:8px}
+.about p{margin:0}
+/* tab bar */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);
+  display:flex;justify-content:center;padding:0 env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+nav.tabs .in{display:flex;max-width:560px;width:100%}
+nav.tabs button{flex:1;border:0;border-radius:0;background:none;height:var(--tabh);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:.75rem;color:var(--muted)}
+nav.tabs button svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs button[aria-current="page"]{color:var(--read)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 14px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:.88rem;z-index:30}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1>Thinker's Log</h1><div class="sub">52-week plan · 9 Nov 2026 to 7 Nov 2027</div></div>
+    <div class="streak"><b id="streak">0</b><span>day streak</span></div>
+  </header>
+
+  <section class="install" id="installBanner" hidden>
+    <b>Install Thinker's Log</b>
+    <p id="installText">Add it to your home screen so it opens like an app, even offline.</p>
+    <div class="acts"><button id="installLater">Not now</button><button class="go" id="installGo">Install</button></div>
+  </section>
+
+  <!-- TODAY -->
+  <main id="v-today">
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <div><div class="bar"><i id="barfill"></i></div><div class="barlab"><span id="barl"></span><span id="barr"></span></div></div>
+      <div class="nav">
+        <button id="prev" aria-label="Previous day">‹</button>
+        <div class="d"><div id="dlabel"></div><button class="todaybtn" id="gotoday" hidden>Back to today</button></div>
+        <button id="next" aria-label="Next day">›</button>
+      </div>
+      <section class="card" id="card">
+        <div class="head"><p class="label" id="wk"></p><h2 class="book" id="book"></h2></div>
+        <dl>
+          <div class="row read"><dt>Read</dt><dd id="r-read"></dd></div>
+          <div class="row"><dt>Look for</dt><dd id="r-look"></dd></div>
+          <div class="row"><dt>News focus</dt><dd id="r-news"></dd></div>
+          <div class="row write"><dt>Write</dt><dd id="r-write"></dd></div>
+        </dl>
+        <div class="done"><button class="yes primary" id="btn-done">Mark done</button></div>
+      </section>
+      <section class="news" id="newsSec">
+        <p class="label">News to study today</p>
+        <div id="news"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- HISTORY -->
+  <main id="v-history" hidden>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <h2 class="title">Days so far</h2>
+      <p class="label" id="histSum"></p>
+      <div class="list" id="histList"></div>
+    </div>
+  </main>
+
+  <!-- PLAN -->
+  <main id="v-plan" hidden>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <h2 class="title">The year's books</h2>
+      <div id="planList"></div>
+      <section class="about">
+        <p class="label" style="margin-top:8px">About</p>
+        <p>Every day: 30 minutes reading, 15 minutes on the writing card (explain simply, run the lens, principle, my take). Sundays carry the Bhagavad Gita, Vivekananda's <i>Karma Yoga</i> and the Upanishads, followed by the weekly synthesis.</p>
+        <p>News is picked each afternoon around 1:30 pm IST and tied to the book you're reading. Your ticks are saved on this phone.</p>
+        <p>Chapter splits are approximate, since page counts differ between editions.</p>
+        <p id="installAbout"></p>
+      </section>
+    </div>
+  </main>
+</div>
+
+<nav class="tabs" aria-label="Sections"><div class="in">
+  <button data-v="today" aria-current="page"><svg viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg>Today</button>
+  <button data-v="history"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>History</button>
+  <button data-v="plan"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>Plan</button>
+</div></nav>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const ls={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(_){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(_){}}};
+const pad=n=>String(n).padStart(2,"0");
+const key=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+function toast(t){const el=$("toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2200)}
+
+let START, PLAN=[], NEWS=ls.get("tl-news")||{}, done=ls.get("tl-done")||{}, sel=0, TODAY_I=0;
+const dayIndex=d=>Math.round((new Date(d.getFullYear(),d.getMonth(),d.getDate())-START)/864e5);
+const dateOf=i=>{const d=new Date(START);d.setDate(d.getDate()+i);return d};
+const isPast=i=>i<dayIndex(new Date());
+
+/* ---------- Today ---------- */
+function renderDay(){
+  const p=PLAN[sel], d=dateOf(sel), k=key(d), now=dayIndex(new Date());
+  const lab=$("dlabel");lab.textContent="";
+  const t=document.createElement("span");t.textContent=sel===now?"Today":(now<0&&sel===0)?"Starts Monday":d.toLocaleDateString(undefined,{weekday:"long"});
+  const s=document.createElement("small");s.textContent=d.toLocaleDateString(undefined,{weekday:"short",day:"numeric",month:"short"})+` · Day ${sel+1} of ${PLAN.length}`;
+  lab.append(t,s);
+  $("prev").disabled=sel===0;$("next").disabled=sel===PLAN.length-1;$("gotoday").hidden=sel===TODAY_I;
+  $("wk").textContent=`Week ${p.wk} of 52 · `+(p.q==="Sunday"?"Sunday thread":p.q);
+  $("book").textContent=p.book;
+  $("r-read").textContent=p.read;$("r-look").textContent=p.look;$("r-news").textContent=p.news;
+  $("r-write").textContent=p.q==="Sunday"?p.write:"Writing card, applied to: "+p.write;
+  const b=$("btn-done");b.textContent=done[k]?"Done ✓  (tap to undo)":"Mark done";b.classList.toggle("on",!!done[k]);
+  renderNews();renderProgress();
+}
+function renderNews(){
+  const box=$("news"),k=key(dateOf(sel)),n=NEWS[k],now=dayIndex(new Date());box.textContent="";
+  if(!n||!Array.isArray(n.items)||!n.items.length){
+    const p=document.createElement("p");p.className="empty";
+    p.textContent=PLAN[sel].q==="Sunday"?"No news on Sundays. Spiritual reading and the weekly synthesis instead.":
+      sel>now?"News for this day arrives around 1:30 pm that day.":
+      sel===now?"Today's picks arrive around 1:30 pm. Each story comes with a question tied to the book you're reading.":
+      "No news was saved for this day.";
+    box.appendChild(p);return}
+  if(n.lens){const l=document.createElement("div");l.className="lens";const b=document.createElement("b");b.textContent="Today's lens: ";l.append(b,document.createTextNode(n.lens));box.appendChild(l)}
+  n.items.forEach(it=>{
+    const a=document.createElement("article");a.className="story";
+    const src=document.createElement("div");src.className="src";
+    const tg=document.createElement("span");tg.className="tag";tg.textContent=it.domain||"";
+    const sn=document.createElement("span");sn.textContent=it.source||"";src.append(tg,sn);
+    const h=document.createElement("h3");
+    if(it.url&&/^https:\/\//.test(it.url)){const ln=document.createElement("a");ln.href=it.url;ln.target="_blank";ln.rel="noopener";ln.textContent=it.title+" ↗";h.appendChild(ln)}else h.textContent=it.title;
+    const w=document.createElement("p");w.textContent=it.why||"";a.append(src,h,w);
+    if(it.question){const q=document.createElement("p");q.className="q";q.textContent=it.question;a.appendChild(q)}
+    box.appendChild(a)});
+}
+function renderProgress(){
+  const n=Object.keys(done).length;
+  $("barfill").style.width=(100*n/PLAN.length)+"%";
+  $("barl").textContent=`${n} of ${PLAN.length} days done`;
+  $("barr").textContent=`${Math.max(0,PLAN.length-1-dayIndex(new Date()))} days left`;
+  let s=0,i=dayIndex(new Date());if(!done[key(dateOf(i))])i--;while(i>=0&&done[key(dateOf(i))]){s++;i--}
+  $("streak").textContent=s;
+}
+
+/* ---------- History ---------- */
+function renderHistory(){
+  const now=Math.min(dayIndex(new Date()),PLAN.length-1),list=$("histList");list.textContent="";
+  if(now<0){list.innerHTML='<p class="empty" style="border:0">Your days will collect here once the plan starts.</p>';$("histSum").textContent="";return}
+  let dn=0;
+  for(let i=now;i>=0;i--){
+    const d=dateOf(i),k=key(d),p=PLAN[i];if(done[k])dn++;
+    const r=document.createElement("div");r.className="li";r.tabIndex=0;
+    r.innerHTML=`<div class="dn"><b>${d.getDate()}</b>${d.toLocaleDateString(undefined,{month:"short"})}</div><div class="t"><span></span><small></small></div><span class="pill"></span>`;
+    r.querySelector(".t span").textContent=p.read;r.querySelector(".t small").textContent=p.book;
+    const pill=r.querySelector(".pill");
+    if(done[k]){pill.className="pill ok";pill.textContent="Done"}
+    else if(i<now){pill.className="pill miss";pill.textContent="Missed"}
+    else{pill.className="pill news";pill.textContent=NEWS[k]?"News in":"Today"}
+    r.onclick=r.onkeydown=e=>{if(e.type==="keydown"&&e.key!=="Enter")return;sel=i;show("today");renderDay()};
+    list.appendChild(r)}
+  $("histSum").textContent=`${dn} done of ${now+1} days so far`;
+}
+
+/* ---------- Plan ---------- */
+function renderPlan(){
+  const box=$("planList");box.textContent="";const groups=[];
+  PLAN.forEach((p,i)=>{const g=p.q==="Sunday"?"Sunday":"Weekdays";
+    const arr=g==="Sunday"?(groups.sun||(groups.sun=[])):groups;
+    const last=arr[arr.length-1];
+    if(last&&last.book===p.book)last.days.push(i);else arr.push({book:p.book,q:p.q,days:[i]})});
+  const now=dayIndex(new Date());let curQ="";
+  const fmt=d=>d.toLocaleDateString(undefined,{day:"numeric",month:"short"});
+  const mk=(g)=>{const r=document.createElement("div");r.className="bk"+(g.days.includes(now)||(g.days[0]<=now&&g.days[g.days.length-1]>=now)?" cur":"");r.tabIndex=0;
+    const nd=g.days.filter(i=>done[key(dateOf(i))]).length;
+    r.innerHTML=`<span class="n"></span><span class="pr">${nd}/${g.days.length}</span><span class="dt"></span>`;
+    r.querySelector(".n").textContent=g.book;
+    r.querySelector(".dt").textContent=`${fmt(dateOf(g.days[0]))} to ${fmt(dateOf(g.days[g.days.length-1]))} · ${g.days.length} ${g.q==="Sunday"?"Sundays":"days"}`;
+    r.onclick=r.onkeydown=e=>{if(e.type==="keydown"&&e.key!=="Enter")return;const t=g.days.find(i=>i>=now);sel=t!==undefined?t:g.days[0];show("today");renderDay()};
+    return r};
+  let list=null;
+  groups.forEach(g=>{if(g.q!==curQ){curQ=g.q;const h=document.createElement("p");h.className="label qhead";h.textContent=({Q1:"Quarter 1 · How to think, and human nature",Q2:"Quarter 2 · How the world works",Q3:"Quarter 3 · India and the future",Q4:"Quarter 4 · Meaning and leadership"})[g.q]||g.q;box.appendChild(h);list=document.createElement("div");list.className="list";box.appendChild(list)}
+    list.appendChild(mk(g))});
+  const h=document.createElement("p");h.className="label qhead";h.textContent="Sundays · Spiritual thread";box.appendChild(h);
+  const sl=document.createElement("div");sl.className="list";(groups.sun||[]).forEach(g=>sl.appendChild(mk(g)));box.appendChild(sl);
+}
+
+/* ---------- navigation ---------- */
+function show(v){
+  ["today","history","plan"].forEach(x=>$("v-"+x).hidden=x!==v);
+  document.querySelectorAll("nav.tabs button").forEach(b=>{if(b.dataset.v===v)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current")});
+  if(v==="history")renderHistory();if(v==="plan")renderPlan();
+  window.scrollTo(0,0);
+}
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{if(b.dataset.v==="today"&&!$("v-today").hidden){sel=TODAY_I;renderDay()}show(b.dataset.v)});
+$("prev").onclick=()=>{if(sel>0){sel--;renderDay()}};
+$("next").onclick=()=>{if(sel<PLAN.length-1){sel++;renderDay()}};
+$("gotoday").onclick=()=>{sel=TODAY_I;renderDay()};
+$("btn-done").onclick=()=>{const k=key(dateOf(sel));if(done[k])delete done[k];else done[k]=1;ls.set("tl-done",done);renderDay();if(done[k])toast("Marked done")};
+let sx=null,sy=null;
+["card","newsSec"].forEach(id=>{const el=$(id);
+  el.addEventListener("touchstart",e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
+  el.addEventListener("touchend",e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;sx=null;
+    if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5){if(dx<0&&sel<PLAN.length-1)sel++;else if(dx>0&&sel>0)sel--;else return;renderDay()}},{passive:true})});
+
+/* ---------- install ---------- */
+let deferredPrompt=null;
+const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const isIOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+function updateInstallUI(){
+  const dismissed=ls.get("tl-install-later");
+  if(standalone()){$("installBanner").hidden=true;$("installAbout").textContent="Installed on this phone.";return}
+  if(deferredPrompt){$("installText").textContent="Add it to your home screen so it opens like an app, even offline.";$("installGo").hidden=false}
+  else if(isIOS){$("installText").textContent="In Safari, tap the Share button, then Add to Home Screen.";$("installGo").hidden=true}
+  else{$("installText").textContent="In Chrome, tap ⋮ at the top right, then Add to Home screen (or Install app).";$("installGo").hidden=true}
+  $("installBanner").hidden=!!dismissed&&!deferredPrompt;
+  $("installAbout").textContent=deferredPrompt?"":"To install: "+$("installText").textContent;
+}
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredPrompt=e;updateInstallUI()});
+window.addEventListener("appinstalled",()=>{deferredPrompt=null;$("installBanner").hidden=true;toast("Installed")});
+$("installGo").onclick=async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();try{await deferredPrompt.userChoice}catch(_){}deferredPrompt=null;updateInstallUI()};
+$("installLater").onclick=()=>{ls.set("tl-install-later",1);$("installBanner").hidden=true};
+
+/* ---------- load ---------- */
+async function load(){
+  try{
+    const r=await fetch("plan.json",{cache:"no-cache"});const plan=await r.json();
+    const [y,m,d]=plan.start.split("-").map(Number);START=new Date(y,m-1,d);
+    PLAN=plan.days.map(([book,q,read,look,news,write],i)=>({wk:Math.floor(i/7)+1,q,book,read,look,news,write}));
+  }catch(e){$("v-today").innerHTML='<p class="empty">The plan could not be loaded. Check that the phone is online and open the app again.</p>';return}
+  TODAY_I=Math.max(0,Math.min(PLAN.length-1,dayIndex(new Date())));sel=TODAY_I;
+  renderDay();updateInstallUI();
+  try{
+    const r=await fetch("news.json",{cache:"no-cache"});
+    if(r.ok){const n=await r.json();NEWS={...NEWS,...n};const keep={};Object.keys(NEWS).sort().slice(-60).forEach(k=>keep[k]=NEWS[k]);ls.set("tl-news",keep);renderNews()}
+  }catch(_){}
+}
+load();
+/* refresh news when the app comes back to the foreground (e.g. after 1:30 pm) */
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&PLAN.length){const t=Math.max(0,Math.min(PLAN.length-1,dayIndex(new Date())));if(t!==TODAY_I){TODAY_I=t;sel=t}
+  fetch("news.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(n=>{if(n){NEWS={...NEWS,...n};renderDay()}}).catch(()=>{})}});
+if("serviceWorker" in navigator&&window.isSecureContext){navigator.serviceWorker.register("sw.js").catch(()=>{})}
+</script>
+</body>
+</html>
