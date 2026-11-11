@@ -74,5 +74,43 @@
     "why": "NSE and BSE were closed on Tuesday for the festival after the Nifty held above 25,000 on Monday, while Asian markets rallied sharply and Brent kept falling. Indian equities have been rebounding as lower oil and a cooling global AI trade shift investor attention back towards India."
    }
   ]
+ },
+ "2026-11-11": {
+  "date": "2026-11-11",
+  "lens": "From The Great Mental Models, apply 'the map is not the territory': ask where each headline's neat summary (a price, an index, a benchmark, a 'productive' meeting) differs from the messy reality underneath.",
+  "items": [
+   {
+    "title": "Oil bounces off a two-month low as Hormuz attacks temper Iran peace hopes",
+    "source": "Reuters",
+    "url": "https://za.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-4566787",
+    "domain": "Energy",
+    "why": "Brent recovered to about $92 a barrel after sliding below $90 when US officials played down further strikes on Iran, while tanker attacks and mines in the Strait of Hormuz kept supply fears alive. For India, which imports most of its crude, every few dollars on Brent moves inflation, the rupee and the fiscal maths for fuel retailers.",
+    "question": "Using second-order thinking: if a US-Iran truce is signed, what slower effects (mine clearance, insurance premiums, shipowner caution) would keep Hormuz flows and India's import bill from normalising quickly?"
+   },
+   {
+    "title": "Sensex hits an eight-month high as foreign money returns",
+    "source": "The Pioneer",
+    "url": "https://dailypioneer.com/business/sensex-nifty-eight-month-high-fii-buying-crude-oil",
+    "domain": "Markets",
+    "why": "The Sensex jumped over 1,100 points at the open to its highest level since late February, helped by foreign investors buying more than Rs 53,000 crore of shares in early November after two months of heavy selling, cheaper crude and strong September-quarter earnings. The swing shows how tightly India's markets and rupee are tied to global oil and capital flows rather than purely domestic fundamentals.",
+    "question": "Applying 'the map is not the territory': the index is a map of sentiment; what would you check in the territory (earnings quality, oil exposure, domestic investor selling) before concluding India's economy itself has turned a corner?"
+   },
+   {
+    "title": "Russia and Ukraine meet in Abu Dhabi for first US-brokered talks in nine months",
+    "source": "AP (via PBS NewsHour)",
+    "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi",
+    "domain": "Geopolitics",
+    "why": "US envoys hosted a four-hour session focused mostly on prisoner swaps and returning civilians, with Washington calling it productive but warning a deal is not close, as both sides keep striking each other. Any path to peace would reshape energy markets, sanctions on Russian oil that India buys, and the West's attention on Asia.",
+    "question": "Using inversion: instead of asking what would make these talks succeed, list what would guarantee they fail; which of those failure conditions are already present today?"
+   },
+   {
+    "title": "Google launches two new TPU systems to chip away at Nvidia's lead",
+    "source": "Decrypt",
+    "url": "https://decrypt.co/382874/google-nvidia-new-ai-chips-privacy-massive-memory-ai",
+    "domain": "Technology",
+    "why": "Google added a confidential-computing TPU 8tx and a dual-chip TPU 8i Max aimed at memory-hungry AI agents, and open-sourced software to move AI working memory across chips, at a time when Nvidia's stock is under pressure. Competition in AI hardware decides the cost of compute for every company, including Indian firms and engineering teams building AI products.",
+    "question": "Through 'circle of competence': Google's performance claims compare against its own older chips, not Nvidia's; what would you need to know, and who would you ask, before deciding which platform an engine-AI team should bet on?"
+   }
+  ]
  }
 }
