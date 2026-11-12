@@ -112,5 +112,43 @@
     "question": "Through 'circle of competence': Google's performance claims compare against its own older chips, not Nvidia's; what would you need to know, and who would you ask, before deciding which platform an engine-AI team should bet on?"
    }
   ]
+ },
+ "2026-11-12": {
+  "date": "2026-11-12",
+  "lens": "The Great Mental Models (Parrish): the map is not the territory. For each story, ask where the official picture (a rule, a forecast, a communiqué) differs from what is actually happening on the ground.",
+  "items": [
+   {
+    "title": "India bans export of lithium-ion battery 'black mass'",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/news/centre-bans-export-of-battery-waste-including-lithium-ion-black-mass-126111100415_1.html",
+    "domain": "Energy",
+    "why": "The DGFT moved battery waste and shredded lithium-ion black mass from 'free' to 'prohibited' for export, effective immediately, to keep lithium, cobalt and nickel inside India. It pairs with a ₹1,500-crore recycling incentive and is a bet that domestic recycling can become part of India's critical-minerals security.",
+    "question": "Using second-order thinking: if India's recycling capacity is still limited, what happens next to the black mass that can no longer leave, and who gains or loses at each step?"
+   },
+   {
+    "title": "Moody's holds India's FY27 growth at 7%",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/news/moody-s-retains-india-s-fy27-growth-forecast-at-7-on-resilient-demand-126111101341_1.html",
+    "domain": "Economy",
+    "why": "Moody's kept India at 7% growth, crediting strong consumption, early signs of a private capex revival and resilience to the West Asia oil shock, while flagging inflation near the top of RBI's band and likely rate hikes. India stays the fastest-growing large economy as G20 growth slows to about 2.6%.",
+    "question": "Apply inversion: instead of asking why India will grow 7%, list what would have to happen for it to grow only 5%, and which of those risks (RBI tightening, a weak monsoon, oil) is already visible?"
+   },
+   {
+    "title": "Abu Dhabi talks yield a big prisoner swap, little else",
+    "source": "Reuters via Business Standard",
+    "url": "https://www.business-standard.com/amp/world-news/russia-ukraine-reach-deal-on-prisoner-swap-but-trust-gap-holds-back-talks-126111200268_1.html",
+    "domain": "Geopolitics",
+    "why": "US-mediated talks between Russia and Ukraine agreed in principle on what US envoys called the war's largest prisoner release, but stayed stuck on Donbas, sequencing and Europe's role. A path to a ceasefire would ease oil and fertiliser prices, which matter directly to India's import bill.",
+    "question": "Using probabilistic thinking: how much should one humanitarian deal raise your estimate that a ceasefire comes within six months, given that the core disputes did not move?"
+   },
+   {
+    "title": "Blacklisted PLA-linked university obtained Nvidia H200s",
+    "source": "Reuters (via Yahoo Finance)",
+    "url": "https://finance.yahoo.com/news/exclusive-pla-linked-chinese-university-051308504.html",
+    "domain": "Technology",
+    "why": "Procurement records show Northwestern Polytechnical University, on the US Entity List, bought H200 chips through a local reseller and rented H200-powered servers this year. It shows how export controls leak through intermediaries and cloud access, a live issue as India tries to position itself as a trusted chip and AI partner.",
+    "question": "The map is not the territory: the Entity List says this university cannot get these chips, yet it did. Where else might a rule on paper be giving policymakers a false picture of what is really controlled?"
+   }
+  ]
  }
 }
