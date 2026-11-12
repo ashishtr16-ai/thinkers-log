@@ -1,0 +1,716 @@
+{
+ "source": "Sanskrit and transliteration: gita/gita open dataset (public domain). English meanings and notes written for Thinker's Log.",
+ "chapters": {
+  "1": {
+   "title": "Arjuna's despair",
+   "summary": "Two armies of one family face each other at Kurukshetra. Arjuna asks Krishna to drive his chariot between them, sees teachers, cousins and friends on the other side, and collapses. The whole Gita is the answer to this moment: what to do when duty and feeling pull in opposite directions.",
+   "reflect": "Where in your work or life are you facing a choice where every option costs someone you care about?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/1/",
+   "verses": [
+    {
+     "ref": "1.1",
+     "sa": "धृतराष्ट्र उवाच\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+     "tr": "dhṛitarāśhtra uvācha\ndharma-kṣhetre kuru-kṣhetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāśhchaiva kimakurvata sañjaya",
+     "en": "Dhritarashtra said: Sanjaya, on the field of dharma, at Kurukshetra, my sons and the sons of Pandu gathered, eager to fight. What did they do?",
+     "note": "The Gita opens with a blind king asking for news he cannot see for himself. Kurukshetra is called a field of dharma: the battlefield is also a place where right and wrong get tested. Read it as any decisive arena where your values meet reality."
+    },
+    {
+     "ref": "1.28",
+     "sa": "अर्जुन उवाच\nकृपया परयाऽऽविष्टो विषीदन्निदमब्रवीत्।\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्॥",
+     "tr": "arjuna uvācha\ndṛiṣhṭvemaṁ sva-janaṁ kṛiṣhṇa yuyutsuṁ samupasthitam",
+     "en": "Arjuna said: Krishna, seeing my own people standing here eager to fight, I am overcome with pity and sinking in sorrow.",
+     "note": "Arjuna's crisis begins with seeing faces, not armies. Abstractions are easy to fight; people are not. This is the moment every leader meets when a decision stops being a slide and becomes the names of real people."
+    },
+    {
+     "ref": "1.30",
+     "sa": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते।\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः॥",
+     "tr": "gāṇḍīvaṁ sraṁsate hastāt tvak chaiva paridahyate\nna cha śhaknomy avasthātuṁ bhramatīva cha me manaḥ",
+     "en": "My bow Gandiva slips from my hand, my skin burns, I cannot stand steady, and my mind seems to whirl.",
+     "note": "The greatest archer of his age cannot hold his bow. The Gita takes the body's response to inner conflict seriously: confusion shows up as physical paralysis before it becomes a thought."
+    },
+    {
+     "ref": "1.47",
+     "sa": "सञ्जय उवाच\nएवमुक्त्वाऽर्जुनः संख्ये रथोपस्थ उपाविशत्।\nविसृज्य सशरं चापं शोकसंविग्नमानसः॥",
+     "tr": "sañjaya uvācha\nevam uktvārjunaḥ saṅkhye rathopastha upāviśhat\nvisṛijya sa-śharaṁ chāpaṁ śhoka-saṁvigna-mānasaḥ",
+     "en": "Sanjaya said: Having spoken this on the battlefield, Arjuna cast aside his bow and arrows and sank down on the seat of the chariot, his mind overwhelmed with grief.",
+     "note": "The chapter ends with withdrawal. Arjuna's arguments for not fighting sound noble, but they come from grief, not clarity. Krishna's teaching starts by separating the two."
+    }
+   ]
+  },
+  "2": {
+   "title": "The steady mind (Sankhya yoga)",
+   "summary": "Krishna answers Arjuna's grief with two ideas. First, the self is not the body: what is real in us is not born and does not die. Second, act fully but without clinging to results. The chapter ends with a portrait of the sthitaprajna, the person of steady wisdom. Many readers treat this chapter as the whole Gita in miniature.",
+   "reflect": "Which result are you clinging to so tightly that it is making your action worse?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/2/",
+   "verses": [
+    {
+     "ref": "2.7",
+     "sa": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसंमूढचेताः।\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम्॥",
+     "tr": "kārpaṇya-doṣhopahata-svabhāvaḥ\npṛichchhāmi tvāṁ dharma-sammūḍha-chetāḥ\nyach-chhreyaḥ syānniśhchitaṁ brūhi tanme\nśhiṣhyaste ’haṁ śhādhi māṁ tvāṁ prapannam",
+     "en": "My nature is overcome by weakness, and my mind is confused about what is right. I ask you: tell me for certain what is best for me. I am your student; I have come to you for refuge. Teach me.",
+     "note": "Learning begins when Arjuna admits he does not know. Until this verse he argues; here he asks. A first-principles mind starts the same way, by naming the confusion honestly instead of defending a position."
+    },
+    {
+     "ref": "2.11",
+     "sa": "श्री भगवानुवाच\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे।\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः॥",
+     "tr": "śhrī bhagavān uvācha\naśhochyān-anvaśhochas-tvaṁ prajñā-vādānśh cha bhāṣhase\ngatāsūn-agatāsūnśh-cha nānuśhochanti paṇḍitāḥ",
+     "en": "The Lord said: You grieve for those who should not be grieved for, yet you speak words that sound wise. The wise grieve neither for the living nor for the dead.",
+     "note": "Krishna's first move is gently ironic: Arjuna's reasons sound wise but come from sorrow. The test of wisdom is not how good an argument sounds but whether it comes from a clear mind."
+    },
+    {
+     "ref": "2.13",
+     "sa": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति॥",
+     "tr": "dehino ’smin yathā dehe kaumāraṁ yauvanaṁ jarā\ntathā dehāntara-prāptir dhīras tatra na muhyati",
+     "en": "Just as the embodied self passes through childhood, youth and old age in this body, so it passes into another body. The steady are not confused by this.",
+     "note": "You have already been a child, a student and a young professional, and you were 'you' through all of it. The verse asks what that continuous 'you' really is, beneath the changing roles and bodies."
+    },
+    {
+     "ref": "2.20",
+     "sa": "न जायते म्रियते वा कदाचि न्नायं भूत्वा भविता वा न भूयः।\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे॥",
+     "tr": "na jāyate mriyate vā kadāchin\nnāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śhāśhvato ’yaṁ purāṇo\nna hanyate hanyamāne śharīre",
+     "en": "The self is never born and never dies. It did not come into being and will not cease to be. Unborn, eternal, everlasting and ancient, it is not killed when the body is killed.",
+     "note": "This is the metaphysical root of the Gita: what you most deeply are cannot be destroyed. Whether you take it literally or as a stance, it removes fear as the driver of action."
+    },
+    {
+     "ref": "2.22",
+     "sa": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि।\nतथा शरीराणि विहाय जीर्णा न्यन्यानि संयाति नवानि देही॥",
+     "tr": "vāsānsi jīrṇāni yathā vihāya\nnavāni gṛihṇāti naro ’parāṇi\ntathā śharīrāṇi vihāya jīrṇānya\nnyāni sanyāti navāni dehī",
+     "en": "As a person discards worn-out clothes and puts on new ones, the embodied self discards worn-out bodies and enters new ones.",
+     "note": "One of the Gita's most famous images. It frames death as a change of clothes, not an end. Practically, it invites holding forms lightly: bodies, roles, titles, and identities you will one day take off."
+    },
+    {
+     "ref": "2.47",
+     "sa": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+     "tr": "karmaṇy-evādhikāras te mā phaleṣhu kadāchana\nmā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi",
+     "en": "You have a right to your actions alone, never to their fruits. Do not let the fruits of action be your motive, and do not be attached to inaction.",
+     "note": "The most quoted verse of the Gita. Do the work fully; let go of owning the outcome. Note the second half: this is not permission to stop. Detachment from results is meant to make action better, not smaller."
+    },
+    {
+     "ref": "2.48",
+     "sa": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते॥",
+     "tr": "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga uchyate",
+     "en": "Established in yoga, perform your actions, Arjuna, giving up attachment, the same in success and failure. This evenness of mind is called yoga.",
+     "note": "Here yoga is defined not as posture but as samatvam, evenness. A decision-maker who is the same in success and failure sees the situation instead of their own hopes and fears."
+    },
+    {
+     "ref": "2.56",
+     "sa": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते॥",
+     "tr": "duḥkheṣhv-anudvigna-manāḥ sukheṣhu vigata-spṛihaḥ\nvīta-rāga-bhaya-krodhaḥ sthita-dhīr munir uchyate",
+     "en": "One whose mind is not shaken in sorrow, who does not crave pleasures, and who is free from attachment, fear and anger, is called a sage of steady wisdom.",
+     "note": "The portrait of the sthitaprajna. Notice the list: attachment, fear and anger. These are exactly the forces that distort judgement in a crisis."
+    },
+    {
+     "ref": "2.62",
+     "sa": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\nसङ्गात् संजायते कामः कामात्क्रोधोऽभिजायते॥",
+     "tr": "dhyāyato viṣhayān puṁsaḥ saṅgas teṣhūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate",
+     "en": "When a person dwells on objects of the senses, attachment to them arises. From attachment comes desire, and from desire comes anger.",
+     "note": "A precise causal chain, almost a systems diagram: attention, then attachment, then desire, then anger when the desire is blocked. The leverage point is the first link, where your attention goes."
+    },
+    {
+     "ref": "2.63",
+     "sa": "क्रोधाद्भवति संमोहः संमोहात्स्मृतिविभ्रमः।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति॥",
+     "tr": "krodhād bhavati sammohaḥ sammohāt smṛiti-vibhramaḥ\nsmṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati",
+     "en": "From anger comes delusion; from delusion, confusion of memory; from confused memory, the loss of judgement; and with the loss of judgement, one is ruined.",
+     "note": "The chain continues to collapse. Anger clouds perception, which corrupts memory, which destroys judgement. Compare it with Kahneman: emotion first, then the story that justifies it."
+    }
+   ]
+  },
+  "3": {
+   "title": "Selfless action (Karma yoga)",
+   "summary": "Arjuna asks: if knowledge is higher than action, why fight? Krishna answers that no one can avoid acting, so the question is how to act. Work done as an offering, without selfish attachment, frees instead of binds. Leaders matter most, because others copy what they do.",
+   "reflect": "What do the people around you copy from you, whether you intend it or not?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/3/",
+   "verses": [
+    {
+     "ref": "3.5",
+     "sa": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत्।\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः॥",
+     "tr": "na hi kaśhchit kṣhaṇam api jātu tiṣhṭhatyakarma-kṛit\nkāryate hyavaśhaḥ karma sarvaḥ prakṛiti-jair guṇaiḥ",
+     "en": "No one can remain without action even for a moment. Everyone is driven to act, helplessly, by the qualities born of nature.",
+     "note": "Inaction is not an option; even withdrawing is a choice with consequences. So the real question is never whether to act but in what spirit."
+    },
+    {
+     "ref": "3.8",
+     "sa": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः॥",
+     "tr": "niyataṁ kuru karma tvaṁ karma jyāyo hyakarmaṇaḥ\nśharīra-yātrāpi cha te na prasiddhyed akarmaṇaḥ",
+     "en": "Do your prescribed duty, for action is better than inaction. Even the maintenance of your body would not be possible without action.",
+     "note": "A plain, practical verse. The Gita does not glorify escape. Doing your proper work well is itself the spiritual path."
+    },
+    {
+     "ref": "3.19",
+     "sa": "तस्मादसक्तः सततं कार्यं कर्म समाचर।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः॥",
+     "tr": "tasmād asaktaḥ satataṁ kāryaṁ karma samāchara\nasakto hyācharan karma param āpnoti pūruṣhaḥ",
+     "en": "So, without attachment, always do the work that has to be done. By working without attachment, a person reaches the highest.",
+     "note": "Duty plus non-attachment is the formula. The work is not lessened; only the anxious grip on the result is."
+    },
+    {
+     "ref": "3.21",
+     "sa": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते॥",
+     "tr": "yad yad ācharati śhreṣhṭhas tat tad evetaro janaḥ\nsa yat pramāṇaṁ kurute lokas tad anuvartate",
+     "en": "Whatever a great person does, others follow. Whatever standard they set, the world follows it.",
+     "note": "The Gita's leadership verse. Culture is set by what leaders do, not what they say. It applies directly to anyone who leads a team."
+    },
+    {
+     "ref": "3.27",
+     "sa": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः।\nअहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते॥",
+     "tr": "prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśhaḥ\nahankāra-vimūḍhātmā kartāham iti manyate",
+     "en": "All actions are performed by the qualities of nature. But one deluded by ego thinks, 'I am the doer.'",
+     "note": "Outcomes come from countless causes: people, conditions, timing. Seeing this is humbling and also freeing. It is close to systems thinking: structure, not the individual ego, produces most results."
+    },
+    {
+     "ref": "3.35",
+     "sa": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥",
+     "tr": "śhreyān swa-dharmo viguṇaḥ para-dharmāt sv-anuṣhṭhitāt\nswa-dharme nidhanaṁ śhreyaḥ para-dharmo bhayāvahaḥ",
+     "en": "Better your own duty done imperfectly than another's duty done well. Better to die in your own duty; another's duty is full of danger.",
+     "note": "Svadharma: your own nature and calling. Imitating someone else's path, however impressive, is risky. Find the work that is genuinely yours."
+    },
+    {
+     "ref": "3.37",
+     "sa": "श्री भगवानुवाच\nकाम एष क्रोध एष रजोगुणसमुद्भवः।\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्॥",
+     "tr": "śhrī bhagavān uvācha\nkāma eṣha krodha eṣha rajo-guṇa-samudbhavaḥ\nmahāśhano mahā-pāpmā viddhyenam iha vairiṇam",
+     "en": "The Lord said: It is desire, it is anger, born of the quality of rajas, all-devouring and most sinful. Know this to be the enemy here.",
+     "note": "Arjuna asks what drives people to act wrongly against their will. The answer is desire that turns into anger. The enemy is internal before it is external."
+    }
+   ]
+  },
+  "4": {
+   "title": "Knowledge and action",
+   "summary": "Krishna reveals that this teaching is ancient and that he appears in every age when dharma declines. He explains the subtle relation between action and inaction, and praises knowledge as the great purifier, gained through humility, questions and service to those who have seen the truth.",
+   "reflect": "Who do you learn from with humility, real questions and service, as 4.34 describes?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/4/",
+   "verses": [
+    {
+     "ref": "4.7",
+     "sa": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\nअभ्युत्थानमधर्मस्य तदाऽऽत्मानं सृजाम्यहम्॥",
+     "tr": "yadā yadā hi dharmasya glānir bhavati bhārata\nabhyutthānam adharmasya tadātmānaṁ sṛijāmyaham",
+     "en": "Whenever dharma declines and adharma rises, Arjuna, I manifest myself.",
+     "note": "A promise that order is restored whenever it collapses. Read it historically as hope, or personally: in a collapse, something in you rises to set things right."
+    },
+    {
+     "ref": "4.8",
+     "sa": "परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\nधर्मसंस्थापनार्थाय संभवामि युगे युगे॥",
+     "tr": "paritrāṇāya sādhūnāṁ vināśhāya cha duṣhkṛitām\ndharma-sansthāpanārthāya sambhavāmi yuge yuge",
+     "en": "To protect the good, to destroy wrongdoing and to re-establish dharma, I come into being age after age.",
+     "note": "The purpose of the divine in action: protect, correct, re-establish. Notice it is cyclical, not once and for all. Every generation has to renew its own order."
+    },
+    {
+     "ref": "4.18",
+     "sa": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः।\nस बुद्धिमान् मनुष्येषु स युक्तः कृत्स्नकर्मकृत्॥",
+     "tr": "karmaṇyakarma yaḥ paśhyed akarmaṇi cha karma yaḥ\nsa buddhimān manuṣhyeṣhu sa yuktaḥ kṛitsna-karma-kṛit",
+     "en": "One who sees inaction in action and action in inaction is wise among people; they are a yogi even while performing all actions.",
+     "note": "A deliberate paradox. A calm mind can be very active without being driven, and doing nothing can be a heavy action with consequences. Look past appearances to what is really happening."
+    },
+    {
+     "ref": "4.34",
+     "sa": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः॥",
+     "tr": "tad viddhi praṇipātena paripraśhnena sevayā\nupadekṣhyanti te jñānaṁ jñāninas tattva-darśhinaḥ",
+     "en": "Learn this by humble reverence, by sincere questioning and by service. The wise who have seen the truth will teach you this knowledge.",
+     "note": "Three conditions for real learning: humility, questions and service. Questions are explicitly part of the method; the Gita invites inquiry, not blind belief."
+    },
+    {
+     "ref": "4.38",
+     "sa": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति॥",
+     "tr": "na hi jñānena sadṛiśhaṁ pavitramiha vidyate\ntatsvayaṁ yogasansiddhaḥ kālenātmani vindati",
+     "en": "In this world there is nothing as purifying as knowledge. One who is perfected in yoga finds it within themselves in due time.",
+     "note": "Knowledge here means direct understanding, not information. 'In due time' matters: insight ripens with practice; it cannot be forced."
+    },
+    {
+     "ref": "4.39",
+     "sa": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति॥",
+     "tr": "śhraddhāvān labhate jñānaṁ tat-paraḥ sanyatendriyaḥ\njñānaṁ labdhvā parāṁ śhāntim achireṇādhigachchhati",
+     "en": "One who has faith, who is devoted to it and who has mastered the senses gains this knowledge, and having gained it, soon reaches supreme peace.",
+     "note": "Faith, commitment and self-mastery as preconditions for wisdom. Shraddha here means trust strong enough to keep practising before you see results."
+    }
+   ]
+  },
+  "5": {
+   "title": "Renunciation of action",
+   "summary": "Is it better to renounce action or to act selflessly? Krishna says both lead to the goal, but selfless action is easier and safer. The wise act without being stained, like a lotus leaf in water, and see the same reality in every being.",
+   "reflect": "Where could you act fully this week while staying untouched, like the lotus leaf?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/5/",
+   "verses": [
+    {
+     "ref": "5.10",
+     "sa": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा॥",
+     "tr": "brahmaṇyādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ\nlipyate na sa pāpena padma-patram ivāmbhasā",
+     "en": "One who acts, offering actions to Brahman and giving up attachment, is not touched by sin, as a lotus leaf is not wetted by water.",
+     "note": "The lotus leaf sits in water without getting wet. The image says you do not need to leave the world to be free of it; you need a different relation to it."
+    },
+    {
+     "ref": "5.18",
+     "sa": "विद्याविनयसंपन्ने ब्राह्मणे गवि हस्तिनि।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः॥",
+     "tr": "vidyā-vinaya-sampanne brāhmaṇe gavi hastini\nśhuni chaiva śhva-pāke cha paṇḍitāḥ sama-darśhinaḥ",
+     "en": "The wise see with an equal eye a learned and humble Brahmin, a cow, an elephant, a dog and an outcaste.",
+     "note": "A radical verse for its time: real wisdom sees the same essence across every social and species boundary. It challenges caste and status hierarchies directly."
+    },
+    {
+     "ref": "5.22",
+     "sa": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः॥",
+     "tr": "ye hi sansparśha-jā bhogā duḥkha-yonaya eva te\nādyantavantaḥ kaunteya na teṣhu ramate budhaḥ",
+     "en": "Pleasures born of contact with the senses are sources of sorrow, for they have a beginning and an end, Arjuna. The wise do not delight in them.",
+     "note": "Anything that begins also ends, so pleasures that depend on circumstances carry their own loss inside them. This is not anti-joy; it points to a joy that does not depend on contact."
+    },
+    {
+     "ref": "5.29",
+     "sa": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम्।\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति॥",
+     "tr": "bhoktāraṁ yajña-tapasāṁ sarva-loka-maheśhvaram\nsuhṛidaṁ sarva-bhūtānāṁ jñātvā māṁ śhāntim ṛichchhati",
+     "en": "Knowing me as the enjoyer of sacrifices and austerities, the great lord of all worlds and the friend of all beings, one attains peace.",
+     "note": "The chapter closes with the divine as suhrdam sarva-bhutanam, the friend of all beings. Peace comes from seeing reality as fundamentally friendly."
+    }
+   ]
+  },
+  "6": {
+   "title": "Meditation (Dhyana yoga)",
+   "summary": "Krishna teaches the practice of meditation: how to sit, how to steady the mind, and how to live with balance. The mind is restless, he admits, but it can be trained through practice and detachment. You are your own friend and your own enemy.",
+   "reflect": "In which area is your own mind currently acting as your enemy rather than your friend?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/6/",
+   "verses": [
+    {
+     "ref": "6.5",
+     "sa": "उद्धरेदात्मनाऽऽत्मानं नात्मानमवसादयेत्।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः॥",
+     "tr": "uddhared ātmanātmānaṁ nātmānam avasādayet\nātmaiva hyātmano bandhur ātmaiva ripur ātmanaḥ",
+     "en": "Lift yourself by your own self; do not let yourself sink. The self alone is the friend of the self, and the self alone is the enemy of the self.",
+     "note": "Self-reliance in its deepest form: no one else can raise you. The same mind that drags you down can lift you up."
+    },
+    {
+     "ref": "6.6",
+     "sa": "बन्धुरात्माऽऽत्मनस्तस्य येनात्मैवात्मना जितः।\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत्॥",
+     "tr": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ\nanātmanas tu śhatrutve vartetātmaiva śhatru-vat",
+     "en": "For one who has mastered the self by the self, the self is a friend. But for one who has not, the self behaves like an enemy.",
+     "note": "Self-mastery decides whether your own mind works for you or against you. It is a practical test you can run on any bad habit."
+    },
+    {
+     "ref": "6.17",
+     "sa": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु।\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा॥",
+     "tr": "yuktāhāra-vihārasya yukta-cheṣhṭasya karmasu\nyukta-svapnāvabodhasya yogo bhavati duḥkha-hā",
+     "en": "Yoga destroys sorrow for one who is moderate in eating and recreation, balanced in work, and regular in sleep and waking.",
+     "note": "The Gita's verse on balance: food, rest, work and sleep. Extremes, even spiritual ones, do not work. It reads like modern advice on sustainable performance."
+    },
+    {
+     "ref": "6.26",
+     "sa": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्।\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत्॥",
+     "tr": "yato yato niśhcharati manaśh chañchalam asthiram\ntatas tato niyamyaitad ātmanyeva vaśhaṁ nayet",
+     "en": "Wherever the restless, unsteady mind wanders, draw it back from there and bring it under the control of the self.",
+     "note": "This is the whole method of meditation in one line. Wandering is expected; the practice is the return, again and again."
+    },
+    {
+     "ref": "6.35",
+     "sa": "श्री भगवानुवाच\nअसंशयं महाबाहो मनो दुर्निग्रहं चलं।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते॥",
+     "tr": "śhrī bhagavān uvācha\nasanśhayaṁ mahā-bāho mano durnigrahaṁ chalam\nabhyāsena tu kaunteya vairāgyeṇa cha gṛihyate",
+     "en": "The Lord said: Without doubt, Arjuna, the mind is restless and hard to control. But it can be held through practice and detachment.",
+     "note": "Krishna agrees with Arjuna that the mind is hard to control. Then he gives two tools: abhyasa (repeated practice) and vairagya (letting go). Neither works alone."
+    }
+   ]
+  },
+  "7": {
+   "title": "Knowledge and wisdom",
+   "summary": "Krishna describes his lower and higher natures, the material world and the life principle, and says everything is strung on him like pearls on a thread. Few people seek the truth, and they come for different reasons.",
+   "reflect": "Which of the four reasons in 7.16 brings you to this reading: distress, curiosity, ambition or wisdom?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/7/",
+   "verses": [
+    {
+     "ref": "7.3",
+     "sa": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये।\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः॥",
+     "tr": "manuṣhyāṇāṁ sahasreṣhu kaśhchid yatati siddhaye\nyatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ",
+     "en": "Among thousands of people, hardly one strives for perfection; and among those who strive and succeed, hardly one knows me in truth.",
+     "note": "Depth is rare. The verse does not discourage; it honours the effort. Most people never start the search; starting already sets you apart."
+    },
+    {
+     "ref": "7.7",
+     "sa": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय।\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव॥",
+     "tr": "mattaḥ parataraṁ nānyat kiñchid asti dhanañjaya\nmayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva",
+     "en": "There is nothing higher than me, Arjuna. Everything is strung on me like pearls on a thread.",
+     "note": "The pearls are visible; the thread is not. The image points to the unseen unity running through diverse things, a pattern a systems thinker will recognise."
+    },
+    {
+     "ref": "7.16",
+     "sa": "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन।\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ॥",
+     "tr": "chatur-vidhā bhajante māṁ janāḥ sukṛitino ’rjuna\nārto jijñāsur arthārthī jñānī cha bharatarṣhabha",
+     "en": "Four kinds of virtuous people worship me, Arjuna: the distressed, the seeker of knowledge, the seeker of wealth, and the wise.",
+     "note": "A non-judgemental list of why people turn to the spiritual: trouble, curiosity, need, or wisdom. Every entry point is valid; what matters is that one enters."
+    },
+    {
+     "ref": "7.19",
+     "sa": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते।\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः॥",
+     "tr": "bahūnāṁ janmanām ante jñānavān māṁ prapadyate\nvāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ",
+     "en": "After many births, the wise person surrenders to me, knowing that Vasudeva is everything. Such a great soul is very rare.",
+     "note": "The culmination of wisdom is seeing the divine in everything. 'After many births' signals that this vision is the fruit of long maturing, not a quick insight."
+    }
+   ]
+  },
+  "8": {
+   "title": "The imperishable",
+   "summary": "Arjuna asks about Brahman, karma and the moment of death. Krishna teaches that what we dwell on through life shapes where we go at its end, so remember the highest at all times, and keep acting.",
+   "reflect": "What do you dwell on most often? Is it what you would want to be thinking at the end?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/8/",
+   "verses": [
+    {
+     "ref": "8.5",
+     "sa": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम्।\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः॥",
+     "tr": "anta-kāle cha mām eva smaran muktvā kalevaram\nyaḥ prayāti sa mad-bhāvaṁ yāti nāstyatra sanśhayaḥ",
+     "en": "Whoever leaves the body at the time of death remembering me alone attains my being. Of this there is no doubt.",
+     "note": "The last thought matters, but the next verses show it is not a trick: the last thought is the one you have practised all your life."
+    },
+    {
+     "ref": "8.7",
+     "sa": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च।\nमय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयम्॥",
+     "tr": "tasmāt sarveṣhu kāleṣhu mām anusmara yudhya cha\nmayyarpita-mano-buddhir mām evaiṣhyasyasanśhayam",
+     "en": "So remember me at all times, and fight. With your mind and intellect fixed on me, you will surely come to me.",
+     "note": "The key phrase is 'and fight': remember the highest and keep doing your work. Spirituality and duty run together, not in sequence."
+    },
+    {
+     "ref": "8.15",
+     "sa": "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम्।\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः॥",
+     "tr": "mām upetya punar janma duḥkhālayam aśhāśhvatam\nnāpnuvanti mahātmānaḥ sansiddhiṁ paramāṁ gatāḥ",
+     "en": "Having reached me, the great souls do not return to rebirth, this temporary home of sorrow; they have attained the highest perfection.",
+     "note": "The world is called a temporary home of sorrow. It is a candid view: impermanence is built into everything here, so lasting peace must lie beyond it."
+    }
+   ]
+  },
+  "9": {
+   "title": "The royal secret",
+   "summary": "Krishna calls this the king of knowledge and the royal secret: the divine pervades everything yet is not limited by it. Devotion is open to everyone, and the smallest offering made with love is accepted.",
+   "reflect": "What ordinary action this week could you do as an offering, as 9.27 suggests?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/9/",
+   "verses": [
+    {
+     "ref": "9.22",
+     "sa": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्॥",
+     "tr": "ananyāśh chintayanto māṁ ye janāḥ paryupāsate\nteṣhāṁ nityābhiyuktānāṁ yoga-kṣhemaṁ vahāmyaham",
+     "en": "Those who worship me with undivided attention, thinking of nothing else, who are always united with me: I carry what they lack and preserve what they have.",
+     "note": "Yoga-kshema: gaining what you need and keeping what you have. The promise is to those who are wholehearted. Undivided focus is rewarded in spiritual life as in any craft."
+    },
+    {
+     "ref": "9.26",
+     "sa": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति।\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥",
+     "tr": "patraṁ puṣhpaṁ phalaṁ toyaṁ yo me bhaktyā prayachchhati\ntadahaṁ bhaktyupahṛitam aśhnāmi prayatātmanaḥ",
+     "en": "Whoever offers me with devotion a leaf, a flower, a fruit or water, that offering of love from a pure heart I accept.",
+     "note": "The value of an offering lies in the intention, not its size. It democratises devotion: no one is too poor to give a leaf."
+    },
+    {
+     "ref": "9.27",
+     "sa": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्॥",
+     "tr": "yat karoṣhi yad aśhnāsi yaj juhoṣhi dadāsi yat\nyat tapasyasi kaunteya tat kuruṣhva mad-arpaṇam",
+     "en": "Whatever you do, whatever you eat, whatever you offer, whatever you give, whatever discipline you practise, Arjuna, do it as an offering to me.",
+     "note": "Turn every activity into an offering. This removes the line between sacred and ordinary: a meeting, a meal or a code review can all be done in this spirit."
+    },
+    {
+     "ref": "9.29",
+     "sa": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः।\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम्॥",
+     "tr": "samo ’haṁ sarva-bhūteṣhu na me dveṣhyo ’sti na priyaḥ\nye bhajanti tu māṁ bhaktyā mayi te teṣhu chāpyaham",
+     "en": "I am the same to all beings; no one is hateful or dear to me. But those who worship me with devotion are in me, and I am in them.",
+     "note": "The divine plays no favourites, yet a relationship forms through devotion. It is like sunlight, equal to all, but felt most by those who turn towards it."
+    }
+   ]
+  },
+  "10": {
+   "title": "Divine manifestations",
+   "summary": "Krishna lists his special manifestations: the best of every kind of thing. The point is not the list but the method: wherever you find excellence, glory or power, see a spark of the divine.",
+   "reflect": "Where have you recently seen excellence that moved you? What was it a spark of?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/10/",
+   "verses": [
+    {
+     "ref": "10.8",
+     "sa": "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः॥",
+     "tr": "ahaṁ sarvasya prabhavo mattaḥ sarvaṁ pravartate\niti matvā bhajante māṁ budhā bhāva-samanvitāḥ",
+     "en": "I am the source of everything; everything comes from me. Knowing this, the wise worship me with deep feeling.",
+     "note": "The root cause behind all causes. Philosophically it asks the first-principles question taken to its limit: what is the source of everything?"
+    },
+    {
+     "ref": "10.20",
+     "sa": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः।\nअहमादिश्च मध्यं च भूतानामन्त एव च॥",
+     "tr": "aham ātmā guḍākeśha sarva-bhūtāśhaya-sthitaḥ\naham ādiśh cha madhyaṁ cha bhūtānām anta eva cha",
+     "en": "I am the self, Arjuna, seated in the heart of all beings. I am the beginning, the middle and the end of all beings.",
+     "note": "Before the long list of glories, Krishna gives the essential one: the self within everyone. Look inward first, then outward."
+    },
+    {
+     "ref": "10.41",
+     "sa": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा।\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसंभवम्॥",
+     "tr": "yad yad vibhūtimat sattvaṁ śhrīmad ūrjitam eva vā\ntat tad evāvagachchha tvaṁ mama tejo ’nśha-sambhavam",
+     "en": "Whatever is glorious, beautiful or mighty, know that it springs from a spark of my splendour.",
+     "note": "A practical way of seeing: treat every excellence you meet, a great engine design, a piece of music, an act of courage, as a glimpse of something larger than its maker."
+    }
+   ]
+  },
+  "11": {
+   "title": "The cosmic form",
+   "summary": "Arjuna asks to see Krishna's universal form and is shown it: overwhelming, radiant, devouring time itself. Terrified, he sees that the outcome of the war is already decided; his task is to be the instrument. He then asks to see Krishna's gentle human form again.",
+   "reflect": "Where would it help to see yourself as an instrument of something larger, rather than its sole author?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/11/",
+   "verses": [
+    {
+     "ref": "11.12",
+     "sa": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता।\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः॥",
+     "tr": "divi sūrya-sahasrasya bhaved yugapad utthitā\nyadi bhāḥ sadṛiśhī sā syād bhāsas tasya mahātmanaḥ",
+     "en": "If the light of a thousand suns were to blaze forth all at once in the sky, that might resemble the splendour of that great being.",
+     "note": "An image of overwhelming light. It points to a reality so vast that ordinary perception breaks down before it."
+    },
+    {
+     "ref": "11.32",
+     "sa": "श्री भगवानुवाच\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः।\nऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः॥",
+     "tr": "śhrī-bhagavān uvācha\nkālo ’smi loka-kṣhaya-kṛit pravṛiddho\nlokān samāhartum iha pravṛittaḥ\nṛite ’pi tvāṁ na bhaviṣhyanti sarve\nye ’vasthitāḥ pratyanīkeṣhu yodhāḥ",
+     "en": "The Lord said: I am Time, the great destroyer of worlds, now come forth to annihilate these people. Even without you, all these warriors arrayed against you will cease to exist.",
+     "note": "Kala, time, is shown as the ultimate force; everything passes. Oppenheimer recalled this verse after the first atomic test. Arjuna's role does not create the outcome, so his fear of being the cause loses its grip."
+    },
+    {
+     "ref": "11.33",
+     "sa": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व जित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम्।\nमयैवैते निहताः पूर्वमेव निमित्तमात्रं भव सव्यसाचिन्॥",
+     "tr": "tasmāt tvam uttiṣhṭha yaśho labhasva\njitvā śhatrūn bhuṅkṣhva rājyaṁ samṛiddham\nmayaivaite nihatāḥ pūrvam eva\nnimitta-mātraṁ bhava savya-sāchin",
+     "en": "So stand up and win glory. Conquer your enemies and enjoy a prosperous kingdom. They have already been slain by me; be merely the instrument, Arjuna.",
+     "note": "Nimitta-matram: be only the instrument. Do your part fully while recognising that larger forces decide the result. It releases both arrogance and paralysis."
+    },
+    {
+     "ref": "11.55",
+     "sa": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः।\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव॥",
+     "tr": "mat-karma-kṛin mat-paramo mad-bhaktaḥ saṅga-varjitaḥ\nnirvairaḥ sarva-bhūteṣhu yaḥ sa mām eti pāṇḍava",
+     "en": "One who works for me, who makes me the goal, who is devoted to me, free from attachment and without enmity towards any being, comes to me, Arjuna.",
+     "note": "The chapter ends not in spectacle but in conduct: work, purpose, devotion, non-attachment and no hatred. After the vision comes the everyday practice."
+    }
+   ]
+  },
+  "12": {
+   "title": "Devotion (Bhakti yoga)",
+   "summary": "Arjuna asks whether to worship the formless or a personal God. Krishna says both reach him, but devotion to a personal form is easier for embodied beings. Then he describes the qualities of a true devotee, one of the Gita's most loved passages.",
+   "reflect": "Which one quality from 12.13 to 12.19 would most change how you lead?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/12/",
+   "verses": [
+    {
+     "ref": "12.13",
+     "sa": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी॥",
+     "tr": "adveṣhṭā sarva-bhūtānāṁ maitraḥ karuṇa eva cha\nnirmamo nirahankāraḥ sama-duḥkha-sukhaḥ kṣhamī",
+     "en": "One who bears no ill will to any being, who is friendly and compassionate, free from possessiveness and ego, balanced in pain and pleasure, and forgiving...",
+     "note": "The portrait begins with relationships: no ill will, friendship, compassion. Spiritual depth shows first in how you treat people."
+    },
+    {
+     "ref": "12.15",
+     "sa": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः॥",
+     "tr": "yasmān nodvijate loko lokān nodvijate cha yaḥ\nharṣhāmarṣha-bhayodvegair mukto yaḥ sa cha me priyaḥ",
+     "en": "One by whom the world is not disturbed and who is not disturbed by the world, who is free from elation, impatience, fear and anxiety, is dear to me.",
+     "note": "A two-way peace: you do not agitate others, and others do not agitate you. A useful test for anyone in a high-pressure role."
+    },
+    {
+     "ref": "12.18",
+     "sa": "समः शत्रौ च मित्रे च तथा मानापमानयोः।\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः॥",
+     "tr": "samaḥ śhatrau cha mitre cha tathā mānāpamānayoḥ\nśhītoṣhṇa-sukha-duḥkheṣhu samaḥ saṅga-vivarjitaḥ",
+     "en": "One who is the same to enemy and friend, in honour and dishonour, in cold and heat, in pleasure and pain, and free from attachment...",
+     "note": "Evenness across opposites again, now applied to people and reputation. Praise and blame are weather; they pass."
+    },
+    {
+     "ref": "12.19",
+     "sa": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येनकेनचित्।\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः॥",
+     "tr": "tulya-nindā-stutir maunī santuṣhṭo yena kenachit\naniketaḥ sthira-matir bhaktimān me priyo naraḥ",
+     "en": "Who is the same in blame and praise, quiet, content with whatever comes, without attachment to a home, steady in mind and full of devotion: that person is dear to me.",
+     "note": "Contentment with whatever comes is not passivity; it is freedom from needing the world to be a certain way before you can be at peace."
+    }
+   ]
+  },
+  "13": {
+   "title": "The field and its knower",
+   "summary": "Krishna distinguishes the field, the body and the whole material world, from the knower of the field, the conscious self. He lists the qualities that make up real knowledge and says that true seeing is seeing the same imperishable reality in all.",
+   "reflect": "Which of the qualities in 13.8 to 13.9 do you most need to cultivate now?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/13/",
+   "verses": [
+    {
+     "ref": "13.8",
+     "sa": "अमानित्वमदम्भित्वमहिंसा क्षान्तिरार्जवम्।\nआचार्योपासनं शौचं स्थैर्यमात्मविनिग्रहः॥",
+     "tr": "amānitvam adambhitvam ahinsā kṣhāntir ārjavam\nāchāryopāsanaṁ śhauchaṁ sthairyam ātma-vinigrahaḥ",
+     "en": "Humility, freedom from pretension, non-violence, patience, straightforwardness, service to the teacher, purity, steadiness and self-control...",
+     "note": "Knowledge, the Gita says, is a set of qualities, not facts. It is a striking definition: you know as much as your character allows you to see."
+    },
+    {
+     "ref": "13.9",
+     "sa": "इन्द्रियार्थेषु वैराग्यमनहङ्कार एव च।\nजन्ममृत्युजराव्याधिदुःखदोषानुदर्शनम्॥",
+     "tr": "indriyārtheṣhu vairāgyam anahankāra eva cha\njanma-mṛityu-jarā-vyādhi-duḥkha-doṣhānudarśhanam",
+     "en": "Detachment from objects of the senses, absence of ego, and keeping in view the pain and evil of birth, death, old age and illness...",
+     "note": "Seeing clearly includes facing the hard facts of life: ageing, illness and death. Wisdom does not look away from them."
+    },
+    {
+     "ref": "13.28",
+     "sa": "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम्।\nविनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति॥",
+     "tr": "samaṁ sarveṣhu bhūteṣhu tiṣhṭhantaṁ parameśhvaram\nvinaśhyatsv avinaśhyantaṁ yaḥ paśhyati sa paśhyati",
+     "en": "One who sees the supreme Lord dwelling equally in all beings, the imperishable within the perishable, truly sees.",
+     "note": "Ya pashyati sa pashyati: one who sees this, truly sees. Real perception goes beyond surfaces to what is constant beneath change."
+    },
+    {
+     "ref": "13.30",
+     "sa": "प्रकृत्यैव च कर्माणि क्रियमाणानि सर्वशः।\nयः पश्यति तथाऽऽत्मानमकर्तारं स पश्यति॥",
+     "tr": "prakṛityaiva cha karmāṇi kriyamāṇāni sarvaśhaḥ\nyaḥ paśhyati tathātmānam akartāraṁ sa paśhyati",
+     "en": "One who sees that all actions are performed by nature alone, and that the self is not the doer, truly sees.",
+     "note": "Echoing 3.27: actions arise from nature and conditions. The self witnesses. This dissolves much ego, guilt and pride."
+    }
+   ]
+  },
+  "14": {
+   "title": "The three gunas",
+   "summary": "All of nature is woven from three qualities: sattva (clarity and harmony), rajas (passion and activity) and tamas (inertia and darkness). They bind the self in different ways. One who rises above all three remains steady whatever arises.",
+   "reflect": "Which guna dominates your week: clarity, restless activity or inertia?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/14/",
+   "verses": [
+    {
+     "ref": "14.5",
+     "sa": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसंभवाः।\nनिबध्नन्ति महाबाहो देहे देहिनमव्ययम्॥",
+     "tr": "sattvaṁ rajas tama iti guṇāḥ prakṛiti-sambhavāḥ\nnibadhnanti mahā-bāho dehe dehinam avyayam",
+     "en": "Sattva, rajas and tamas, the qualities born of nature, bind the imperishable self to the body, Arjuna.",
+     "note": "A three-part model of behaviour and mood. It is a useful lens on yourself, teams and even organisations: clear, driven or stuck."
+    },
+    {
+     "ref": "14.22",
+     "sa": "श्री भगवानुवाच\nप्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव।\nन द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति॥",
+     "tr": "śhrī-bhagavān uvācha\nprakāśhaṁ cha pravṛittiṁ cha moham eva cha pāṇḍava\nna dveṣhṭi sampravṛittāni na nivṛittāni kāṅkṣhati",
+     "en": "The Lord said: One who does not resent clarity, activity or delusion when they arise, nor long for them when they cease...",
+     "note": "The one who has risen above the gunas does not fight their moods. They let states arise and pass, like weather, without being ruled by them."
+    },
+    {
+     "ref": "14.24",
+     "sa": "समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः।\nतुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः॥",
+     "tr": "sama-duḥkha-sukhaḥ sva-sthaḥ sama-loṣhṭāśhma-kāñchanaḥ\ntulya-priyāpriyo dhīras tulya-nindātma-sanstutiḥ",
+     "en": "Who is the same in pain and pleasure, rests in the self, regards a clod of earth, a stone and gold as equal, is the same towards the pleasant and unpleasant, steady, and the same in blame and praise...",
+     "note": "Gold and stone as equal is a vivid test. It is not about money being worthless but about your peace not depending on it."
+    },
+    {
+     "ref": "14.25",
+     "sa": "मानापमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः।\nसर्वारम्भपरित्यागी गुणातीतः स उच्यते॥",
+     "tr": "mānāpamānayos tulyas tulyo mitrāri-pakṣhayoḥ\nsarvārambha-parityāgī guṇātītaḥ sa uchyate",
+     "en": "The same in honour and dishonour, the same to friend and foe, having given up all self-driven undertakings: such a person is said to have risen above the gunas.",
+     "note": "Giving up self-driven undertakings means no longer starting things just to feed the ego. Work continues; the hidden motive changes."
+    }
+   ]
+  },
+  "15": {
+   "title": "The supreme self",
+   "summary": "Krishna describes the world as an upside-down ashvattha tree, its roots above and branches below, and teaches how to cut it with detachment. Each living being is a fragment of the eternal, and the divine dwells in every heart.",
+   "reflect": "What would 'cutting the tree with detachment' (15.1 to 15.3) mean for one attachment you carry?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/15/",
+   "verses": [
+    {
+     "ref": "15.1",
+     "sa": "श्री भगवानुवाच\nऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।\nछन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्॥",
+     "tr": "śhrī-bhagavān uvācha\nūrdhva-mūlam adhaḥ-śhākham aśhvatthaṁ prāhur avyayam\nchhandānsi yasya parṇāni yas taṁ veda sa veda-vit",
+     "en": "The Lord said: They speak of an imperishable ashvattha tree with roots above and branches below. Its leaves are the Vedic hymns. One who knows it knows the Vedas.",
+     "note": "The inverted tree is a map of existence: its source is above in the infinite, its branches spread below into the world. Understanding the structure of the tree is understanding everything."
+    },
+    {
+     "ref": "15.7",
+     "sa": "ममैवांशो जीवलोके जीवभूतः सनातनः।\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति॥",
+     "tr": "mamaivānśho jīva-loke jīva-bhūtaḥ sanātanaḥ\nmanaḥ-ṣhaṣhṭhānīndriyāṇi prakṛiti-sthāni karṣhati",
+     "en": "An eternal fragment of myself has become the living soul in the world of beings. It draws to itself the senses, with the mind as the sixth, which rest in nature.",
+     "note": "Every being carries a fragment of the eternal. It gives each person intrinsic dignity, whatever their role."
+    },
+    {
+     "ref": "15.15",
+     "sa": "सर्वस्य चाहं हृदि सन्निविष्टो मत्तः स्मृतिर्ज्ञानमपोहनं च।\nवेदैश्च सर्वैरहमेव वेद्यो वेदान्तकृद्वेदविदेव चाहम्॥",
+     "tr": "sarvasya chāhaṁ hṛidi sanniviṣhṭo\nmattaḥ smṛitir jñānam apohanaṁ cha\nvedaiśh cha sarvair aham eva vedyo\nvedānta-kṛid veda-vid eva chāham",
+     "en": "I am seated in the hearts of all. From me come memory, knowledge and their loss. I am what is to be known through all the Vedas; I am the author of Vedanta and the knower of the Vedas.",
+     "note": "The divine as the source of memory and knowledge, and of forgetting too. All learning, in this view, is ultimately coming to know what is already within."
+    }
+   ]
+  },
+  "16": {
+   "title": "Divine and demonic qualities",
+   "summary": "Krishna contrasts two kinds of nature. The divine qualities lead to freedom; the demonic ones (arrogance, cruelty, endless craving) lead to bondage. Three gates lead to self-destruction: desire, anger and greed.",
+   "reflect": "Which of the three gates in 16.21 is most often open for you, and what closes it?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/16/",
+   "verses": [
+    {
+     "ref": "16.1",
+     "sa": "श्री भगवानुवाच\nअभयं सत्त्वसंशुद्धिः ज्ञानयोगव्यवस्थितिः।\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्॥",
+     "tr": "śhrī-bhagavān uvācha\nabhayaṁ sattva-sanśhuddhir jñāna-yoga-vyavasthitiḥ\ndānaṁ damaśh cha yajñaśh cha svādhyāyas tapa ārjavam",
+     "en": "The Lord said: Fearlessness, purity of heart, steadfastness in knowledge and yoga, generosity, self-control, sacrifice, study of scripture, discipline and straightforwardness...",
+     "note": "The list of divine qualities opens with fearlessness. It comes first because fear distorts every other virtue."
+    },
+    {
+     "ref": "16.2",
+     "sa": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्।\nदया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्॥",
+     "tr": "ahinsā satyam akrodhas tyāgaḥ śhāntir apaiśhunam\ndayā bhūteṣhv aloluptvaṁ mārdavaṁ hrīr achāpalam",
+     "en": "Non-violence, truthfulness, freedom from anger, renunciation, peace, not finding fault, compassion for beings, freedom from greed, gentleness, modesty and steadiness...",
+     "note": "Not finding fault (apaishunam) sits among the great virtues. Constant criticism of others is a habit that hardens the heart."
+    },
+    {
+     "ref": "16.3",
+     "sa": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता।\nभवन्ति सम्पदं दैवीमभिजातस्य भारत॥",
+     "tr": "tejaḥ kṣhamā dhṛitiḥ śhaucham adroho nāti-mānitā\nbhavanti sampadaṁ daivīm abhijātasya bhārata",
+     "en": "Vigour, forgiveness, fortitude, cleanliness, freedom from malice and from excessive pride: these belong to one born with the divine nature, Arjuna.",
+     "note": "Vigour and fortitude are virtues too. The divine nature is not passive; it is energetic, resilient and forgiving at once."
+    },
+    {
+     "ref": "16.21",
+     "sa": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः।\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत्॥",
+     "tr": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśhanam ātmanaḥ\nkāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
+     "en": "Desire, anger and greed: these are the three gates to hell that destroy the self. Therefore give up these three.",
+     "note": "A compact diagnosis. Most personal and organisational disasters can be traced to one of these three gates."
+    }
+   ]
+  },
+  "17": {
+   "title": "The three kinds of faith",
+   "summary": "Arjuna asks about those who act with faith but outside scripture. Krishna explains that faith takes the shape of a person's nature and shows how food, sacrifice, discipline and giving each come in sattvic, rajasic and tamasic forms.",
+   "reflect": "What does your faith, the thing you most deeply trust, say about who you are?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/17/",
+   "verses": [
+    {
+     "ref": "17.3",
+     "sa": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत।\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः॥",
+     "tr": "sattvānurūpā sarvasya śhraddhā bhavati bhārata\nśhraddhā-mayo ‘yaṁ puruṣho yo yach-chhraddhaḥ sa eva saḥ",
+     "en": "Everyone's faith matches their nature, Arjuna. A person is made of their faith: whatever their faith is, that is what they are.",
+     "note": "Shraddhamayo'yam purushah: a person is made of faith. What you deeply trust shapes who you become. Choosing what to trust is choosing who to be."
+    },
+    {
+     "ref": "17.15",
+     "sa": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत्।\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते॥",
+     "tr": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ cha yat\nsvādhyāyābhyasanaṁ chaiva vāṅ-mayaṁ tapa uchyate",
+     "en": "Words that cause no distress, that are truthful, pleasant and beneficial, and the regular study of scripture: this is called the discipline of speech.",
+     "note": "A four-part test for speech: does it avoid needless hurt, is it true, is it kind, does it help? A practical rule for feedback and meetings."
+    },
+    {
+     "ref": "17.20",
+     "sa": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे।\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम्॥",
+     "tr": "dātavyam iti yad dānaṁ dīyate ‘nupakāriṇe\ndeśhe kāle cha pātre cha tad dānaṁ sāttvikaṁ smṛitam",
+     "en": "A gift given because it is right to give, to someone who cannot repay it, at the right place and time, to a worthy person, is called sattvic.",
+     "note": "Pure giving expects nothing back, and is also wise about place, time and recipient. Generosity and judgement go together."
+    }
+   ]
+  },
+  "18": {
+   "title": "Liberation through renunciation",
+   "summary": "The final chapter gathers the whole teaching: true renunciation is giving up the fruits of action, not action itself. Krishna returns to svadharma, gives his most secret teaching of surrender, and then leaves Arjuna free to decide. Arjuna rises, his confusion gone.",
+   "reflect": "Krishna ends with 'reflect fully, then do as you wish.' After 18 Sundays, what do you now choose?",
+   "link": "https://www.holy-bhagavad-gita.org/chapter/18/",
+   "verses": [
+    {
+     "ref": "18.47",
+     "sa": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम्॥",
+     "tr": "śhreyān swa-dharmo viguṇaḥ para-dharmāt sv-anuṣhṭhitāt\nsvabhāva-niyataṁ karma kurvan nāpnoti kilbiṣham",
+     "en": "Better your own duty done imperfectly than another's duty done well. One who does the work suited to their own nature incurs no fault.",
+     "note": "The Gita returns to 3.35 at its close: your path, imperfectly walked, beats a borrowed one done well. It is a final word on authenticity."
+    },
+    {
+     "ref": "18.48",
+     "sa": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत्।\nसर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः॥",
+     "tr": "saha-jaṁ karma kaunteya sa-doṣham api na tyajet\nsarvārambhā hi doṣheṇa dhūmenāgnir ivāvṛitāḥ",
+     "en": "Do not abandon the work you were born to, Arjuna, even if it has flaws. Every undertaking is covered by some fault, as fire is covered by smoke.",
+     "note": "No work is flawless; every fire has smoke. Waiting for a perfect path is a way of never walking one."
+    },
+    {
+     "ref": "18.63",
+     "sa": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया।\nविमृश्यैतदशेषेण यथेच्छसि तथा कुरु॥",
+     "tr": "iti te jñānam ākhyātaṁ guhyād guhyataraṁ mayā\nvimṛiśhyaitad aśheṣheṇa yathechchhasi tathā kuru",
+     "en": "Thus I have taught you knowledge more secret than all secrets. Reflect on it fully, and then do as you wish.",
+     "note": "Perhaps the Gita's most remarkable verse. After all the teaching, Krishna does not command; he asks Arjuna to think it through and choose freely. A model for every mentor."
+    },
+    {
+     "ref": "18.66",
+     "sa": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥",
+     "tr": "sarva-dharmān parityajya mām ekaṁ śharaṇaṁ vraja\nahaṁ tvāṁ sarva-pāpebhyo mokṣhayiṣhyāmi mā śhuchaḥ",
+     "en": "Abandon all forms of dharma and simply surrender to me alone. I will free you from all sin; do not grieve.",
+     "note": "The final teaching: when rules and duties become confusing, surrender to the highest. Many read it as the call to drop the anxious calculation and trust."
+    },
+    {
+     "ref": "18.78",
+     "sa": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः।\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम॥",
+     "tr": "yatra yogeśhvaraḥ kṛiṣhṇo yatra pārtho dhanur-dharaḥ\ntatra śhrīr vijayo bhūtir dhruvā nītir matir mama",
+     "en": "Wherever there is Krishna, the lord of yoga, and wherever there is Arjuna, the archer, there will surely be fortune, victory, prosperity and sound policy. That is my conviction.",
+     "note": "Sanjaya's closing words: wisdom and capable action together bring victory. Neither alone is enough; the guide and the doer must meet."
+    }
+   ]
+  }
+ }
+}

@@ -15,7 +15,7 @@
 <link rel="icon" href="icons/icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Serif+Devanagari:wght@500&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
 /* Layout: phone app — header, one scrolling screen at a time, fixed bottom tab bar (Today · History · Plan) */
 :root{
@@ -82,6 +82,11 @@ dl{margin:0}
 .story h3 a{color:inherit;text-decoration:none}
 .story p{margin:0;overflow-wrap:anywhere}
 .story .q{font-size:.92rem;color:var(--muted);border-left:3px solid var(--write);padding-left:10px}
+.verse .sa{font:500 1.12rem/1.75 "Noto Serif Devanagari","Nirmala UI","Mangal",serif;white-space:pre-line;margin:2px 0 0}
+.verse .tr{font-style:italic;color:var(--muted);white-space:pre-line;font-size:.9rem;line-height:1.55}
+.verse .en{font-weight:500}
+.reflect{background:var(--read-soft);border-radius:12px;padding:12px 14px;font-size:.95rem;display:flex;flex-direction:column;gap:6px}
+.reflect a{color:var(--read);font-weight:600;font-size:.88rem}
 .empty{color:var(--muted);font-size:.95rem;background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0}
 /* lists */
 .list{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:4px 16px}
@@ -170,7 +175,7 @@ dialog#ask::backdrop{background:rgba(20,8,9,.5)}
         <div class="done"><button class="yes primary" id="btn-done">Mark done</button></div>
       </section>
       <section class="news" id="newsSec">
-        <p class="label">News to study today</p>
+        <p class="label" id="newsLabel">News to study today</p>
         <div id="news"></div>
       </section>
     </div>
@@ -208,7 +213,7 @@ dialog#ask::backdrop{background:rgba(20,8,9,.5)}
     <div class="top"><h2 id="askTitle">Ask about this</h2><button type="button" id="askClose" aria-label="Close">✕</button></div>
     <div class="ctx" id="askCtx">
       <label><input type="checkbox" id="ctxRead" checked><span><b>Reading:</b> <span id="ctxReadT"></span></span></label>
-      <label><input type="checkbox" id="ctxNews" checked><span><b>News:</b> <span id="ctxNewsT"></span></span></label>
+      <label><input type="checkbox" id="ctxNews" checked><span><b id="ctxNewsL">News:</b> <span id="ctxNewsT"></span></span></label>
     </div>
     <div>
       <p class="label" style="margin-bottom:8px">Choose a way in, or write your own</p>
@@ -242,10 +247,13 @@ const pad=n=>String(n).padStart(2,"0");
 const key=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
 function toast(t){const el=$("toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2200)}
 
-let START, PLAN=[], NEWS=ls.get("tl-news")||{}, done=ls.get("tl-done")||{}, sel=0, TODAY_I=0;
+let GITA=ls.get("tl-gita"), START, PLAN=[], NEWS=ls.get("tl-news")||{}, done=ls.get("tl-done")||{}, sel=0, TODAY_I=0;
 const dayIndex=d=>Math.round((new Date(d.getFullYear(),d.getMonth(),d.getDate())-START)/864e5);
 const dateOf=i=>{const d=new Date(START);d.setDate(d.getDate()+i);return d};
 const isPast=i=>i<dayIndex(new Date());
+const gitaCh=p=>{if(!p||p.book!=="Bhagavad Gita")return null;const m=/Ch\. (\d+)/.exec(p.read);return m&&GITA&&GITA.chapters[m[1]]?{n:m[1],...GITA.chapters[m[1]]}:null};
+const gitaItems=g=>g.verses.map(v=>({title:`Bhagavad Gita ${v.ref}`,source:"Bhagavad Gita",why:`${v.en} Sanskrit: ${v.sa.replace(/\n/g," ")}`,url:g.link}));
+function dayItems(){const g=gitaCh(PLAN[sel]);if(g)return {kind:"gita",items:gitaItems(g)};const n=NEWS[key(dateOf(sel))];return {kind:"news",items:n&&n.items||[]}}
 
 /* ---------- Today ---------- */
 function renderDay(){
@@ -257,12 +265,36 @@ function renderDay(){
   $("prev").disabled=sel===0;$("next").disabled=sel===PLAN.length-1;$("gotoday").hidden=sel===TODAY_I;
   $("wk").textContent=`Week ${p.wk} of 52 · `+(p.q==="Sunday"?"Sunday thread":p.q);
   $("book").textContent=p.book;
-  $("r-read").textContent=p.read;$("r-look").textContent=p.look;$("r-news").textContent=p.news;
+  const g=gitaCh(p);
+  $("r-read").textContent=g?`Chapter ${g.n}: ${g.title}. The key shlokas are below: read each slowly, the Sanskrit aloud if you like, then its meaning.`:p.read;
+  $("r-look").textContent=p.look;$("r-news").textContent=p.news;
   $("r-write").textContent=p.q==="Sunday"?p.write:"Writing card, applied to: "+p.write;
   const b=$("btn-done");b.textContent=done[k]?"Done ✓  (tap to undo)":"Mark done";b.classList.toggle("on",!!done[k]);
   renderNews();renderProgress();
 }
+function renderGita(g){
+  const box=$("news");box.textContent="";$("newsLabel").textContent=`Today's shlokas · Chapter ${g.n}`;
+  const intro=document.createElement("div");intro.className="lens";const b=document.createElement("b");b.textContent=g.title+". ";intro.append(b,document.createTextNode(g.summary));box.appendChild(intro);
+  g.verses.forEach((v,i)=>{
+    const a=document.createElement("article");a.className="story verse";
+    const src=document.createElement("div");src.className="src";
+    const tg=document.createElement("span");tg.className="tag";tg.textContent=`Shloka ${v.ref}`;
+    const sn=document.createElement("span");sn.textContent=`${i+1} of ${g.verses.length}`;src.append(tg,sn);
+    const sa=document.createElement("p");sa.className="sa";sa.lang="sa";sa.textContent=v.sa;
+    const tr=document.createElement("p");tr.className="tr";tr.textContent=v.tr;
+    const en=document.createElement("p");en.className="en";en.textContent=v.en;
+    const no=document.createElement("p");no.className="q";no.textContent=v.note;
+    const ab=document.createElement("button");ab.className="askbtn";ab.textContent="Ask about this shloka";ab.onclick=()=>openAsk(gitaItems(g)[i]);
+    a.append(src,sa,tr,en,no,ab);box.appendChild(a)});
+  const r=document.createElement("div");r.className="reflect";
+  const rb=document.createElement("b");rb.textContent="Reflect and write: ";
+  const rp=document.createElement("span");rp.append(rb,document.createTextNode(g.reflect));
+  const ln=document.createElement("a");ln.href=g.link;ln.target="_blank";ln.rel="noopener";ln.textContent="Want more? Every verse of this chapter, free online ↗";
+  r.append(rp,ln);box.appendChild(r);
+}
 function renderNews(){
+  const g=gitaCh(PLAN[sel]);if(g)return renderGita(g);
+  $("newsLabel").textContent="News to study today";
   const box=$("news"),k=key(dateOf(sel)),n=NEWS[k],now=dayIndex(new Date());box.textContent="";
   if(!n||!Array.isArray(n.items)||!n.items.length){
     const p=document.createElement("p");p.className="empty";
@@ -356,23 +388,25 @@ let sx=null,sy=null;
 /* ---------- ask ---------- */
 let askStory=null;
 function openAsk(story){
-  askStory=story||null;const p=PLAN[sel],n=NEWS[key(dateOf(sel))];
+  askStory=story||null;const p=PLAN[sel],d=dayItems(),gita=d.kind==="gita";
   $("ctxReadT").textContent=`${p.book}, ${p.read}`;
-  const has=n&&n.items&&n.items.length;
-  $("ctxNews").checked=!!has;$("ctxNews").disabled=!has;
-  $("ctxNewsT").textContent=askStory?askStory.title:has?`all ${n.items.length} of the day's stories`:"none saved for this day";
-  $("askTitle").textContent=askStory?"Ask about this story":"Ask about today";
+  const has=d.items.length>0;
+  $("ctxNews").checked=has;$("ctxNews").disabled=!has;
+  $("ctxNewsL").textContent=gita?"Shlokas:":"News:";
+  $("ctxNewsT").textContent=askStory?askStory.title:has?(gita?`all ${d.items.length} of today's shlokas`:`all ${d.items.length} of the day's stories`):"none saved for this day";
+  $("askTitle").textContent=askStory?(gita?"Ask about this shloka":"Ask about this story"):"Ask about today";
   document.querySelectorAll("#chips button").forEach(b=>b.setAttribute("aria-pressed","false"));
   $("askText").value="";
   if(typeof $("ask").showModal==="function")$("ask").showModal();else $("ask").setAttribute("open","");
 }
 function buildPrompt(){
-  const p=PLAN[sel],n=NEWS[key(dateOf(sel))],q=$("askText").value.trim();
+  const p=PLAN[sel],d=dayItems(),gita=d.kind==="gita",q=$("askText").value.trim();
   const parts=["I'm following a 52-week reading plan to think in first principles and form my own perspective on the world."];
   if($("ctxRead").checked)parts.push(`Today's reading: ${p.book}, ${p.read}. What to look for: ${p.look}.`);
-  if($("ctxNews").checked&&n&&n.items){
-    const items=askStory?[askStory]:n.items;
-    parts.push((askStory?"The news story:":"Today's news:")+"\n"+items.map((it,i)=>`${i+1}. ${it.title} (${it.source}). ${it.why} ${it.url||""}`).join("\n"));
+  if($("ctxNews").checked&&d.items.length){
+    const items=askStory?[askStory]:d.items;
+    const head=gita?(askStory?"The shloka:":"Today's shlokas:"):(askStory?"The news story:":"Today's news:");
+    parts.push(head+"\n"+items.map((it,i)=>gita?`${i+1}. ${it.title}: ${it.why}`:`${i+1}. ${it.title} (${it.source}). ${it.why} ${it.url||""}`).join("\n"));
   }
   parts.push("My question: "+(q||"Give me three genuinely different perspectives on this, including the strongest opposing view."));
   parts.push("Please give distinct perspectives, including the strongest case against the obvious view; say where the evidence is solid and where it is contested; connect it to the idea in my reading where that genuinely fits. Check current facts where you can. Keep it concise.");
@@ -385,7 +419,7 @@ document.querySelectorAll("#chips button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("#chips button").forEach(x=>x.setAttribute("aria-pressed",x===b?"true":"false"));$("askText").value=b.dataset.q;$("askText").focus()});
 $("askForm").addEventListener("submit",e=>{e.preventDefault();
   const url="https://claude.ai/new?q="+encodeURIComponent(buildPrompt());
-  window.open(url,"_blank","noopener")||(location.href=url);$("ask").close()});
+  const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();$("ask").close()});
 $("askCopy").onclick=async()=>{const t=buildPrompt();
   try{await navigator.clipboard.writeText(t);toast("Copied. Paste it into any AI chat")}
   catch(_){$("askText").value=t;$("askText").select();toast("Selected. Copy it from the box")}};
@@ -417,6 +451,7 @@ async function load(){
   }catch(e){$("v-today").innerHTML='<p class="empty">The plan could not be loaded. Check that the phone is online and open the app again.</p>';return}
   TODAY_I=Math.max(0,Math.min(PLAN.length-1,dayIndex(new Date())));sel=TODAY_I;
   renderDay();updateInstallUI();
+  fetch("gita.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(g=>{if(g){GITA=g;ls.set("tl-gita",g);renderDay()}}).catch(()=>{});
   try{
     const r=await fetch("news.json",{cache:"no-cache"});
     if(r.ok){const n=await r.json();NEWS={...NEWS,...n};const keep={};Object.keys(NEWS).sort().slice(-60).forEach(k=>keep[k]=NEWS[k]);ls.set("tl-news",keep);renderNews()}
