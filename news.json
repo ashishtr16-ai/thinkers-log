@@ -150,5 +150,43 @@
     "question": "The map is not the territory: the Entity List says this university cannot get these chips, yet it did. Where else might a rule on paper be giving policymakers a false picture of what is really controlled?"
    }
   ]
+ },
+ "2026-11-13": {
+  "date": "2026-11-13",
+  "lens": "The Great Mental Models, Vol. 1 (Parrish): use second-order thinking and ask what happens after the obvious first effect of each story.",
+  "items": [
+   {
+    "title": "Jensen Huang resigns as Nvidia CEO amid scandal",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+    "domain": "Technology",
+    "why": "Huang left Nvidia's CEO role and board after reports of affairs and alleged targeting by Chinese intelligence, with CFO Colette Kress named interim CEO and the stock briefly down over 14%. The world's most important AI-chip company loses its founder just as Washington debates how many advanced chips China should get.",
+    "question": "Using second-order thinking, how might Huang's exit change US chip-export policy toward China, and what would that mean for India's AI and semiconductor plans?"
+   },
+   {
+    "title": "India's retail inflation breaches 6% for first time in two years",
+    "source": "Business Today",
+    "url": "https://www.businesstoday.in/latest/economy/story/retail-inflation-hits-two-year-high-of-6-09-in-october-breaches-rbis-6-limit-december-rate-hike-likely-567161-2026-11-12",
+    "domain": "Economy",
+    "why": "October CPI rose to 6.09% from 5.54%, driven by food inflation near 9% and energy costs feeding into core prices. Economists now expect the RBI to raise rates again on December 4, making loans costlier for households and companies.",
+    "question": "Applying first-principles thinking, can a rate hike actually fix inflation driven by weak reservoirs and food prices, or does it mainly act on something else?"
+   },
+   {
+    "title": "Oil jumps as Trump says US doesn't need an Iran deal",
+    "source": "Rigzone",
+    "url": "https://www.rigzone.com/news/wire/oil_rises_as_trump_dims_iran_deal_hopes-12-nov-2026-185073-article/",
+    "domain": "Energy",
+    "why": "Brent rose 3.3% to about $96 after Trump said the US no longer needs a deal with Iran, dimming hopes of ending the war, while Iran insists it still controls the Strait of Hormuz. For India, a large oil importer, this decides whether the recent fall in crude can ease inflation and the import bill.",
+    "question": "Thinking probabilistically, what odds would you put on the Hormuz disruption lasting another six months, and how should an Indian company plan for each scenario?"
+   },
+   {
+    "title": "Goyal says India-US trade deal announcement could come soon",
+    "source": "Business Today",
+    "url": "https://www.businesstoday.in/latest/economy/story/announcement-likely-soon-piyush-goyal-gives-big-update-on-india-us-trade-deal-567260-2026-11-13",
+    "domain": "Geopolitics",
+    "why": "The commerce minister said only a few issues remain in the first phase of the India-US trade agreement, while India holds firm on protecting dairy, GM-free farming and sensitive farm goods. A deal would reset tariffs on Indian exports and deepen ties in technology, defence and critical minerals.",
+    "question": "Using inversion, what are the most likely ways this deal could fail at the last minute, and which of them is India able to control?"
+   }
+  ]
  }
 }
