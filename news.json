@@ -188,5 +188,43 @@
     "question": "Using inversion, what are the most likely ways this deal could fail at the last minute, and which of them is India able to control?"
    }
   ]
+ },
+ "2026-11-14": {
+  "date": "2026-11-14",
+  "lens": "The Great Mental Models (Parrish): use second-order thinking. For each story, don't stop at the obvious effect; ask \"and then what?\"",
+  "items": [
+   {
+    "title": "India's retail inflation breaks the RBI's 6% ceiling",
+    "source": "ThePrint",
+    "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/",
+    "domain": "Economy",
+    "why": "October CPI rose to 6.09%, the highest this year, as food inflation rose above 8.5% and price rises spread to 11 of 12 categories, with rural areas hit harder than cities. Economists now see another RBI rate hike at the December 2–4 meeting as almost certain, though part of the jump comes from a low base last year.",
+    "question": "Map vs territory: monthly price rises have slowed since June, but the year-on-year figure keeps climbing because of a low base. Which number should guide a rate decision, and what would a hike do to food prices driven by a weak monsoon?"
+   },
+   {
+    "title": "IEA: oil market heads back to surplus despite the Iran war",
+    "source": "Reuters via BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/markets/oil/2026/11/13/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover-iea-says/",
+    "domain": "Energy",
+    "why": "The IEA now expects supply to exceed demand by about 1.7 million barrels a day this quarter, as Gulf exports recover through dark crossings of Hormuz, OPEC+ output nears pre-war levels and high prices shrink 2026 demand by 2.7 million barrels a day. For India, a big crude importer facing 6% inflation, softer oil is one of the few forces that could ease pressure on the rupee and on prices.",
+    "question": "Second-order thinking: the first-order story was 'war means shortage'. How did high prices themselves, by cutting demand and pulling in new supply, set up the surplus, and what does that suggest about forecasting during a crisis?"
+   },
+   {
+    "title": "Jensen Huang steps down as Nvidia CEO",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "domain": "Technology",
+    "why": "Nvidia's board said Huang resigned as CEO and director with immediate effect, with no reason given; CFO Colette Kress becomes interim CEO and the board has named its first independent chair. The company sits at the centre of the AI chip supply chain, so who leads it shapes the AI build-out, chip-export politics and India's own AI compute plans.",
+    "question": "Probabilistic thinking: how much of Nvidia's advantage was the founder, and how much is structural (CUDA, ecosystem, supply contracts)? How would you weigh the odds that the roadmap really continues without interruption?"
+   },
+   {
+    "title": "Ganga water treaty with Bangladesh nears expiry with no deal",
+    "source": "The Week",
+    "url": "https://www.theweek.in/news/world/2026/11/11/ganga-water-sharing-treaty-expires-india-bangladesh.html",
+    "domain": "Geopolitics",
+    "why": "The 1996 Ganga water-sharing treaty lapses on 12 December, and Dhaka wants a new treaty with guaranteed dry-season flows while Delhi prefers looser terms and must also manage West Bengal and Bihar. With ties already strained over Sheikh Hasina's presence in India, the outcome will test India's neighbourhood diplomacy, coming after it put the Indus treaty in abeyance.",
+    "question": "Inversion: instead of asking how to reach a deal, ask what would guarantee a breakdown by 12 December. Which of those failure paths are already in motion on each side?"
+   }
+  ]
  }
 }
