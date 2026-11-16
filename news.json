@@ -226,5 +226,35 @@
     "question": "Inversion: instead of asking how to reach a deal, ask what would guarantee a breakdown by 12 December. Which of those failure paths are already in motion on each side?"
    }
   ]
+ },
+ "2026-11-16": {
+  "date": "2026-11-16",
+  "lens": "The Great Mental Models, Vol. 1 (Parrish): use second-order thinking, asking 'and then what?' beyond each story's first-order effect.",
+  "items": [
+   {
+    "title": "Wholesale inflation jumps to 12.29% on fuel and power",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html",
+    "domain": "Economy",
+    "why": "India's WPI inflation rose to 12.29% in October from 11.39% in September, driven by fuel and power prices up nearly 33% as the Gulf war keeps crude expensive. Factory-gate cost pressure this high tends to feed into retail prices and strengthens the case for RBI rate hikes, squeezing borrowers and manufacturers alike.",
+    "question": "Applying second-order thinking: if fuel costs keep rising, what happens next to manufacturers' margins, then to hiring and capex, and finally to the RBI's rate decision?"
+   },
+   {
+    "title": "A make-or-break week for the AI trade: Nvidia results and Anthropic's IPO",
+    "source": "The National",
+    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/",
+    "domain": "Markets",
+    "why": "Nvidia reports earnings on Tuesday under an interim CEO after Jensen Huang's resignation, and Anthropic lists on Nasdaq on Thursday at an implied valuation of about $1.3 to $1.45 trillion. These two events will test whether investors still believe huge AI spending will pay off, which matters for Indian IT services and global capital flows.",
+    "question": "Applying probabilistic thinking: what range of outcomes for these two events would you assign, and how would each scenario change the outlook for Indian IT and AI startups?"
+   },
+   {
+    "title": "Research suggests banned Nvidia chips trained China's top AI models",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+    "domain": "Technology",
+    "why": "An analysis of model weights suggests leading Chinese open models such as DeepSeek V4 and Kimi K3 were trained on export-banned Nvidia Blackwell chips, likely accessed through offshore data centres. It suggests chip export controls based on ownership leak badly, which shapes how the US may treat chip supply to partners like India.",
+    "question": "Using inversion: instead of asking how to make export controls work, ask what would guarantee they fail; how many of those failure conditions already exist?"
+   }
+  ]
  }
 }
