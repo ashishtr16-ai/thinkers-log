@@ -256,5 +256,43 @@
     "question": "Using inversion: instead of asking how to make export controls work, ask what would guarantee they fail; how many of those failure conditions already exist?"
    }
   ]
+ },
+ "2026-11-17": {
+  "date": "2026-11-17",
+  "lens": "Thinking in Systems (Meadows): look past the event to the stocks, flows, feedback loops and delays that keep producing it.",
+  "items": [
+   {
+    "title": "Oil slides as Gulf flows return and a glut looms",
+    "source": "Reuters",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-on-expectations-of-coming-supply-surplus-5028312",
+    "domain": "Energy",
+    "why": "Brent fell again after a 16% weekly drop as Hormuz shipments neared pre-war levels and the IEA flipped its outlook to a fourth-quarter surplus, while emergency reserve barrels keep arriving. For India, which imports most of its crude, cheaper oil eases pressure on the rupee, inflation and the current account.",
+    "question": "Emergency stock releases decided in March are still flowing in as supply recovers: how might this delay in a balancing loop turn a shortage into an overshoot and glut?"
+   },
+   {
+    "title": "Modi in Manila with a $51.6bn ASEAN trade gap",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/amp/external-affairs-defence-security/news/narendra-modi-manila-visit-asean-east-asia-summit-philippines-agenda-126111600860_1.html",
+    "domain": "Economy",
+    "why": "Modi attends the ASEAN-India and East Asia summits today, pushing for an early end to the long-running review of the ASEAN goods trade pact alongside maritime and defence ties with the Philippines. India's deficit with ASEAN has roughly doubled since FY22, so the pact's terms shape whether Act East helps or hurts Indian manufacturing.",
+    "question": "Which reinforcing loop (cheaper imports, weaker domestic suppliers, more imports) could explain a deficit that keeps widening, and where is the leverage point to break it?"
+   },
+   {
+    "title": "Trump, Putin and Xi set for first three-way meeting",
+    "source": "MercoPress",
+    "url": "https://en.mercopress.com/2026/11/16/trump-putin-and-xi-to-hold-their-first-three-way-meeting-in-china-on-thursday",
+    "domain": "Geopolitics",
+    "why": "The three leaders plan to meet on 19 November at APEC in Shenzhen, with nuclear arms reduction and the Iran war on the agenda, though US officials expect no agreement. A great-power channel that excludes India would affect its energy security, its Russia ties and its balancing between Washington and Beijing.",
+    "question": "An arms race is a classic escalation trap; what would it take to replace the reinforcing loop of each side matching the other with a balancing goal all three share?"
+   },
+   {
+    "title": "India joins US-led pact to guard AI supply chains",
+    "source": "Bloomberg (FT report)",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-15/us-allies-agree-to-guard-ai-supply-chains-from-china-ft-says",
+    "domain": "Technology",
+    "why": "India, Japan, South Korea, the UK, Australia, Israel, Qatar and the UAE signed a declaration with the US to list and protect critical AI technologies and supply links, aimed at China. It ties India's chip and AI ambitions more closely to the US bloc, bringing access to technology but also new constraints.",
+    "question": "When a system splits into rival blocs, each side's controls push the other to build its own supply; how might this declaration strengthen the very loop it is meant to contain?"
+   }
+  ]
  }
 }
