@@ -294,5 +294,43 @@
     "question": "When a system splits into rival blocs, each side's controls push the other to build its own supply; how might this declaration strengthen the very loop it is meant to contain?"
    }
   ]
+ },
+ "2026-11-18": {
+  "date": "2026-11-18",
+  "lens": "Thinking in Systems (Meadows): look for policy resistance, where each actor's workaround feeds a loop that keeps the old outcome coming back.",
+  "items": [
+   {
+    "title": "US moves to close the cloud loophole on AI chips for China",
+    "source": "The Next Web",
+    "url": "https://thenextweb.com/news/us-remote-access-ai-chips-rule-china-singapore-malaysia",
+    "domain": "Technology",
+    "why": "A new US Commerce rule requires licences for overseas data centres serving Chinese-headquartered firms and for advanced-chip shipments to Malaysia, Singapore, Indonesia, Thailand and Brazil, ending the practice of renting US compute abroad. It reshapes where global AI infrastructure gets built, which matters for India's own data-centre ambitions and its pitch as a trusted compute hub.",
+    "question": "Meadows calls it policy resistance when each side keeps adjusting to defeat the other's goal: what new workaround is this rule likely to trigger, and how does each round of controls strengthen China's loop of building its own chips?"
+   },
+   {
+    "title": "Hormuz attacks keep oil's risk premium alive despite US stock build",
+    "source": "Reuters (via Business Recorder)",
+    "url": "https://www.brecorder.com/news/40449497/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks?v=1fQhdrhSKHXBbO3fdajkZQR1",
+    "domain": "Energy",
+    "why": "Brent slipped to about $92.5 as US crude inventories rose, but a tanker was hit near Oman, Iran and the US traded strikes around Bahrain, and Houthi drones targeted Saudi Arabia's East-West bypass pipeline. India imports most of its crude, so these swings flow straight into its import bill, inflation and the rupee.",
+    "question": "Inventories and bypass pipelines are the stocks and buffers that dampen shocks: what happens to the system's resilience when the buffer itself (the East-West pipeline) becomes a target?"
+   },
+   {
+    "title": "Rupee hits seven-month high as foreign money returns",
+    "source": "Reuters (via Business Recorder)",
+    "url": "https://www.brecorder.com/news/40449499/indian-rupee-poised-to-extend-outperformance-on-swelling-inflows-break-of-key-level?v=xD7orIccER9NhZ1aVKjE0gSw",
+    "domain": "Markets",
+    "why": "The rupee has gained about 1.5% in November, outperforming Asian peers, as foreign investors put nearly $10 billion into Indian equities while money rotates away from AI-heavy markets. How far it rises depends on whether the RBI lets it appreciate or buys dollars to rebuild reserves.",
+    "question": "Inflows lift the rupee, which can attract more inflows, a reinforcing loop, while RBI dollar buying acts as a balancing loop: which loop is likely to dominate, and what delay could flip the direction?"
+   },
+   {
+    "title": "Trump meets Quad leaders including Modi before China summit",
+    "source": "The Tribune (ANI)",
+    "url": "https://www.tribuneindia.com/news/apec-economic-leaders-meeting/trump-leaves-philippines-for-shenzen-trilateral-with-xi-putin-on-cards",
+    "domain": "Geopolitics",
+    "why": "In Manila, Trump met Modi, Japan's Takaichi and Australia's Albanese, announced a large trade deal with the Philippines, and then flew to Shenzhen for APEC, where a first three-way meeting with Xi and Putin is expected. For India, the Quad meeting held just before a US-China-Russia summit is a test of where it stands as the great powers bargain directly.",
+    "question": "If you treat the US, China, Russia and India as one system, which information flow or set of rules does a trilateral summit change, and does it leave the Quad as a strong structure or just a minor parameter?"
+   }
+  ]
  }
 }
