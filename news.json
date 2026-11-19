@@ -332,5 +332,43 @@
     "question": "If you treat the US, China, Russia and India as one system, which information flow or set of rules does a trilateral summit change, and does it leave the Quad as a strong structure or just a minor parameter?"
    }
   ]
+ },
+ "2026-11-19": {
+  "date": "2026-11-19",
+  "lens": "Thinking in Systems (Meadows): look for the balancing and reinforcing feedback loops, and the delays between them, that keep producing today's headlines.",
+  "items": [
+   {
+    "title": "Oil slides toward a glut even as Hormuz stays dangerous",
+    "source": "Rigzone",
+    "url": "https://www.rigzone.com/news/agency_reports_suggest_oil_market_approaching_turning_point-18-nov-2026-185109-article/",
+    "domain": "Energy",
+    "why": "The IEA and EIA now expect a fourth-quarter oil surplus as Gulf output recovers and inventories rebuild, with benchmark crude down over 30% from its October peak despite ongoing tanker attacks. For India, which imports most of its oil, cheaper crude eases inflation, the rupee and the fiscal math.",
+    "question": "Meadows says balancing loops act with delays and often overshoot; is today's slide the overshoot of high prices that destroyed demand while supply was quietly coming back?"
+   },
+   {
+    "title": "US and Iran trade strikes around the Strait of Hormuz",
+    "source": "CBS News",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
+    "domain": "Geopolitics",
+    "why": "After US strikes on Iran's Qeshm Island, Iran fired at Gulf targets including a US radar site in Bahrain, and an ADNOC tanker was hit in the strait, while Iraq restarted pipeline exports to Turkey to bypass Hormuz. Every round of retaliation keeps shipping risk, freight costs and Gulf remittance worries alive for India.",
+    "question": "Tit-for-tat retaliation is Meadows' 'escalation' trap, a reinforcing loop; what would have to change in the goals or information flows of either side to break it?"
+   },
+   {
+    "title": "India's chief economist sees US trade friction easing",
+    "source": "The Tribune",
+    "url": "https://www.tribuneindia.com/news/business/worst-of-us-trade-friction-likely-behind-us-potential-december-deal-to-settle-ties-cea-nageswaran",
+    "domain": "Economy",
+    "why": "CEA V. Anantha Nageswaran said the worst of the US tariff turbulence is likely over, with a deal possible in early December, and noted $11.3 billion of foreign portfolio inflows in early November as oil fell below $100. Markets are rallying on that view, with Nifty Bank at a record high.",
+    "question": "Capital that left India for the AI boom is now flowing back as oil falls; which stocks (foreign holdings, reserves, trust) are being refilled, and how long is the delay before the real economy feels it?"
+   },
+   {
+    "title": "Nvidia beats again, but its founder is gone",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings",
+    "domain": "Technology",
+    "why": "Nvidia's revenue doubled to $115.8 billion and it guided to about $130 billion next quarter, but the board ruled out bringing back Jensen Huang, who resigned over conduct linked to a China espionage probe. The world's key AI-chip supplier now faces a leadership vacuum just as the AI investment trade cools.",
+    "question": "Is Nvidia's growth driven by the founder or by the system around him (customer lock-in, CUDA, capex cycles)? Meadows would ask which part of the structure actually produces the behaviour."
+   }
+  ]
  }
 }
