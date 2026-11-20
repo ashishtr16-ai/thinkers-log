@@ -370,5 +370,43 @@
     "question": "Is Nvidia's growth driven by the founder or by the system around him (customer lock-in, CUDA, capex cycles)? Meadows would ask which part of the structure actually produces the behaviour."
    }
   ]
+ },
+ "2026-11-20": {
+  "date": "2026-11-20",
+  "lens": "Thinking in Systems (Meadows): look past the event to the stocks and flows, and ask which feedback loop and which delay keep producing it.",
+  "items": [
+   {
+    "title": "India's oil output set to shrink as refining grows",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/news/india-crude-oil-output-fall-20-percent-2035-refining-capacity-iea-weo-2026-126111900535_1.html",
+    "domain": "Energy",
+    "why": "The IEA's World Energy Outlook projects India's domestic crude output falling about 20% by 2035 while refining capacity grows by roughly 1 million barrels a day and demand rises at about three times the global rate. With half of refinery intake already coming from West Asia, India's import dependence deepens just as Hormuz remains unstable.",
+    "question": "Treat domestic reserves as a draining stock and refining capacity as a growing one: what balancing loop could stop the import gap from widening, and how long is the delay before it can act?"
+   },
+   {
+    "title": "Goyal targets $1 trillion in exports this year",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/news/india-aims-to-achieve-1-trillion-exports-this-year-says-piyush-goyal-126111901461_1.html",
+    "domain": "Economy",
+    "why": "The commerce minister said India aims for $1 trillion in goods and services exports this fiscal year, after about $480 billion in April to September and a record of roughly $90 billion in October. Hitting it would require 16% growth in a year of wars, tariff uncertainty and a volatile rupee.",
+    "question": "Is the October record a lasting change in the flow of exports or an oscillation, such as front-loading ahead of tariff changes, and what would you need to see to tell them apart?"
+   },
+   {
+    "title": "Trump, Xi and Putin open nuclear talks, skip Ukraine",
+    "source": "Brussels Signal",
+    "url": "https://brusselssignal.eu/2026/11/trump-xi-and-putin-open-nuclear-dialogue-with-ukraine-left-out/",
+    "domain": "Geopolitics",
+    "why": "At their first three-way summit in Shenzhen, the leaders agreed to begin a dialogue on reducing nuclear risk and signed a four-point statement on UN reform, energy supply and international courts, with no targets or dates and no mention of the Ukraine or Iran wars. A great-power table that leaves Europe and the wars out shifts the space in which India balances its ties with Washington, Moscow and Beijing.",
+    "question": "Meadows says changing a system's goal is a far stronger lever than adjusting its parameters: did this summit touch any goal of the arms-race system, or only add a talking channel to it?"
+   },
+   {
+    "title": "Nvidia loses about a third of its value in weeks",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/nvidia-stock-falls-32-in-nov-is-it-a-buying-opportunity-analysts-answer-126112000133_1.html",
+    "domain": "Technology",
+    "why": "Nvidia shares fell roughly 32% from late October to Nov 19, driven by Jensen Huang's Nov 12 resignation and broader doubts about AI valuations and data-centre spending, even though quarterly revenue more than doubled. As the bellwether of the AI build-out, its slide signals how fragile the investment cycle feeding AI, chips and power demand may be.",
+    "question": "AI spending, chip sales and share prices form a reinforcing loop on the way up: what event could flip that same loop into a downward spiral, and where is the delay between orders and real demand hiding?"
+   }
+  ]
  }
 }
