@@ -408,5 +408,43 @@
     "question": "AI spending, chip sales and share prices form a reinforcing loop on the way up: what event could flip that same loop into a downward spiral, and where is the delay between orders and real demand hiding?"
    }
   ]
+ },
+ "2026-11-21": {
+  "date": "2026-11-21",
+  "lens": "Thinking in Systems (Meadows): look for the stocks and buffers that let a system absorb shocks, and the feedback loops that keep pushing it back toward balance.",
+  "items": [
+   {
+    "title": "Oil falls for a third week even as tankers keep getting hit",
+    "source": "Reuters (via Business Recorder)",
+    "url": "https://www.brecorder.com/news/40449950/oil-prices-set-for-third-straight-weekly-decline-on-middle-east-export-flows",
+    "domain": "Energy",
+    "why": "Brent slid toward $90 a barrel and was heading for a third weekly loss as crude shipments through the Strait of Hormuz returned to roughly pre-war levels, with OPEC+ due to set 2027 output on November 29. For India, which imports most of its oil, each dollar off crude eases the import bill, inflation and pressure on the rupee.",
+    "question": "Meadows says a large stock acts as a buffer against shocks: which stocks (inventories, restored Gulf flows, spare capacity) are now letting the oil market absorb daily attacks that would once have sent prices soaring?"
+   },
+   {
+    "title": "Rupee has its best week of 2026 and closes below 93",
+    "source": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/rupee-gains-157-paise-to-92-67-as-4-billion-fpi-inflows-and-90-crude-ease-pressure",
+    "domain": "Economy",
+    "why": "The rupee rose about 1.75% over the week to close near 92.67 per dollar on Friday, its first close below 93 since April, helped by roughly $4 billion of foreign portfolio inflows and cheaper crude. Even so, forex reserves fell and the October trade deficit widened, so the gain rests on capital flows that can reverse quickly.",
+    "question": "Is this a reinforcing loop (a stronger rupee attracts more foreign money, which strengthens the rupee) that could run just as fast in reverse, and what balancing loop, such as RBI intervention or the trade deficit, would slow it?"
+   },
+   {
+    "title": "Trump, Xi and Putin hold the first three-way summit",
+    "source": "AP (via WPXI)",
+    "url": "https://www.wpxi.com/news/world/takeaways-historic/DQDEWDR7KM37HO4KPLORDLO66Y/",
+    "domain": "Geopolitics",
+    "why": "At APEC in Shenzhen the three leaders met for over an hour and issued a declaration on UN reform, more oil supply and lower nuclear risk, but it said nothing on Ukraine, Iran or Taiwan. India skipped the summit, and a great-power understanding drawn up without it could reshape the UN reform and energy debates that matter most to New Delhi.",
+    "question": "Meadows warns that changing the goals of a system matters far more than changing its parameters: did this summit shift the goals of the world order, or only adjust a few numbers while the old rivalries stay in place?"
+   },
+   {
+    "title": "Anthropic makes the largest stock market debut in US history",
+    "source": "Al Jazeera (with Reuters)",
+    "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo",
+    "domain": "Technology",
+    "why": "Anthropic listed on Nasdaq at $83 a share, raised about $81 billion, and closed its first day 17% higher even as the wider US market fell around 2%; its filing showed a nine-month loss of about $104 billion. The deal shows how much capital is chasing AI, and the scale of the compute bills that Indian IT firms and AI teams will have to compete against.",
+    "question": "Map the loop: capital buys compute, compute builds better models, better models attract more capital. Where are the delays (data-centre build times, revenue lagging spend) that could turn this reinforcing loop into overshoot?"
+   }
+  ]
  }
 }
