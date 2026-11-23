@@ -446,5 +446,43 @@
     "question": "Map the loop: capital buys compute, compute builds better models, better models attract more capital. Where are the delays (data-centre build times, revenue lagging spend) that could turn this reinforcing loop into overshoot?"
    }
   ]
+ },
+ "2026-11-23": {
+  "date": "2026-11-23",
+  "lens": "Thinking in Systems (Meadows): look for reinforcing feedback loops, the ones where a change feeds itself, behind each of today's stories, and ask what balancing loop, if any, could stop it.",
+  "items": [
+   {
+    "title": "AI stock rout spreads to Asia; regulators step in",
+    "source": "Reuters (via Global Banking & Finance Review)",
+    "url": "https://www.globalbankingandfinance.com/us-futures-bounce-while-asia-markets-brace-ai-wipeout/",
+    "domain": "Technology",
+    "why": "Last week the Nasdaq had its worst week since March 2020 and Taiwan's market fell about 17%. The triggers were doubts that debt-funded AI data-centre spending will pay off, rising interest rates, Jensen Huang's exit from Nvidia and Anthropic's weak debut, and Taiwan, China and South Korea responded with short-selling curbs, looser margin rules and stabilisation funds. Foreign money rotating out of AI-heavy markets has been flowing into Indian stocks, so this matters for Indian investors and for tech capex worldwide.",
+    "question": "Falling prices raise borrowing costs for AI builders, which then cut spending and push prices down further. Which part of this reinforcing loop can the regulators' measures actually reach, and which part is beyond them?"
+   },
+   {
+    "title": "Iran steps up Gulf attacks under US blockade",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf",
+    "domain": "Geopolitics",
+    "why": "In a week, Iran hit US radar sites in Bahrain and at least 25 tankers near Hormuz, which it calls retaliation for US strikes, while the US naval blockade and sanctions squeeze its economy. War-risk insurance for Gulf shipping has jumped from a fraction of a percent to several percent of cargo value, raising the cost of the crude and LNG that India imports.",
+    "question": "Each strike invites a counter-strike, and the blockade makes Iran's economy worse while pushing it to escalate. Is this an 'escalation' archetype, and where would a balancing loop, such as an outside mediator, have to plug in to slow it?"
+   },
+   {
+    "title": "COP31 collapses over fossil-fuel wording",
+    "source": "ABC News (Australia)",
+    "url": "https://www.abc.net.au/news/2026-11-23/cop31-talks-break-down-in-longest-ever-un-climate-debate/107414772",
+    "domain": "Energy",
+    "why": "The Antalya summit, co-chaired by Türkiye and Australia, ended 44 hours late with no deal after the EU rejected a draft that left fossil fuels out, while Russia and Saudi Arabia backed that omission. Developing countries also called the adaptation-finance offer too thin, so countries like India, which want both climate money and room to grow, leave with neither.",
+    "question": "The atmosphere's CO2 is a slow-moving stock and the talks are a balancing loop with a long delay. What does a year without a target do to how quickly that stock can be turned around?"
+   },
+   {
+    "title": "Bengal moves to re-acquire Singur's 997 acres",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/news/west-bengal-govt-in-talks-with-farmers-to-acquire-997-acres-in-singur-cm-126112200687_1.html",
+    "domain": "Economy",
+    "why": "West Bengal's new BJP government is negotiating with farmers to buy back the land Tata's Nano plant left in 2008, and a Union minister says Ashok Leyland will build a truck plant there. Singur turned into a byword for land conflict driving out manufacturing, so a reversal would test whether Bengal can rebuild investor trust and win a share of India's automotive supply chain.",
+    "question": "Investor trust behaves like a stock that drains fast and refills slowly. Which actions from the state, beyond the land deal itself, would have to keep flowing for long enough to rebuild it?"
+   }
+  ]
  }
 }
