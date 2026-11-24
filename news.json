@@ -484,5 +484,43 @@
     "question": "Investor trust behaves like a stock that drains fast and refills slowly. Which actions from the state, beyond the land deal itself, would have to keep flowing for long enough to rebuild it?"
    }
   ]
+ },
+ "2026-11-24": {
+  "date": "2026-11-24",
+  "lens": "Thinking in Systems (Meadows): look for the stocks and buffers that absorb a shock, and the delays between a cause and the moment its effect shows up.",
+  "items": [
+   {
+    "title": "Oil slides to a three-month low even as tankers are hit near Hormuz",
+    "source": "Arab News (Reuters)",
+    "url": "https://www.arabnews.com/energy/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat-3013802",
+    "domain": "Energy",
+    "why": "Brent fell to about $88.7 a barrel on Tuesday, down roughly a quarter from its late-October peak, because rerouted Gulf pipelines, a restarted Libyan field and record US output are refilling inventories despite fresh mine attacks on tankers. For India, which imports most of its crude, cheaper oil eases inflation and the import bill, but analysts warn that inventory buffers are still thin.",
+    "question": "Meadows says stocks act as shock absorbers: which stocks (inventories, pipeline bypass capacity, spare output) are absorbing the Hormuz disruption, and what would happen if they ran down before the flow of new supply caught up?"
+   },
+   {
+    "title": "Nvidia's board brings back Jensen Huang after White House pressure",
+    "source": "CBS News",
+    "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/",
+    "domain": "Technology",
+    "why": "Eleven days after resigning over a scandal with national-security overtones, Huang was reinstated as Nvidia's CEO, the board said it had been told by senior US officials there was no security risk, and the stock jumped more than 30%. It shows how tightly the world's most important AI chip company is now bound up with US state power, which matters for every country, India included, that depends on access to its chips.",
+    "question": "Is Nvidia's governance now part of a reinforcing loop between the company's market value and the government's interest in protecting it, and what balancing loop, if any, is left to check the CEO?"
+   },
+   {
+    "title": "RBI says India's new GDP series finally makes the numbers add up",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/amp/economy/news/new-gdp-series-demand-supply-estimates-align-rbi-poonam-gupta-126112300390_1.html",
+    "domain": "Economy",
+    "why": "RBI Deputy Governor Poonam Gupta said the rebased GDP (base 2022-23), CPI and IIP series bring demand-side and supply-side estimates much closer, and the new CPI cuts the weight of food from about 46% to 37%. Better measurement should make monetary policy more stable, though the RBI admits it is still learning how the new series behave.",
+    "question": "In systems terms, a statistic is the information flow a policymaker uses to steer: how might a lower food weight in CPI change the RBI's feedback loop with inflation, and what delay comes from having only a short history of the new data?"
+   },
+   {
+    "title": "India and Nepal deepen ties with a rail link, port access and a hydropower push",
+    "source": "Outlook India",
+    "url": "https://outlookindia.com/national/breaking-news-india-world-live-updates-nepal-pm-balendra-shah-visit-pm-modi-delhi-pollution-23-november-2026",
+    "domain": "Geopolitics",
+    "why": "On Nepal PM Balendra Shah's first India visit, the two sides flagged off an Ayodhya to Janakpur train, signed several MoUs, and India offered a flood-recovery package and transit-trade access through Kandla and Paradip ports, with long-term power trade on the agenda. It is India's bid to keep a strategic Himalayan neighbour anchored to its economy as China competes for influence there.",
+    "question": "Infrastructure like rail, ports and power lines creates long-lived stocks of dependence: which feedback loops could these links set up between India and Nepal, and how long a delay before their political effects show?"
+   }
+  ]
  }
 }
