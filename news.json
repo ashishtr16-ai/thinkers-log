@@ -522,5 +522,43 @@
     "question": "Infrastructure like rail, ports and power lines creates long-lived stocks of dependence: which feedback loops could these links set up between India and Nepal, and how long a delay before their political effects show?"
    }
   ]
+ },
+ "2026-11-25": {
+  "date": "2026-11-25",
+  "lens": "Thinking in Systems (Meadows): look past today's event to the feedback loops, stocks and delays that keep producing it.",
+  "items": [
+   {
+    "title": "Hormuz traffic falls 40% as blockade and tanker attacks feed each other",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+    "domain": "Geopolitics",
+    "why": "Ship crossings through the Strait of Hormuz dropped by more than 40% in a fortnight after dozens of tankers were hit, as Iran retaliates against a reinstated US naval blockade of its oil exports. India imports most of its crude and much of its LPG through this route, so freight, insurance and fuel prices here move with every incident.",
+    "question": "US blockade, Iranian attacks, tighter blockade: is this an escalating reinforcing loop, and what balancing loop (global inventory surplus, reserve releases) is stopping oil from returning to its $120 peak?"
+   },
+   {
+    "title": "RBI says India's new GDP and CPI series give a truer picture",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/amp/economy/news/new-gdp-series-demand-supply-estimates-align-rbi-poonam-gupta-126112300390_1.html",
+    "domain": "Economy",
+    "why": "RBI Deputy Governor Poonam Gupta said the revised GDP series (base year 2022-23) now closely matches demand- and supply-side estimates, and the new CPI cuts food's weight from about 46% to 37%. Better statistics change how the RBI reads inflation and growth, and so how it sets rates ahead of the December policy meeting.",
+    "question": "Meadows says a system can only respond as well as its information flows: how might more accurate and timelier data change the RBI's rate-setting feedback loop, and what new delay comes from series with only a short history?"
+   },
+   {
+    "title": "Nvidia reinstates Jensen Huang after Washington weighs in",
+    "source": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "domain": "Technology",
+    "why": "Nvidia's board unanimously brought Jensen Huang back as CEO eleven days after he stepped down, citing input from senior US government officials and adding a new national-security and export-control committee. The world's key AI-chip supplier is now governed as much by state security concerns as by shareholders, which shapes who gets advanced chips, India included.",
+    "question": "Where is the real leverage point in the AI-chip system here: the CEO, the board, or the government's export-control rules that set the goals for all of them?"
+   },
+   {
+    "title": "Sensex jumps over 1,300 points led by banks and insurers",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+    "domain": "Markets",
+    "why": "Indian shares rallied sharply on Wednesday, with ICICI Bank at a record high and insurance stocks up as much as 8%, though gains faded from the morning peak. The swing shows how quickly sentiment flows move Indian markets during a period of oil and global AI-stock volatility.",
+    "question": "Is this rally a change in the stock (company earnings) or only in the flow (investor sentiment), and which feedback loop, momentum buying or profit-taking, is likely to dominate in the coming days?"
+   }
+  ]
  }
 }
