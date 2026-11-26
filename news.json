@@ -560,5 +560,43 @@
     "question": "Is this rally a change in the stock (company earnings) or only in the flow (investor sentiment), and which feedback loop, momentum buying or profit-taking, is likely to dominate in the coming days?"
    }
   ]
+ },
+ "2026-11-26": {
+  "date": "2026-11-26",
+  "lens": "Thinking in Systems (Meadows): look for the balancing and reinforcing feedback loops, and the delays, that keep producing today's headlines.",
+  "items": [
+   {
+    "title": "Cabinet clears ₹11,000 crore push to make heavy equipment, and its engines, at home",
+    "source": "Maritime Gateway",
+    "url": "https://www.maritimegateway.com/cabinet-approves-%E2%82%B911000-crore-scheme-to-manufacture-port-cranes-and-heavy-equipment-in-india/",
+    "domain": "Economy",
+    "why": "On 25 Nov the Union Cabinet approved an eight-year scheme that pays incentives on extra sales of locally made cranes, tunnel borers, excavators and loaders, plus components such as engines, transmissions and hydraulics. Imports meet about 45% of a market that is the world's third-largest, so this goes after one of the biggest import gaps in India's infrastructure build-out.",
+    "question": "Incentives start only in FY2028-29, after two years of capacity building. How might that delay, and a supplier base that takes years to grow, change whether the scheme ends up building a self-sustaining loop or just a temporary subsidy stock?"
+   },
+   {
+    "title": "Hormuz mine strikes push Brent back to about $95",
+    "source": "OilPrice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rallies-as-Hormuz-Mine-Strikes-Rattle-Global-Markets.html",
+    "domain": "Energy",
+    "why": "Crude rebounded after fresh reports of tankers hitting mines in the Strait of Hormuz and a Houthi strike on Saudi Arabia's Ras Tanura refinery, ending several days of losses driven by fears of a supply glut. For India, which imports most of its oil, each spike feeds inflation, squeezes fuel retailers and adds to the case for higher interest rates.",
+    "question": "Oil inventories act as a buffer stock that has been dampening each shock. What happens to price behaviour if repeated disruptions drain that buffer faster than the US blockade and shuttle runs can refill it?"
+   },
+   {
+    "title": "Nvidia brings back Huang as Washington fights over open-weight AI",
+    "source": "Reuters (via Investing.com)",
+    "url": "https://www.investing.com/news/stock-market-news/huangs-return-to-nvidia-brings-openweight-ai-debate-to-forefront-in-washington-5049260",
+    "domain": "Technology",
+    "why": "Nvidia's board reinstated Jensen Huang as CEO, and Reuters' sources say the White House pushed for it because it sees him as a defender of US open-weight AI models, while Anthropic's Amodei and some lawmakers warn about misuse risks and Chinese models. How the US rules on open weights will decide which models Indian companies can build on freely.",
+    "question": "Open models spread capability, and that brings more users, more chip demand and more political backing for openness. What balancing loop, such as a misuse incident or a rule, could check that reinforcing loop, and how long might the delay be before it acts?"
+   },
+   {
+    "title": "Tehran split over whether Trump, Xi and Putin made a deal on Iran",
+    "source": "Iran International",
+    "url": "https://www.iranintl.com/en/202611247460",
+    "domain": "Geopolitics",
+    "why": "After the Shenzhen summit's joint statement left out Iran, and Washington claimed Beijing and Moscow had agreed with it on Iran, Iranian officials are arguing over whether their main partners have quietly given ground. If China and Russia step back, US pressure on Iran grows, and that affects Gulf oil flows and India's energy and Chabahar plans.",
+    "question": "Iran's ties with China and Russia have acted as a balancing loop that offsets US sanctions. If that loop weakens, which other loop takes over in Tehran: escalation at Hormuz, or negotiation?"
+   }
+  ]
  }
 }
