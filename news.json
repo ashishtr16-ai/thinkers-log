@@ -598,5 +598,43 @@
     "question": "Iran's ties with China and Russia have acted as a balancing loop that offsets US sanctions. If that loop weakens, which other loop takes over in Tehran: escalation at Hormuz, or negotiation?"
    }
   ]
+ },
+ "2026-11-27": {
+  "date": "2026-11-27",
+  "lens": "Thinking in Systems (Meadows): look for the balancing and reinforcing feedback loops, and the delays between them, that keep producing today's headlines.",
+  "items": [
+   {
+    "title": "US threatens India with 25% tariff, offers 17% for a deal",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/economy/news/india-us-trade-deal-why-talks-are-back-on-table-amid-fresh-tariff-threat-126112700266_1.html",
+    "domain": "Economy",
+    "why": "After a new Section 301 probe into 'excess capacity', Washington has proposed tariffs of up to 25% on Indian goods, cut to 17% if a trade deal is signed, putting pharma, steel, solar and ICT exports in the frame. With India running a roughly $34 billion surplus with the US, the threat revives deal talks that had stalled after the US Supreme Court struck down earlier reciprocal tariffs.",
+    "question": "Meadows warns of 'escalation' traps where each side responds to the other's move; is this tariff-for-concession cycle a balancing loop that settles into a deal, or a reinforcing loop that keeps resetting the goalposts?"
+   },
+   {
+    "title": "Hormuz oil flows fall to eight-week low as tanker attacks return",
+    "source": "Energy Intelligence",
+    "url": "https://energyintel.com/000001a2-126b-dc9f-a7bb-96eb07850000",
+    "domain": "Geopolitics",
+    "why": "Renewed attacks on tankers have cut crude and condensate flows through the Strait of Hormuz sharply, while Yemen's Houthis claim a strike on Saudi Arabia's Ras Tanura refinery, pushing Brent back towards $96. India imports most of its crude through this chokepoint, so the disruption feeds straight into its import bill, rupee and inflation.",
+    "question": "Hormuz is a single flow into India's oil stock; how much buffer (strategic reserves, alternative routes) does India hold, and how long is the delay before a flow cut shows up at the pump and in prices?"
+   },
+   {
+    "title": "US chip export curbs freeze Asian data-centre financing",
+    "source": "Investing.com (Bloomberg report)",
+    "url": "https://investing.com/news/stock-market-news/us-ai-chip-curbs-stall-billions-in-asia-data-center-deals-bloomberg-reports-5052819",
+    "domain": "Technology",
+    "why": "New US licence rules for advanced AI chips in Malaysia, Singapore, Thailand, Indonesia and Brazil have made lenders delay or exit billions of dollars of data-centre loans, especially for sites serving Chinese tech firms. Asia's data-centre boom ran on cheap credit and Chinese demand, and the episode shows how quickly a policy lever in Washington can reroute where AI capacity gets built, a possible opening for India.",
+    "question": "The Asian data-centre boom was a reinforcing loop (credit to capacity to tenants to more credit); which link did the export rules cut, and could the same loop restart in India instead?"
+   },
+   {
+    "title": "Sensex drops 700 points on oil worries and IT selling",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-27-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-share-price-ipo-today-126112700100_1.html",
+    "domain": "Markets",
+    "why": "Indian equities fell about 0.8% on Friday, with the Nifty slipping below 25,700 as higher crude prices from West Asia and profit-taking weighed, and TCS, HCL Tech and Infosys led the losses. The move links two of today's stories: oil shocks and US tariff risk both hit Indian earnings expectations at once.",
+    "question": "Markets react to events, but Meadows says behaviour comes from structure; which underlying structure (oil import dependence, IT's reliance on US clients) makes Indian stocks fall on news like today's, again and again?"
+   }
+  ]
  }
 }
