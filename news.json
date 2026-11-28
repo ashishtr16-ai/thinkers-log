@@ -636,5 +636,43 @@
     "question": "Markets react to events, but Meadows says behaviour comes from structure; which underlying structure (oil import dependence, IT's reliance on US clients) makes Indian stocks fall on news like today's, again and again?"
    }
   ]
+ },
+ "2026-11-28": {
+  "date": "2026-11-28",
+  "lens": "Thinking in Systems (Meadows): look for the balancing loops and the delays. Today's stories show actors pulling on stocks (prices, seats, compute) where the response comes months after the push.",
+  "items": [
+   {
+    "title": "Nomura now expects a 50 bp RBI hike next week",
+    "source": "Business Standard",
+    "url": "https://business-standard.com/finance/news/nomura-raises-december-rbi-rate-hike-call-to-50-bps-bob-sticks-to-25-bps-126112700852_1.html",
+    "domain": "Economy",
+    "why": "Nomura raised its call for the RBI's December 4 meeting to a 50 basis point hike, expecting November CPI near 6.4% as food prices climb, while Bank of Baroda still sees 25 bp. A hiking cycle would raise borrowing costs for Indian firms and households at a time when oil shocks from the Gulf are already squeezing margins.",
+    "question": "Monetary policy is a balancing loop with a long delay between a rate change and its effect on prices: what does Meadows say happens when a controller reacts too hard to a delayed signal, and could the RBI overshoot here?"
+   },
+   {
+    "title": "Cabinet clears 50% bigger Lok Sabha ahead of delimitation bill",
+    "source": "The Federal",
+    "url": "https://thefederal.com/category/news/cabinet-clears-50-percent-lok-sabha-seat-hike-delimitation-264330",
+    "domain": "Society",
+    "why": "The Union Cabinet approved expanding the Lok Sabha by half, with an equal percentage rise for every state and a freeze on seat allocation until 2051, with the bill due in Parliament when it reconvenes on November 30. It reshapes how representation tracks population for a generation, and opposition voices warn redrawn boundaries could entrench the ruling party.",
+    "question": "An equal percentage increase preserves today's ratios between states: which stock (seats) is being held fixed against which flow (population shifts), and what pressure builds in a system whose rules stop responding to change for 25 years?"
+   },
+   {
+    "title": "US disables a ship running its Iran blockade",
+    "source": "Reuters (via Investing.com)",
+    "url": "https://www.investing.com/news/commodities-news/us-disables-ship-trying-to-leave-iran-as-tehran-vows-to-confront-blockade-5053767",
+    "domain": "Geopolitics",
+    "why": "US aircraft struck and disabled a Palau-flagged vessel that left Bandar Abbas trying to break the naval blockade on Iranian ports, and a senior Iranian adviser vowed to break the embargo and keep Hormuz closed. India imports most of its crude through this route, so every escalation feeds directly into its fuel bill, rupee and inflation.",
+    "question": "Blockade and counter-blockade look like Meadows' escalation trap, where each side responds to the other's last move: what would it take to break this reinforcing loop rather than just win the next round?"
+   },
+   {
+    "title": "Nvidia sellers tell neoclouds to drop Chinese clients",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/world-news/nvidia-chip-sellers-warn-neoclouds-against-serving-chinese-firms-report-126112700408_1.html",
+    "domain": "Technology",
+    "why": "After a new US rule requiring licences for overseas data centres that serve Chinese firms with advanced US chips, Nvidia's distributors are reportedly going further and warning cloud providers to exclude Chinese customers entirely. The rules closing China's remote-access workaround also shape where compute gets built, which matters for India's ambitions to host AI data centres.",
+    "question": "Each control prompts a workaround, which prompts a tighter control: Meadows calls this policy resistance, so where is the real leverage point in chip controls, and is it in the rules or in the goals of the actors?"
+   }
+  ]
  }
 }
